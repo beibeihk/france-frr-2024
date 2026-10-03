@@ -58,7 +58,7 @@ def main():
   'literature_audit.md','public_release_rights.md']:take('docs/'+name)
  for name in PROCESSED:take('data/processed/'+name)
  for name in REPORTS:take('reports/'+name,required=name not in ['review_A_final_scope.json','review_A_final_scope.md'])
- for name in ['hal_metadata.md','hal_metadata.json','ai_disclosure.md','hal_checklist.md','hal_policy_verified.md','submission_record.md']:
+ for name in ['hal_metadata.md','hal_metadata.json','ai_disclosure.md','hal_checklist.md','hal_policy_verified.md','submission_record.md','publication_state.json']:
   take('submission/'+name)
  for name in ['sirene_download_manifest.json','zoning_manifest.json','population_manifest.json']:take('data/external/'+name)
  paths=sorted(set(paths))

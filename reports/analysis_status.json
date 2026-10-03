@@ -8,5 +8,8 @@
   "assignment_reconstruction": "Observed mandatory A/C and possible B/D union exactly matches initial mainland list; individual administrative reasons unobserved",
   "causal_routes": "A/B/D/E lack adequate support; V fails continuity/selection and dependence diagnostics",
   "HAL_status": "NOT_SUBMITTED",
-  "reason": "Noncausal scope retains all failed diagnostics; independent final reviews and technical checks are recorded separately."
+  "reason": "Noncausal scope retains all failed diagnostics; independent final reviews and technical checks are recorded separately.",
+  "GitHub_public_release": "PUBLIC_REPOSITORY_PUBLISHED",
+  "repository_url": "https://github.com/beibeihk/france-frr-2024",
+  "HAL_execution_stage": "BLOCKED_BROWSER_CONNECTION"
 }

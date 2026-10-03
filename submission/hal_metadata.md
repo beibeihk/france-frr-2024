@@ -16,7 +16,7 @@
 - ORCID : aucun élément vérifié ; champ vide
 - IdHAL : aucun élément vérifié ; champ vide
 - funding : aucun élément vérifié ; champ vide
-- repository_url : aucun élément vérifié ; champ vide
+- repository_url : https://github.com/beibeihk/france-frr-2024
 
 ## Résumé français
 

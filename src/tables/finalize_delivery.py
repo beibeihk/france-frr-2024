@@ -44,6 +44,15 @@ def main():
  if m['HAL_status']=='NOT_SUBMITTED':
   record='# HAL submission record\n\nStatus: NOT_SUBMITTED.\n\nNo upload, agreement acceptance, HAL identifier, pending moderation or public availability is asserted. Deposit metadata and final files are prepared separately. Actual transactions must update publication_state.json and this record from observed receipts.\n\nPrepared local date: 2026-10-04 (Asia/Hong_Kong). Selected original-PDF license: CC BY 4.0, retaining third-party database notices.\n\n'
   record+='\n'.join('- '+n+': SHA256 `'+v['sha256']+'`' for n,v in m['files'].items())+'\n'
+  if state.get('github_url'):
+   record+='\n## Observed GitHub publication\n\nPublic repository: '+state['github_url']+'.\n\n'
+   record+='Initial published commit: `'+state['github_initial_commit']+'`. The remote default branch is main and GitHub reported isPrivate=false. This is a repository publication receipt, not a HAL deposit receipt.\n'
+  if state.get('HAL_execution_stage')=='BLOCKED_BROWSER_CONNECTION':
+   record+='\n## Actual HAL blocker\n\nThe in-app HAL page was created, but browser tab reads repeatedly timed out. Chrome browser control returned `nodeRepl.fetch request failed`. No account login or registration, email activation, file upload, acceptance of platform terms, formal submission or moderation receipt was observed. No CAPTCHA or HAL security challenge is asserted.\n\n'
+   record+='Next action: restore the Codex browser-control connection, then resume the prepared HAL account/deposit workflow. The user has already authorised this workflow; no new research or publication approval is required.\n'
+  duplicate=state.get('HAL_public_duplicate_check',{})
+  if duplicate:
+   record+='\n## Public duplicate search\n\n'+json.dumps(duplicate,ensure_ascii=False,indent=2)+'\n\nAn anonymous public-index search cannot inspect authenticated drafts or pending deposits.\n'
   (ROOT/'submission/submission_record.md').write_text(record,encoding='utf8')
  # Keep earlier independently audited facts, add the new institutional inventory
  # and update result claims from current tables after the island-cluster fix.

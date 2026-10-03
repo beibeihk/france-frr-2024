@@ -1,0 +1,40 @@
+{
+  "last_verified_utc": "2026-10-03 18:52:26 UTC",
+  "github_status": "PUBLIC_REPOSITORY_PUBLISHED",
+  "github_url": "https://github.com/beibeihk/france-frr-2024",
+  "github_initial_commit": "e08cd4f40d720cea8633d152f98122407b0a74fa",
+  "github_default_branch": "main",
+  "github_is_private": false,
+  "github_observed_evidence": "git push exited 0; gh repo view returned the URL, main, and isPrivate=false; initial local HEAD recorded",
+  "HAL_status": "NOT_SUBMITTED",
+  "HAL_execution_stage": "BLOCKED_BROWSER_CONNECTION",
+  "HAL_account_action_observed": false,
+  "HAL_email_activation_observed": false,
+  "HAL_upload_observed": false,
+  "HAL_terms_accepted_observed": false,
+  "HAL_submission_receipt": null,
+  "HAL_identifier": null,
+  "HAL_browser_evidence": [
+    "In-app tab creation timed out; an inventory subsequently showed the HAL homepage tab.",
+    "Reading that in-app HAL tab timed out and reset the browser-control runtime.",
+    "Chrome browser control returned nodeRepl.fetch request failed."
+  ],
+  "HAL_public_duplicate_check": {
+    "checked_utc": "2026-10-03T18:54:34.048317+00:00",
+    "endpoint": "https://api.archives-ouvertes.fr/search/",
+    "query_parameters": {
+      "q": "title_t:\"Reconstruire l’éligibilité à France ruralités revitalisation\" AND authFullName_t:\"Kun Huang\"",
+      "rows": 10,
+      "fl": "halId_s,title_s,uri_s",
+      "wt": "json"
+    },
+    "limitation": "Anonymous published-index search only; authenticated drafts and pending deposits not inspected.",
+    "request_url": "https://api.archives-ouvertes.fr/search/?q=title_t%3A%22Reconstruire+l%E2%80%99%C3%A9ligibilit%C3%A9+%C3%A0+France+ruralit%C3%A9s+revitalisation%22+AND+authFullName_t%3A%22Kun+Huang%22&rows=10&fl=halId_s%2Ctitle_s%2Curi_s&wt=json",
+    "http_status": 200,
+    "response_sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+    "status": "PUBLIC_INDEX_QUERY_COMPLETED",
+    "num_found": 0,
+    "returned_documents": []
+  },
+  "next_action": "Restore the Codex browser-control connection and resume the already authorised HAL deposit workflow."
+}

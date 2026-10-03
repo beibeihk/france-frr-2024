@@ -33,11 +33,13 @@
   },
   "remaining_research_blockers": [],
   "HAL_status": "NOT_SUBMITTED",
-  "GitHub_public_release": "NOT_DONE",
+  "GitHub_public_release": "PUBLIC_REPOSITORY_PUBLISHED",
+  "repository_url": "https://github.com/beibeihk/france-frr-2024",
+  "publication_transaction_evidence": "submission/publication_state.json",
   "limits": [
     "No validated causal policy effect, national net creation, employment effect or economic survival claim.",
     "Actual tax-benefit uptake, local exemption decisions and individual administrative proposals unobserved.",
     "No claim of personal author verification, native human edit, external peer review or absolute anonymisation."
   ],
-  "public_package": "Not certified by this checker; actual whitelist inventory is a subsequent material check."
+  "public_package": "Material whitelist/schema/license checks are recorded separately in public_package_inventory.json; this scientific checker does not certify absolute anonymity."
 }

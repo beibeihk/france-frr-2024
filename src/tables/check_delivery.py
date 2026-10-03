@@ -6,6 +6,8 @@ ROOT=Path(__file__).resolve().parents[2]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def read(p):return json.loads((ROOT/p).read_text(encoding='utf8'))
 def main():
+ publication_file=ROOT/'submission/publication_state.json'
+ publication=json.loads(publication_file.read_text(encoding='utf8')) if publication_file.exists() else {}
  scripts=list((ROOT/'src').rglob('*.py'))+[ROOT/'run_pipeline.py']
  for p in scripts:ast.parse(p.read_text(encoding='utf8'))
  b=read('reports/review_B_final_scope.json');d=read('reports/review_D_final_scope.json');a=read('reports/review_A_final_scope.json')
@@ -40,14 +42,19 @@ def main():
   'raw_commune_month_cells':cells['cell_observations'],'RBC_identity_checks':len(ids),'pdf_pages':{n:pdf[n]['pages'] for n in pdf},
   'current_source_and_pdf_sha256':{str(p.relative_to(ROOT)):sha(p) for p in [ROOT/'paper'/n for n in ['main_fr.tex','appendix_fr.tex','main_fr.pdf','appendix_fr.pdf']]},
   'independent_review_reports':{'A':'review_A_final_scope.json','B':'review_B_final_scope.json','C':['review_C_observation_checks.json','review_C_assignment_paths.json','review_C_public_release_rights.json'],'D':'review_D_final_scope.json'},
-  'remaining_research_blockers':[],'HAL_status':'NOT_SUBMITTED','GitHub_public_release':'NOT_DONE',
+  'remaining_research_blockers':[],'HAL_status':publication.get('HAL_status','NOT_SUBMITTED'),
+  'GitHub_public_release':publication.get('github_status','NOT_DONE'),
+  'repository_url':publication.get('github_url'),
+  'publication_transaction_evidence':'submission/publication_state.json',
   'limits':['No validated causal policy effect, national net creation, employment effect or economic survival claim.',
    'Actual tax-benefit uptake, local exemption decisions and individual administrative proposals unobserved.',
    'No claim of personal author verification, native human edit, external peer review or absolute anonymisation.'],
-  'public_package':'Not certified by this checker; actual whitelist inventory is a subsequent material check.'}
+  'public_package':'Material whitelist/schema/license checks are recorded separately in public_package_inventory.json; this scientific checker does not certify absolute anonymity.'}
  (ROOT/'reports/final_quality_gate.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
  (ROOT/'reports/final_quality_gate.md').write_text('# Final internal quality gate\n\nPASS for the actual noncausal working-paper scope. All causal routes remain CLOSED.\n\nIndependent A/B/C/D reviews and technical rendering checks are documented; these are AI internal checks, not human peer review. No scientific blockers remain within the declared scope. The author responsibility and actual publication transactions are not fabricated.\n\n'+json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
- state=read('reports/analysis_status.json');state['status']=report['status'];state['causal_clearance']=False;state['HAL_status']='NOT_SUBMITTED'
+ state=read('reports/analysis_status.json');state['status']=report['status'];state['causal_clearance']=False;state['HAL_status']=report['HAL_status']
+ state['GitHub_public_release']=report['GitHub_public_release'];state['repository_url']=report['repository_url']
+ state['HAL_execution_stage']=publication.get('HAL_execution_stage','NOT_STARTED')
  (ROOT/'reports/analysis_status.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf8')
  v=read('reports/bassin_rd_results.json');v['gate']='CLOSED_V_CAUSAL_ROUTE: historical discontinuities, selection composition jumps, concentrated dependencies'
  (ROOT/'reports/bassin_rd_results.json').write_text(json.dumps(v,ensure_ascii=False,indent=2),encoding='utf8')
