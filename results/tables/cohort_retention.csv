@@ -1,0 +1,17 @@
+sample,horizon_months,group,birth_period,active,closed,unknown,eligible,retention_known,retention_lower,retention_upper,interpretation
+broad,12,NEW_FRR,2019_2022_July_December,64510,7700,3,72213,0.8933665697271846,0.8933294559151399,0.8933709996814978,descriptive cohort composition; not a causal survival effect
+broad,12,NEW_FRR,2024_July_December,18215,2218,0,20433,0.8914501052219449,0.8914501052219449,0.8914501052219449,descriptive cohort composition; not a causal survival effect
+broad,12,NEVER_TREATED,2019_2022_July_December,1174015,149821,39,1323875,0.8868281267468175,0.8868020016995563,0.8868314606741573,descriptive cohort composition; not a causal survival effect
+broad,12,NEVER_TREATED,2024_July_December,323031,44126,4,367161,0.8798170809762581,0.8798074958941717,0.8798183902974445,descriptive cohort composition; not a causal survival effect
+border,12,NEW_FRR,2019_2022_July_December,25109,2806,1,27916,0.8994805660039406,0.8994483450351053,0.8994841667860725,descriptive cohort composition; not a causal survival effect
+border,12,NEW_FRR,2024_July_December,7106,874,0,7980,0.8904761904761904,0.8904761904761904,0.8904761904761904,descriptive cohort composition; not a causal survival effect
+border,12,NEVER_TREATED,2019_2022_July_December,30269,3465,0,33734,0.897284638643505,0.897284638643505,0.897284638643505,descriptive cohort composition; not a causal survival effect
+border,12,NEVER_TREATED,2024_July_December,8278,1020,0,9298,0.8902989890298989,0.8902989890298989,0.8902989890298989,descriptive cohort composition; not a causal survival effect
+broad,18,NEW_FRR,2019_2022_July_December,61345,10867,1,72213,0.8495125463911816,0.8495007824075997,0.8495146303297191,descriptive cohort composition; not a causal survival effect
+broad,18,NEW_FRR,2024_July_December,17234,3199,0,20433,0.8434395340870161,0.8434395340870161,0.8434395340870161,descriptive cohort composition; not a causal survival effect
+broad,18,NEVER_TREATED,2019_2022_July_December,1110922,212928,25,1323875,0.839160025682668,0.8391441790199226,0.8391630629780001,descriptive cohort composition; not a causal survival effect
+broad,18,NEVER_TREATED,2024_July_December,304957,62204,0,367161,0.8305811347065729,0.8305811347065729,0.8305811347065729,descriptive cohort composition; not a causal survival effect
+border,18,NEW_FRR,2019_2022_July_December,23848,4067,1,27916,0.8543077198638724,0.8542771170654821,0.8543129388164493,descriptive cohort composition; not a causal survival effect
+border,18,NEW_FRR,2024_July_December,6727,1253,0,7980,0.8429824561403508,0.8429824561403508,0.8429824561403508,descriptive cohort composition; not a causal survival effect
+border,18,NEVER_TREATED,2019_2022_July_December,28843,4891,0,33734,0.8550127467836603,0.8550127467836603,0.8550127467836603,descriptive cohort composition; not a causal survival effect
+border,18,NEVER_TREATED,2024_July_December,7806,1492,0,9298,0.8395353839535384,0.8395353839535384,0.8395353839535384,descriptive cohort composition; not a causal survival effect

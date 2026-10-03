@@ -1,0 +1,530 @@
+{
+  "review": "REVIEW C — initial FRR2024 statutory assignment source audit",
+  "reviewed_local_date": "2026-10-04",
+  "reviewer_type": "AI independent data/source audit, not a human verification certificate",
+  "scope": "Source years, geography, definitions, free official availability, thresholds; no outcome data or new causal estimation read.",
+  "input_gate": "PASS_OFFICIAL_2020_COG2023_INPUTS_AND_THRESHOLD_REPRODUCTION",
+  "whole_assignment_gate": "NOT_ESTABLISHED_BY_THIS_SOURCE_AUDIT",
+  "sources": [
+    {
+      "key": "law_original_2024",
+      "path": "data/raw/legal/lf2024_art73_438.txt",
+      "official_url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048727426",
+      "source_page": null,
+      "publisher": "Légifrance",
+      "role": "official_web_tool_snapshot_of_original_JORF",
+      "sha256": "f3d7ccb354f8251ed4c1a731f0babb86960cf0fa4ac10e86cdf549aee12ee95a",
+      "bytes": 32946,
+      "observation_year": null,
+      "geography": null,
+      "publication_date": "2023-12-30",
+      "fields": [
+        "CGI 44 quindecies A II A–E",
+        "IV"
+      ],
+      "match_status": "EXACT_ORIGINAL_LEGAL_VERSION",
+      "note": "The stored file is a web-retrieval text snapshot, not the HTML response. Input availability cutoff 2023-07-01; EPCI perimeter 2023-01-01; density population concept is population municipale."
+    },
+    {
+      "key": "government_reference_year_confirmation",
+      "path": "data/raw/assignment2024/senat_debate_2023_11_26.pdf",
+      "official_url": "https://www.senat.fr/cra/s20231126/s20231126.pdf",
+      "source_page": null,
+      "publisher": "Sénat, intervention de Dominique Faure",
+      "role": "official_contemporaneous_legislative_record",
+      "sha256": "7c03edeac0af0c5fbef361cb13d9793b9c0417656e27e1f58615fda8d3e4ccda",
+      "bytes": 980421,
+      "observation_year": 2020,
+      "geography": null,
+      "publication_date": "2023-11-26",
+      "fields": [
+        "PDF page 66, printed page 63"
+      ],
+      "match_status": "DIRECT_2020_CENSUS_AND_FILOSOFI_YEAR_EVIDENCE",
+      "note": "The minister explicitly identifies recensement 2020 and Filosofi 2020. The relevant PDF page was rendered and visually inspected; saved evidence image is available."
+    },
+    {
+      "key": "income2020_all_levels",
+      "path": "data/raw/assignment2024/insee_filosofi2020_geog2023_csv.zip",
+      "official_url": "https://www.insee.fr/fr/statistiques/fichier/6692392/base-cc-filosofi-2020_CSV.zip",
+      "source_page": "https://www.insee.fr/fr/statistiques/6692392?sommaire=6692394",
+      "publisher": "INSEE",
+      "role": "direct_official_level_specific_income_medians",
+      "sha256": "44229f0a9ce3dcd95014e6cfadb79beae85597944862664c41493ca3be65a8fd",
+      "bytes": 1225829,
+      "observation_year": 2020,
+      "geography": "2023-01-01",
+      "publication_date": "2023-04-24",
+      "fields": [
+        "CODGEO",
+        "MED20"
+      ],
+      "match_status": "REFERENCE_YEAR_AND_GEOGRAPHY_EXACT; ALL_METROPOLITAN_TERRITORY_THRESHOLDS_REPRODUCED",
+      "note": "MED20 is médiane du niveau de vie in euros: disposable household income per unité de consommation. Use official COM/EPCI/BV2022/DEP medians independently; no aggregation of commune medians. Published values are rounded/suppressed under statistical confidentiality, not uncensored microdata."
+    },
+    {
+      "key": "income_concept_definition",
+      "path": "data/raw/assignment2024/insee_niveau_de_vie_definition.html",
+      "official_url": "https://www.insee.fr/fr/metadonnees/definition/c1890",
+      "source_page": null,
+      "publisher": "INSEE",
+      "role": "official_level_of_living_definition",
+      "sha256": "bae0e809575a16fc5873644bcaa0091e1bd5dd0970cb8c3d0269f7983f115365",
+      "bytes": 220658,
+      "observation_year": null,
+      "geography": null,
+      "publication_date": "2021-10-18",
+      "fields": [
+        "Niveau de vie"
+      ],
+      "match_status": "DISPOSABLE_HOUSEHOLD_INCOME_DIVIDED_BY_UC",
+      "note": "The official definition identifies niveau de vie as disposable household income divided by consommation units, shared by all persons of a household. This supports the MED20 conceptual correspondence; it is not revenu fiscal médian or average income."
+    },
+    {
+      "key": "population2020_area_geog2023",
+      "path": "data/raw/assignment2024/base-cc-serie-historique-2020_csv.zip",
+      "official_url": "https://www.insee.fr/fr/statistiques/fichier/7632565/base-cc-serie-historique-2020_csv.zip",
+      "source_page": "https://www.insee.fr/fr/statistiques/7632565",
+      "publisher": "INSEE",
+      "role": "official_census_population_and_commune_area",
+      "sha256": "89bff69833bb186a3e91ba11d338dad96f5d367275fad0bf5cd82fdb0acc7e32",
+      "bytes": 5312044,
+      "observation_year": 2020,
+      "geography": "2023-01-01",
+      "publication_date": "2023-06-27",
+      "fields": [
+        "CODGEO",
+        "P20_POP",
+        "SUPERF"
+      ],
+      "match_status": "REFERENCE_YEAR_AND_GEOGRAPHY_EXACT; DENSITY_MEDIANS_REPRODUCED",
+      "note": "P20_POP is population en 2020 from principal census exploitation; SUPERF is commune area in km². Sum whole-commune population and area by historical membership. The raw file includes 45 municipal arrondissements; these are omitted to avoid duplicate PLM city counts. Mayotte is absent."
+    },
+    {
+      "key": "epci2023_composition",
+      "path": "data/raw/epci_2023/Intercommunalite_Metropole_au_01-01-2023.xlsx",
+      "official_url": "https://www.insee.fr/fr/statistiques/fichier/2510634/Intercommunalite_Metropole_au_01-01-2023.zip",
+      "source_page": null,
+      "publisher": "INSEE",
+      "role": "official_historical_EPCI_membership",
+      "sha256": "6543038191a4375f3e1afb9e281d86c46a0d0f4c33e761545cab7399f7528c25",
+      "bytes": 1311289,
+      "observation_year": null,
+      "geography": "2023-01-01",
+      "publication_date": null,
+      "fields": [
+        "EPCI",
+        "NATURE_EPCI",
+        "CODGEO",
+        "DEP"
+      ],
+      "match_status": "EXACT_LEGAL_EPCI_PERIMETER",
+      "note": "Stored SHA256 is for the workbook extracted from the official ZIP, not the ZIP. There are 1,232 real metropolitan EPCI à fiscalité propre; ZZZZZZZZZ is a Sans objet placeholder, not an EPCI. Four exempt island communes require their own COM indicators."
+    },
+    {
+      "key": "bassin2022_composition_geog2023",
+      "path": "data/raw/legal/BV2022_au_01-01-2023.zip",
+      "official_url": "https://www.insee.fr/fr/statistiques/fichier/6676988/BV2022_au_01-01-2023.zip",
+      "source_page": "https://www.insee.fr/fr/information/6676988",
+      "publisher": "INSEE",
+      "role": "official_historical_bassin_membership",
+      "sha256": "64741bc7282bcc9ebf5bb5a47f6e037b8ac2b7662664b6520714f6e60780a57a",
+      "bytes": 1046521,
+      "observation_year": null,
+      "geography": "2023-01-01",
+      "publication_date": null,
+      "fields": [
+        "CODGEO",
+        "BV2022"
+      ],
+      "match_status": "MATCHES_PUBLISHED_2023_INCOME_GEOGRAPHY_AND_BASSIN_DENSITY_THRESHOLD",
+      "note": "BV2022 denotes the 2022 zoning definition, carried on COG2023 commune geography. The current webpage exposes a historical 2023 archive. Original publication date of that archive was not independently established. A second Excel parser verified all 34,945 stored commune memberships with zero differences."
+    },
+    {
+      "key": "dgcl_initial_thresholds_retrospective",
+      "path": "data/raw/faq_2025.pdf",
+      "official_url": "https://www.collectivites-locales.gouv.fr/files/files/3.%20Animer%20les%20territoires/5.%20La%20coh%C3%A9sion%20territoriale%20et%20l'am%C3%A9nagement%20du%20territoire/FAQ%20FRR_MAJ%20juillet2025.pdf",
+      "source_page": null,
+      "publisher": "DGCL",
+      "role": "official_retrospective_explanation_of_initial_LFI2024_criteria",
+      "sha256": "7bdf15794ac92303e06a04dcd04e8d81b09cf37b19ac84b19d48067ddbd191c9",
+      "bytes": 474659,
+      "observation_year": null,
+      "geography": null,
+      "publication_date": "2025-07",
+      "fields": [
+        "Section 3.1.1, pages 5–6"
+      ],
+      "match_status": "EXACT_INITIAL_2024_THRESHOLDS; NOT_NEW_2025_ROUTE_RULES",
+      "note": "Section 3.1.1 explicitly concerns LFI2024. Section 3.1.2 on page 7 separately concerns LFI2025 additions. Public thresholds: EPCI 63.57 and 21570; mountain income Q75 22822.5; BV 70.84 and 21600; DEP density <35 and income 21665."
+    },
+    {
+      "key": "government_threshold_confirmation2025",
+      "path": "data/raw/assignment2024/senat_question05373_2025.html",
+      "official_url": "https://www.senat.fr/questions/base/2025/qSEQ250705373.html",
+      "source_page": null,
+      "publisher": "Sénat, ministère chargé de la ruralité",
+      "role": "official_government_answer",
+      "sha256": "ea3ae2581461bd998f5ac6d89cb69627abd1dd0d550c95ca31f51efb8ec8697e",
+      "bytes": 119606,
+      "observation_year": null,
+      "geography": null,
+      "publication_date": "2025-09-04",
+      "fields": [
+        "ministerial answer to question 05373"
+      ],
+      "match_status": "CONFIRMS_EPCI_AND_BASSIN_INITIAL_THRESHOLDS_AND_PREFECTURAL_PATH",
+      "note": "Official answer gives EPCI 63.57/21570, BV 70.84/21600, and describes complementary préfet proposals. It does not supply a national original computation workbook."
+    },
+    {
+      "key": "mountain1985_geog2022",
+      "path": "data/raw/assignment2024/mountain_cog2022.xlsx",
+      "official_url": "https://static.data.gouv.fr/resources/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/20220323-152301/dgaln-icapp-sidauh-opendata-loi-montagne-1985-cog-2022.xlsx",
+      "source_page": "https://www.data.gouv.fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022",
+      "publisher": "Ministère de la Cohésion des territoires / DGALN-SIDAUH",
+      "role": "official_law_montagne_commune_list",
+      "sha256": "21b0ae60fc6e0bbf8547fff70d29219b69e1825f1626fd93bd5fdae20bceb44f",
+      "bytes": 257936,
+      "observation_year": null,
+      "geography": "2022-01-01",
+      "publication_date": null,
+      "fields": [
+        "Perimetre.INSEE_COM",
+        "Réglementation",
+        "CommunesFusionnees.OLD_INSEE",
+        "AN_FUSION"
+      ],
+      "match_status": "CORRECT_LEGAL_CONCEPT; EXACT_2023_POPULATION_SHARE_NOT_SUPPLIED",
+      "note": "Perimetre has 5,611 listed communes, CommunesFusionnees 233 historical merger records. This is Loi Montagne 1985, not massif geography. Metadata includes partial communes and preservation of classification only for previously classified parts after merger; no population-in-classified-part field is supplied. Mapping to COG2023 and verifying the 50% population condition remain separate tasks. Official resource created_at is 2022-03-10; last_modified is 2022-03-23. The published field is not provided, so the update date is not treated as a publication date.",
+      "resource_id": "87bc6d48-f1ed-4924-be55-0142660033de",
+      "resource_created_at": "2022-03-10T10:59:39.283000+00:00",
+      "resource_last_modified_at": "2022-03-23T15:46:38.079000+00:00",
+      "resource_published": null,
+      "resource_published_key_present": false,
+      "metadata_evidence": {
+        "path": "docs/sources/public_release_rights/mountain_official_metadata.json",
+        "sha256": "a81a6572dc466881f4c35fb5c27a2b746562df2cbb2ac08b7b016248d3af0197",
+        "official_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/"
+      }
+    },
+    {
+      "key": "population2020_geog2022_diagnostic_only",
+      "path": "data/raw/assignment2024/insee_population2020_geog2022_csv.zip",
+      "official_url": "https://www.insee.fr/fr/statistiques/fichier/6683035/ensemble.zip",
+      "source_page": "https://www.insee.fr/fr/statistiques/6683035?sommaire=6683037",
+      "publisher": "INSEE",
+      "role": "unused_geography_diagnostic_and_population_concept_crosscheck",
+      "sha256": "22608675c37567a13320a4d0acef655280350f247af64f37b8c1b68635f20088",
+      "bytes": 990602,
+      "observation_year": 2020,
+      "geography": "2022-01-01",
+      "publication_date": "2022-12-29",
+      "fields": [
+        "PMUN",
+        "CODDEP",
+        "CODCOM"
+      ],
+      "match_status": "CORRECT_YEAR_BUT_NOT_CANONICAL_2023_PERIMETER",
+      "note": "Do not join this unadjusted COG2022 file as if it were COG2023. 34,916 of 34,924 nonmissing same-code comparisons equal P20_POP; eight discrepancies are retained, not assumed errors. Legal municipal-arrondissement sums reproduce all three whole-city Paris/Lyon/Marseille P20_POP values."
+    },
+    {
+      "key": "dgcl_current_map_not_initial_2024",
+      "path": "data/raw/assignment2024/dgcl_webmap_data.json",
+      "official_url": "https://www.arcgis.com/sharing/rest/content/items/70791b36ca57450db7cf10892eee67c8/data?f=json",
+      "source_page": null,
+      "publisher": "DGCL.SDCAT (ArcGIS item owner)",
+      "role": "discovery_only_current_overwritten_map",
+      "sha256": "b0cfbd45654fdf4d5efd1e90c1f8bbc0429a4c8b78b758b522362718b35f82dd",
+      "bytes": 1249,
+      "observation_year": null,
+      "geography": "COG2025/current map",
+      "publication_date": null,
+      "fields": null,
+      "match_status": "NOT_VALID_AS_INITIAL_2024_ASSIGNMENT_INPUT",
+      "note": "The official linked old app currently points to the FRR_plus layer. Public-service catalog searches did not recover an original 2024 calculation workbook or a complete historical statutory-path field. This is a search limitation, not proof that no such file exists."
+    }
+  ],
+  "numerical_checks": {
+    "EPCI": {
+      "n_units": 1232,
+      "n_communes": 34812,
+      "income_known": 1232,
+      "income_missing": 0,
+      "density_median_full_precision": 63.569845464551264,
+      "official_density_median_rounded": 63.57,
+      "density_median_rounds_to_official": true,
+      "income_median": 21570.0,
+      "official_income_median": 21570.0,
+      "income_median_matches_official": true,
+      "income_q75_linear": 22822.5,
+      "official_income_q75": 22822.5,
+      "income_q75_matches_official": true
+    },
+    "BV2022": {
+      "n_units": 1681,
+      "n_communes": 34816,
+      "income_known": 1681,
+      "income_missing": 0,
+      "density_median_full_precision": 70.84363836218742,
+      "official_density_median_rounded": 70.84,
+      "density_median_rounds_to_official": true,
+      "income_median": 21600.0,
+      "official_income_median": 21600.0,
+      "income_median_matches_official": true,
+      "income_q75_linear": 22990.0
+    },
+    "DEP": {
+      "n_units": 96,
+      "n_communes": 34816,
+      "income_known": 96,
+      "income_missing": 0,
+      "density_median_full_precision": 83.11740441071805,
+      "official_density_median_rounded": null,
+      "density_median_rounds_to_official": null,
+      "income_median": 21665.0,
+      "official_income_median": 21665.0,
+      "income_median_matches_official": true,
+      "income_q75_linear": 22520.0,
+      "department_criterion_eligible_codes": [
+        "04",
+        "05",
+        "09",
+        "12",
+        "15",
+        "23",
+        "32",
+        "36",
+        "46",
+        "48",
+        "52",
+        "55",
+        "58"
+      ],
+      "department_criterion_n": 13
+    }
+  },
+  "population_concept_crosscheck": {
+    "legal_population_source_observation_year": 2020,
+    "legal_population_source_geography": "2022-01-01",
+    "canonical_geography": "2023-01-01",
+    "common_nonmissing_communes": 34924,
+    "exact_population_matches": 34916,
+    "differences_same_code_not_assumed_errors": 8,
+    "difference_codes": [
+      "01138",
+      "02564",
+      "09056",
+      "16206",
+      "50272",
+      "51457",
+      "71042",
+      "85289"
+    ],
+    "note": "COG2022 and COG2023 are different perimeters. Same-code differences are retained and not presumed errors. PLM legal CSV gives municipal arrondissements; their sums equal canonical whole-city P20_POP. Code 27676 is unmatched across these versions.",
+    "unmatched_common_code_comparison": [
+      "13055",
+      "27676",
+      "69123",
+      "75056"
+    ],
+    "PLM_municipal_arrondissement_population_check": [
+      {
+        "commune_code": "13055",
+        "legal2020_municipal_arrondissement_sum": 870321,
+        "P20_POP": 870321,
+        "match": true
+      },
+      {
+        "commune_code": "69123",
+        "legal2020_municipal_arrondissement_sum": 522228,
+        "P20_POP": 522228,
+        "match": true
+      },
+      {
+        "commune_code": "75056",
+        "legal2020_municipal_arrondissement_sum": 2145906,
+        "P20_POP": 2145906,
+        "match": true
+      }
+    ]
+  },
+  "bassin_membership_independent_crosscheck": {
+    "method": "independent pandas Excel value read, compared with original direct OOXML extraction",
+    "official_workbook_sheet": "Composition_communale",
+    "official_commune_rows": 34945,
+    "expected_minus_stored": 0,
+    "stored_minus_expected": 0
+  },
+  "missingness_and_special_cases": {
+    "published_COM_rows_after_actual_commune_filter": 34874,
+    "suppressed_or_missing_published_COM_MED20": 3599,
+    "official_member_communes_absent_from_COM_income_table": [
+      "97101",
+      "97102",
+      "97103",
+      "97104",
+      "97105",
+      "97106",
+      "97107",
+      "97108",
+      "97109",
+      "97110",
+      "97111",
+      "97112",
+      "97113",
+      "97114",
+      "97115",
+      "97116",
+      "97117",
+      "97118",
+      "97119",
+      "97120",
+      "97121",
+      "97122",
+      "97124",
+      "97125",
+      "97126",
+      "97128",
+      "97129",
+      "97130",
+      "97131",
+      "97132",
+      "97133",
+      "97134",
+      "97301",
+      "97302",
+      "97303",
+      "97304",
+      "97305",
+      "97306",
+      "97307",
+      "97308",
+      "97309",
+      "97310",
+      "97311",
+      "97312",
+      "97313",
+      "97314",
+      "97352",
+      "97353",
+      "97356",
+      "97357",
+      "97358",
+      "97360",
+      "97361",
+      "97362",
+      "97601",
+      "97602",
+      "97603",
+      "97604",
+      "97605",
+      "97606",
+      "97607",
+      "97608",
+      "97609",
+      "97610",
+      "97611",
+      "97612",
+      "97613",
+      "97614",
+      "97615",
+      "97616",
+      "97617"
+    ],
+    "metropolitan_communes_absent_from_COM_income_table": [],
+    "real_metropolitan_EPCI_missing_MED20": [],
+    "special_no_EPCI_communes": [
+      "22016",
+      "29083",
+      "29155",
+      "85113"
+    ],
+    "special_COM_29083_income_unknown": true,
+    "rule": "Unknown remains unknown. No mean or current-year substitution. Source-table absent rows must become unknown after a left join."
+  },
+  "outputs": [
+    {
+      "path": "data/processed/assignment2024_income.csv",
+      "sha256": "9b46a4f0d99dcfc778c54f80d8eae917206f170dda969605f17fac38a57a800f",
+      "rows": 37907,
+      "headers": [
+        "level",
+        "code",
+        "med2020",
+        "metadataGeography",
+        "income_reference_year",
+        "source_table",
+        "source_variable",
+        "income_unknown"
+      ]
+    },
+    {
+      "path": "data/processed/assignment2024_commune_population_area.csv",
+      "sha256": "5b5cf0c85e78037f696aacdd89411357275693df69ac4a8cbc4cc7c31f3f6fed",
+      "rows": 34945,
+      "headers": [
+        "commune_code",
+        "department",
+        "epci_2023",
+        "P20_POP",
+        "SUPERF",
+        "metadataGeography",
+        "population_reference_year",
+        "source_table",
+        "is_actual_epci",
+        "density2020"
+      ]
+    },
+    {
+      "path": "data/processed/assignment2024_geographic_density_income.csv",
+      "sha256": "d4a0ae8c29e11abb7fdb6064592307ff8bc4a1d412655211537090acc2d772ab",
+      "rows": 3009,
+      "headers": [
+        "code",
+        "P20_POP",
+        "SUPERF",
+        "n_communes",
+        "density2020",
+        "level",
+        "metadataGeography",
+        "med2020"
+      ]
+    },
+    {
+      "path": "data/processed/assignment2024_territory_indicators.csv",
+      "sha256": "a6fbe3af92217576e60d9c87506364b997b072bf5bcb6be0b70ddb44a039d990",
+      "rows": 3009,
+      "headers": [
+        "level",
+        "code",
+        "population_2020",
+        "area_km2",
+        "density_2020",
+        "median_income2020",
+        "n_communes",
+        "metadataGeography"
+      ]
+    }
+  ],
+  "script": {
+    "path": "src/construct/assignment_sources.py",
+    "sha256": "7a4951f2e706696792382b36afaeba8b09098a104541a181ecb87ee8a1b99f67"
+  },
+  "quantile_method": "pandas linear interpolation, numerically equal to the public Q75. Official algorithm is not independently documented; do not claim exact underlying microdata or algorithm recovery.",
+  "density_precision_rule": "Use full-precision recomputed national medians for statutory tests; published 63.57 and 70.84 are two-decimal displays.",
+  "remaining_limits": [
+    "The bassin numeric condition defines possible supplementary eligibility; actual initial assignment also requires the legal préfet proposal/ministerial decision. Do not deterministically classify every qualifying bassin commune.",
+    "Mountain-part population cannot be inferred from a concerned-commune flag; COG2022→COG2023 mergers/partial classification require official corroboration or uncertainty exclusion.",
+    "No original national DGCL 2024 calculation workbook or complete statutory-path file was recovered; downloaded current FRR_plus services are not substitutes.",
+    "Reproducing national threshold values strongly validates the inputs, but does not alone reproduce the complete initial 17,717-commune arrêté list.",
+    "This source gate does not validate regression discontinuity identification, local support, first-stage discontinuity, manipulation checks, or parallel trends."
+  ],
+  "privacy": "No SIRENE micro-identifiers, individual names, or street addresses were read or output for this task.",
+  "untouched": [
+    "main panel",
+    "manuscript",
+    "empirical claims",
+    "outcome results",
+    "public manifest"
+  ]
+}

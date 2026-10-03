@@ -1,0 +1,640 @@
+{
+  "date": "2026-10-03",
+  "review": "REVIEW B",
+  "scope": "Independent read-only numerical and mathematical audit; main code not modified; manuscript and author final human verification not yet cleared; no HAL operation",
+  "gates": {
+    "computational": "REPRODUCED_WITH_NOTED_LIMITATIONS",
+    "causal_identification": "FAILED_CURRENT_DESIGN",
+    "descriptive_working_paper": "CAN_CONTINUE_DRAFTING_NOT_FINAL_CLEARED",
+    "HAL": "NOT_CLEARED"
+  },
+  "balanced_input_checks": {
+    "panel_rows": 3068820,
+    "unique_commune_month_cells": true,
+    "border_pairs": 774,
+    "unique_border_communes": 1548,
+    "border_rate_missing_cells": 0,
+    "positive_border_population": true,
+    "baseline_months": 24,
+    "post_months": 6
+  },
+  "primary_independent_recompute": {
+    "delta_beta": 0.14603038789499376,
+    "balanced_within_FE_beta": 0.1460303878949937,
+    "table_event_study_linear_contrast": 0.14603038789499362,
+    "EPCI_components": 128,
+    "CR1_se": 0.04796399100619365,
+    "event_study_post_average_vs_May2023": 0.02723436609293874,
+    "event_study_same_season_baseline_average_vs_May2023": -0.11879602180205488
+  },
+  "WCR": {
+    "null_beta": 0,
+    "seed": 20241003,
+    "draws": 9999,
+    "restricted_t_p_value": 0.0077,
+    "explicit_pair_residual_bootstrap_validation_draws": 100,
+    "maximum_absolute_t_difference_vs_aggregate_algorithm": 1.3322676295501878e-15,
+    "current_CI_method": "unrestricted estimate-centred cluster-score basic percentile; not restricted-t inversion",
+    "current_CI": [
+      0.05182659688098505,
+      0.24059403572915927
+    ],
+    "exact_randomisation_test": false,
+    "limitations": [
+      "Only EPCI128 grouping bootstrapped; joint46 and bassin_joint36 inference requires corresponding sensitivity",
+      "No bootstrap repairs nonparallel trends"
+    ]
+  },
+  "PPML_independent_profile": {
+    "optimisation": "closed-form pair intercept conditional on beta plus scipy bounded scalar minimisation; not implementation Newton updates",
+    "success": true,
+    "beta": 0.05427876675511436,
+    "saved_beta": 0.0542787258526612,
+    "beta_absolute_difference": 4.090245316057395e-08,
+    "objective_difference_at_machine_precision": 0.0,
+    "exp_beta": 1.0557788771878382,
+    "profile_efficient_CR1_se": 0.021682734748800468,
+    "saved_se": 0.0216827351396231,
+    "max_pair_intercept_score_at_saved_beta": 8.526512829121202e-14,
+    "common_beta_score_at_saved_beta": 2.362554596402333e-13,
+    "positive_profile_bread": 2285.5041948853714,
+    "informative_pairs": 757,
+    "excluded_pairs": 17,
+    "EPCI_components": 126,
+    "equivalence_scope": "Profile Poisson commune FE + pair-month FE; binomial conditional on pair-month total, still estimated pair intercept. Collapse exact only without other time-varying relative regressors. Not all-FE-conditioned exact conditional MLE."
+  },
+  "full_pretrend_audit": {
+    "method": "For each commune construct monthly births*1000/population_2021; form local or broad treated-control gap; subtract May2023; take January2019-April2023 52 coordinates; covariance from cluster sums of mean-influence vectors with G/(G-1); F=b.T@V^-1@b/52; approximate F(52,G-1) tail",
+    "border": {
+      "restrictions": 52,
+      "rank": 52,
+      "clusters": 128,
+      "F": 2.3014798718025586,
+      "p": 8.141439091068149e-05
+    },
+    "broad": {
+      "restrictions": 52,
+      "rank": 52,
+      "clusters": 722,
+      "F": 2.6729069099848743,
+      "p": 8.224365095278973e-09
+    },
+    "matched_original_department": {
+      "restrictions": 52,
+      "rank": 52,
+      "clusters": 70,
+      "F": 5.72533799169275,
+      "p": 2.4149142020535086e-11,
+      "status": "superseded inference grouping; retained as audit history"
+    },
+    "matched_updated_joint": {
+      "restrictions": 52,
+      "rank": 52,
+      "clusters": 61,
+      "F": 20.96598222118742,
+      "p": 2.8076759538832993e-24,
+      "covariance_condition_number": 60708.78706243199,
+      "warning": "52 restrictions near G-1 rank bound; CR1 F is approximation; avoid interpreting tiny tail as exact"
+    },
+    "short_border": {
+      "restrictions": 23,
+      "clusters": 128,
+      "p": 0.48862114896317765,
+      "does_not_override_full_failure": true
+    }
+  },
+  "post_results_audit_diagnostics": {
+    "season_adjusted_full_pre": {
+      "restrictions": 53,
+      "rank": 41,
+      "clusters": 128,
+      "F": 2.3461758947707105,
+      "p": 0.000157193047470813,
+      "coefficient_outside_covariance_columnspace_norm": 2.1474258150269552e-15,
+      "method": "Within each border pair/calendar month subtract its 2019-2022 mean; test pre-announcement months; 12 linear normalisation constraints reduce 53 to rank41"
+    },
+    "same_season_pre_years": {
+      "contrasts_2020_2021_2022_vs2019": [
+        0.08036630581651205,
+        -0.02685310342570436,
+        0.035087446719786676
+      ],
+      "restrictions": 3,
+      "F": 1.426627849188317,
+      "p": 0.2380894529355389,
+      "method": "Pair-specific July-December means; independent pre-year contrasts; EPCI components scores; equivalent to 2022-normalised contrast test in diagnostics.py",
+      "not_prespecified_original_design": true,
+      "not_identification_rescue": true
+    }
+  },
+  "matched_grouping_independent_graph": {
+    "pairs": 1908,
+    "same_department_pairs": 1908,
+    "unique_communes": 3816,
+    "EPCI_spanning_sample_departments": {
+      "243301371": [
+        "24",
+        "33"
+      ],
+      "200073096": [
+        "07",
+        "26"
+      ],
+      "246100663": [
+        "61",
+        "72"
+      ],
+      "200067668": [
+        "45",
+        "89"
+      ],
+      "200070985": [
+        "02",
+        "80"
+      ],
+      "200006682": [
+        "21",
+        "71"
+      ],
+      "243500741": [
+        "35",
+        "44",
+        "56"
+      ],
+      "200040277": [
+        "27",
+        "28"
+      ],
+      "200066462": [
+        "27",
+        "28"
+      ]
+    },
+    "EPCI_only": {
+      "nodes": 444,
+      "components": 65,
+      "max_pairs": 329,
+      "size_effective_diagnostic": 19.42326653434919
+    },
+    "department_only": {
+      "nodes": 70,
+      "components": 70,
+      "max_pairs": 225,
+      "size_effective_diagnostic": 27.691296609009175
+    },
+    "joint": {
+      "nodes": 514,
+      "components": 61,
+      "max_pairs": 329,
+      "top10_pair_sizes": [
+        329,
+        111,
+        102,
+        97,
+        88,
+        65,
+        59,
+        57,
+        55,
+        52
+      ],
+      "size_effective_diagnostic": 19.333319171534786,
+      "independent_beta": -0.017140045463629405,
+      "independent_SE": 0.04162012163875544
+    },
+    "method": "Typed nodes E:epci and D:department linked for every pair; connected components; one pair membership after graph closure; diagnostic effective count=(sum n)^2/sum n^2 is not formal df"
+  },
+  "border_bassin_joint_independent": {
+    "components": 36,
+    "max_pairs": 191,
+    "top10_pair_sizes": [
+      191,
+      104,
+      97,
+      54,
+      41,
+      30,
+      29,
+      22,
+      20,
+      17
+    ],
+    "size_effective_diagnostic": 9.101731996353692,
+    "beta": 0.14603038789499376,
+    "SE": 0.04869121574852731,
+    "method": "Typed EPCI,department,bassin nodes, same membership graph as independent audit; common pair-change CR1"
+  },
+  "critical_interpretation": {
+    "broad_or_matched_near_zero_proves_national_null": false,
+    "border_positive_proves_causal_effect": false,
+    "different_significance_proves_different_effects": false,
+    "pattern_proves_spatial_displacement": false,
+    "comparison_paper_can_continue": true,
+    "authors_final_review_completed": false
+  },
+  "opened_primary_sources": [
+    "https://www.ecologie.gouv.fr/presse/france-ruralites-plan-ambitieux-davantage-dequite-territoriale",
+    "https://arxiv.org/pdf/2205.03285",
+    "https://www.jonathandroth.com/assets/files/HonestParallelTrends_Main.pdf",
+    "https://economics.mit.edu/people/faculty/ashesh-rambachan/publications"
+  ],
+  "input_and_code_snapshot": [
+    {
+      "path": "src/analysis/estimate.py",
+      "sha256": "b98d69ea238638d2da3bdc5eb126bc22fe3ce2065913b6798f804f5d8c9d6099"
+    },
+    {
+      "path": "src/analysis/ppml.py",
+      "sha256": "0e6d6dc52a0ebaebc62826e2c7ca27a023dd066041717a413ca7fba20298d5a1"
+    },
+    {
+      "path": "src/analysis/broad_and_matched.py",
+      "sha256": "29b003eaaa7c835131d66dcebaa9221ee3a11945a1872e2d7b1c6b9c7abc4508"
+    },
+    {
+      "path": "src/analysis/diagnostics.py",
+      "sha256": "713e2b2615892f1c8bbb98d188cd98698ada73ffdca9159446dde0712e002913"
+    },
+    {
+      "path": "data/processed/border_pairs.csv",
+      "sha256": "07101d885695b2dedcb9e31c770ef98c0342ba48101cb45d97b56e64240eb0ff"
+    },
+    {
+      "path": "data/processed/matched_pairs.csv",
+      "sha256": "ece524aff1202d53e0775f15ea5a8aef8c98fcd3bfd0b05d6bc0d4ad86a0bdb2"
+    },
+    {
+      "path": "data/processed/commune_treatment.csv",
+      "sha256": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8"
+    },
+    {
+      "path": "data/processed/monthly_panel.parquet",
+      "sha256": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f"
+    },
+    {
+      "path": "reports/pretrend_diagnostics.json",
+      "sha256": "98cd4c25b664ccd22c06b8dd11c390bb22599f6d540747caa2be48ba0e09cad4"
+    },
+    {
+      "path": "reports/wild_cluster_score.json",
+      "sha256": "4589d969bac82f4d2753419cdad31c610f5893f6015c91dde6b03682983b9838"
+    },
+    {
+      "path": "reports/broad_matched_pretrends.json",
+      "sha256": "b78b90e04a345b28c2d796b42fb9823987fccb6675b81ebf493f140f848e117a"
+    },
+    {
+      "path": "reports/additional_diagnostics.json",
+      "sha256": "471292ad8e540a6139d89525ce0669480e4436f592035c839092442bead286ad"
+    },
+    {
+      "path": "docs/design_before_results.md",
+      "sha256": "8d374d59312957718dad25a042c7328f3c81fe8abaa7b9172eaa6d5d1c8438e1"
+    },
+    {
+      "path": "docs/design_changes.md",
+      "sha256": "221857fbddf4e8cdbd69c4eeed77114b0194eeeda61ed37eae675bd019717eb6"
+    },
+    {
+      "path": "src/analysis/secondary_analysis.py",
+      "sha256": "084bfea5cbc49a3a801a1a4cc2cc4532d2fffab798202b5d360efde925d94cc6"
+    }
+  ],
+  "all_table_snapshot": [
+    {
+      "path": "results\\tables\\bassin_cluster_sensitivity.csv",
+      "rows": 1,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "clustering",
+        "largest_component_pairs",
+        "pair_size_effective_components"
+      ],
+      "sha256": "ef2fee7848461af3f8d8c861a659f26549dc768fececb884038f4e2576ed880c"
+    },
+    {
+      "path": "results\\tables\\border_event_study.csv",
+      "rows": 90,
+      "columns": [
+        "month",
+        "event_month",
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "reference",
+        "clustering"
+      ],
+      "sha256": "9199ddced9ea60b0a78b82169d48fa5c4e2e96edc6864c2f462771eeae974812"
+    },
+    {
+      "path": "results\\tables\\border_trends.csv",
+      "rows": 90,
+      "columns": [
+        "month",
+        "treated_per1000",
+        "control_per1000",
+        "pair_total_entries"
+      ],
+      "sha256": "0bb6a1116a52a090cf78b44f816657d39d90dcf4ea2fa384cf51a6153ff0df5d"
+    },
+    {
+      "path": "results\\tables\\broad_did.csv",
+      "rows": 1,
+      "columns": [
+        "sample",
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "treated",
+        "controls",
+        "clustering"
+      ],
+      "sha256": "2a7a728639a21ceea4c15ecb9990e38ab3661452d7f367b0c9f20b439513d43c"
+    },
+    {
+      "path": "results\\tables\\broad_event_study.csv",
+      "rows": 90,
+      "columns": [
+        "month",
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high"
+      ],
+      "sha256": "84c7cd22d0943ac906ad88a373192b03586d34dc0085f76b8607594bd2f2b2fa"
+    },
+    {
+      "path": "results\\tables\\broad_trends.csv",
+      "rows": 90,
+      "columns": [
+        "month",
+        "treated_per1000",
+        "control_per1000"
+      ],
+      "sha256": "7ef1e7b398c1f30072666a4c78302692a4b92f6ee83950a5506f236316eb5748"
+    },
+    {
+      "path": "results\\tables\\cohort_retention.csv",
+      "rows": 16,
+      "columns": [
+        "sample",
+        "horizon_months",
+        "group",
+        "birth_period",
+        "active",
+        "closed",
+        "unknown",
+        "eligible",
+        "retention_known",
+        "retention_lower",
+        "retention_upper",
+        "interpretation"
+      ],
+      "sha256": "8eb61850f9f3a9b940f00667d831c921e43c18e973767eef371af13caede4cb3"
+    },
+    {
+      "path": "results\\tables\\conditional_ppml.csv",
+      "rows": 1,
+      "columns": [
+        "specification",
+        "coefficient",
+        "se",
+        "p_value",
+        "ci_low",
+        "ci_high",
+        "rate_ratio",
+        "pairs_informative",
+        "pairs_excluded_zero_or_separated",
+        "clusters",
+        "iterations"
+      ],
+      "sha256": "2a88f96e85d56a66b1846a2124f45ec2cb45e9ebb3deeced6f64007cb18ba30c"
+    },
+    {
+      "path": "results\\tables\\covariate_balance.csv",
+      "rows": 6,
+      "columns": [
+        "sample",
+        "variable",
+        "treated_mean",
+        "control_mean",
+        "standardised_difference"
+      ],
+      "sha256": "e6cddfc4dfd875c6f0cc5474811be7a91bde6f24f16ce7e1b01813ee684744fc"
+    },
+    {
+      "path": "results\\tables\\density_exploratory.csv",
+      "rows": 2,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "group",
+        "density_cutoff",
+        "pairs",
+        "exploratory"
+      ],
+      "sha256": "e1381aebf9c02708836efca3b1a4bf8fc5e5b23de78c1a87e90b63a058025054"
+    },
+    {
+      "path": "results\\tables\\leave_one_department_out.csv",
+      "rows": 72,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "excluded_department",
+        "pairs"
+      ],
+      "sha256": "e4590c1bfd50346ec5960894b1d1109ab75587ef0b5a5a714b8d84bbb4c08b0c"
+    },
+    {
+      "path": "results\\tables\\linear_trend_sensitivity.csv",
+      "rows": 1,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "specification"
+      ],
+      "sha256": "b5cd04a0059721d70ed459b8ddb5f5118f1eed68c57ca085c282f17b8ba6916f"
+    },
+    {
+      "path": "results\\tables\\main_border_estimates.csv",
+      "rows": 20,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "sample",
+        "outcome",
+        "scale",
+        "specification",
+        "clustering",
+        "pairs",
+        "treated_pre_mean",
+        "control_pre_mean"
+      ],
+      "sha256": "18c198eee0bb73c4369c34b252f7fabe2e7efac77c64c6e09270f73250e0c868"
+    },
+    {
+      "path": "results\\tables\\matched_did.csv",
+      "rows": 2,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "sample",
+        "pairs",
+        "clustering"
+      ],
+      "sha256": "cc13288623a6c5e87484f8018c2a0fba2d8dc7adf44927baa757581778c97ca4"
+    },
+    {
+      "path": "results\\tables\\robustness.csv",
+      "rows": 9,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "check",
+        "pairs"
+      ],
+      "sha256": "85890ccc28c72bbf150467c65d36d47c48e9386a5c5bb884137c1c97af6fb652"
+    },
+    {
+      "path": "results\\tables\\same_season_annual.csv",
+      "rows": 7,
+      "columns": [
+        "year",
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "complete_July_December"
+      ],
+      "sha256": "21450f7b46a58c1af60a81825003318b1ff71c2484cfee0f60e03f89949e50e6"
+    },
+    {
+      "path": "results\\tables\\season_adjusted_event_study.csv",
+      "rows": 90,
+      "columns": [
+        "month",
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "normalisation"
+      ],
+      "sha256": "eb8e89b1ddcc92875001bd680be79f4e96e97442b95c70787afbfddf0ea36ef3"
+    },
+    {
+      "path": "results\\tables\\secondary_estimates.csv",
+      "rows": 6,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "outcome"
+      ],
+      "sha256": "381c136360fd4174fccb5496e4d9c128c10d936b7f887f604bbee541012b4095"
+    },
+    {
+      "path": "results\\tables\\sector_estimates.csv",
+      "rows": 7,
+      "columns": [
+        "coefficient",
+        "se",
+        "ci_low",
+        "ci_high",
+        "p_value",
+        "clusters",
+        "minimum_detectable_80pct",
+        "sector",
+        "p_holm"
+      ],
+      "sha256": "333028132c19fb66f84aa7967867f65c7d139204e82a341a1e87a6748c16d2ec"
+    },
+    {
+      "path": "results\\tables\\spatial_descriptive.csv",
+      "rows": 3,
+      "columns": [
+        "group",
+        "pre_mean_monthly_entries_per_pair",
+        "post_mean_monthly_entries_per_pair",
+        "change",
+        "sum_pre_per_month",
+        "sum_post_per_month",
+        "interpretation"
+      ],
+      "sha256": "db0cb9c38175b4232025a148a708a7261b24fa127733acaf6c25c003f226deda"
+    },
+    {
+      "path": "results\\tables\\summary_statistics.csv",
+      "rows": 2,
+      "columns": [
+        "treatment_group",
+        "communes",
+        "population_mean",
+        "density_mean",
+        "pre_entries_mean"
+      ],
+      "sha256": "54f164329375ffb40045664088c2abda617f00b918f3d770ee21074c8869af56"
+    }
+  ],
+  "secondary_table_algebra_checks": {
+    "retention_rows": 16,
+    "active_closed_unknown_equal_eligible": true,
+    "retention_known_and_bounds_arithmetic_correct": true,
+    "registration_minus_closure_coefficient": 0.07694246671849259,
+    "registration_minus_closure_CI": [
+      -0.035884925582111996,
+      0.18976985901909715
+    ],
+    "individual_plus_nonindividual_equals_legal_unit_coefficient": true,
+    "interpretation": "administrative measures and cohort composition, not economic survival or causal net expansion"
+  },
+  "EPCI_vintage_correction": {
+    "official_2024_list_uses_prior_January2023_EPCI_scope": true,
+    "epci_2023_not_wrong_solely_by_column_name": true,
+    "earlier_review_clustering_note_corrected": "2024 join as mandatory legal scope was too specific; legal2023 verification and any later administrative-shock sensitivity are separate"
+  }
+}

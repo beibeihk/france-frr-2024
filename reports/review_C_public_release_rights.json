@@ -1,0 +1,699 @@
+{
+  "review": "REVIEW C - public release source rights and privacy scope",
+  "reviewer_type": "AI source-rights review; not a lawyer or an anonymity certification",
+  "reviewed_local_date": "2026-10-04",
+  "timezone": "Asia/Hong_Kong",
+  "generated_at_utc": "2026-10-03T18:04:56.250128+00:00",
+  "generated_at_local": "2026-10-04T02:04:56.250128+08:00",
+  "status": "Official source rights documented with scoped inferences and explicit residual limits; final package inventory pending root decision",
+  "scientific_or_HAL_deposit_clearance": false,
+  "categories": [
+    {
+      "category": "SIRENE public stocks and histories",
+      "publisher": "INSEE",
+      "license": "Licence Ouverte 2.0",
+      "metadata_license_id": "lov2",
+      "source_page": "https://www.data.gouv.fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+      "license_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+      "official_evidence": [
+        "sirene_official_metadata.json",
+        "insee_legal_notice.html",
+        "sirene_api_notice.md",
+        "sirene_api_establishment_dictionary.md"
+      ],
+      "scope": "Public variables; no republication of individual records in intended bundle. Personal-data rules continue to apply.",
+      "partial_diffusion_P": "Official notice protects personal information and prohibits prospecting. The official commune variable remains publicly defined, without [ND]. Compatibility of counts built from released variables with LO2 is a scoped inference, not an express source authorization naming this panel.",
+      "commercial_reuse": true,
+      "interpretation_type": "Explicit source license plus scoped inference for commune-month aggregation",
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/sirene_official_metadata.json",
+          "requested_url": "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+          "retrieved_at_utc": "2026-10-03T17:47:02.453761+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:02.453761+08:00",
+          "status_code": 200,
+          "final_url": "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+          "content_type": "application/json",
+          "size_bytes": 60769,
+          "sha256": "da322932d8b68a898413ad6419257299dce0ae8c2e5a7ca0b652b94847bcd48c",
+          "saved": true
+        },
+        {
+          "file": "docs/sources/public_release_rights/insee_legal_notice.html",
+          "requested_url": "https://www.insee.fr/fr/information/2008466",
+          "retrieved_at_utc": "2026-10-03T17:47:02.453761+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:02.453761+08:00",
+          "status_code": 200,
+          "final_url": "https://www.insee.fr/fr/information/2008466",
+          "content_type": "text/html;charset=UTF-8",
+          "size_bytes": 55548,
+          "sha256": "ac12d30a6f744410acb50cb67b7a08a4c25cceb690a41f72cfc957dae71320bc",
+          "saved": true
+        },
+        {
+          "file": "docs/sources/public_release_rights/sirene_api_notice.md",
+          "requested_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/2cab50f0-0033-4763-ab50-f0003387636a/content",
+          "retrieved_at_utc": "2026-10-03T17:47:02.454819+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:02.454819+08:00",
+          "status_code": 200,
+          "final_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/2cab50f0-0033-4763-ab50-f0003387636a/content",
+          "content_type": "text/plain;charset=utf-8",
+          "size_bytes": 5905,
+          "sha256": "7f8426ef7696fcd52acbd0b015b530d1b54c69e26b9057dfd4cd7855851eb90b",
+          "saved": true
+        },
+        {
+          "file": "docs/sources/public_release_rights/sirene_api_establishment_dictionary.md",
+          "requested_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/754efef5-1e50-41d3-8efe-f51e5071d320/content",
+          "retrieved_at_utc": "2026-10-03T17:47:14.218576+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:14.218576+08:00",
+          "status_code": 200,
+          "final_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/754efef5-1e50-41d3-8efe-f51e5071d320/content",
+          "content_type": "text/plain;charset=utf-8",
+          "size_bytes": 57864,
+          "sha256": "fedc1d0b515b7675e3019214e9d0a6fdcaa3b8e94daafe772ea8b2a87f9c4062",
+          "saved": true
+        }
+      ]
+    },
+    {
+      "category": "INSEE Filosofi/census/geographical compositions",
+      "publisher": "INSEE",
+      "license": "Licence Ouverte 2.0 unless source states otherwise",
+      "source_page": "https://www.insee.fr/fr/information/2008466",
+      "license_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+      "official_evidence": [
+        "insee_legal_notice.html",
+        "insee_filosofi2020.html"
+      ],
+      "conditions": [
+        "Source: Insee",
+        "Known update date and data vintage",
+        "Faithful interpretation",
+        "Maintain missing/suppressed MED20; use native geographic median, no weighted commune-median substitution"
+      ],
+      "commercial_reuse": true,
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/insee_legal_notice.html",
+          "requested_url": "https://www.insee.fr/fr/information/2008466",
+          "retrieved_at_utc": "2026-10-03T17:47:02.453761+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:02.453761+08:00",
+          "status_code": 200,
+          "final_url": "https://www.insee.fr/fr/information/2008466",
+          "content_type": "text/html;charset=UTF-8",
+          "size_bytes": 55548,
+          "sha256": "ac12d30a6f744410acb50cb67b7a08a4c25cceb690a41f72cfc957dae71320bc",
+          "saved": true
+        },
+        {
+          "file": "docs/sources/public_release_rights/insee_filosofi2020.html",
+          "requested_url": "https://www.insee.fr/fr/statistiques/6692392?sommaire=6692394",
+          "retrieved_at_utc": "2026-10-03T17:47:19.206653+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:19.206653+08:00",
+          "status_code": 200,
+          "final_url": "https://www.insee.fr/fr/statistiques/6692392?sommaire=6692394",
+          "content_type": "text/html;charset=UTF-8",
+          "size_bytes": 78451,
+          "sha256": "68b0b77836df2f36f57e9de8cd297632263a32939e8a5f433027b17d37bcfc3c",
+          "saved": true
+        }
+      ]
+    },
+    {
+      "category": "ANCT ZRR list used for previous classification",
+      "publisher": "ANCT",
+      "license": "Licence Ouverte / Open Licence; metadata does not explicitly state version",
+      "metadata_license_id": "fr-lo",
+      "source_page": "https://www.data.gouv.fr/datasets/zones-de-revitalisation-rurale-zrr/",
+      "official_evidence": [
+        "anct_zrr_official_metadata.json"
+      ],
+      "conditions": [
+        "ANCT attribution",
+        "Reference exact classification vintage"
+      ],
+      "version_number_explicitly_verified": false,
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/anct_zrr_official_metadata.json",
+          "requested_url": "https://www.data.gouv.fr/api/1/datasets/zones-de-revitalisation-rurale-zrr/",
+          "retrieved_at_utc": "2026-10-03T17:47:20.832332+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:20.832332+08:00",
+          "status_code": 200,
+          "final_url": "https://www.data.gouv.fr/api/1/datasets/zones-de-revitalisation-rurale-zrr/",
+          "content_type": "application/json",
+          "size_bytes": 10989,
+          "sha256": "247e72afbdd1315b2f34e241979de2d9df132584e039332db4a9ee6a30aff368",
+          "saved": true
+        }
+      ]
+    },
+    {
+      "category": "DGCL national FRR list and FAQ on collectivites-locales.gouv.fr",
+      "publisher": "DGCL / national collectivites-locales portal",
+      "license": "Licence Ouverte 2.0; explicit third-party intellectual-property exceptions",
+      "source_page": "https://www.collectivites-locales.gouv.fr/mentions-legales",
+      "license_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+      "official_evidence": [
+        "dgcl_legal_notice.html"
+      ],
+      "conditions": [
+        "DGCL attribution",
+        "Document title and update",
+        "Preserve explicit third-party exceptions"
+      ],
+      "regional_DDT_metadata_used_as_national_license_evidence": false,
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/dgcl_legal_notice.html",
+          "requested_url": "https://www.collectivites-locales.gouv.fr/mentions-legales",
+          "retrieved_at_utc": "2026-10-03T17:47:25.849744+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:25.849744+08:00",
+          "status_code": 200,
+          "final_url": "https://www.collectivites-locales.gouv.fr/mentions-legales",
+          "content_type": "text/html; charset=utf-8",
+          "size_bytes": 38935,
+          "sha256": "06918f2d2df0abf403df5e00daa3c5a2745fc449d65f088c36e2e737d24dc89c",
+          "saved": true
+        }
+      ]
+    },
+    {
+      "category": "Loi Montagne COG2022 list",
+      "publisher": "Ministère de la Cohésion des territoires / DGALN-SIDAUH",
+      "license": "Licence Ouverte 2.0",
+      "metadata_license_id": "lov2",
+      "source_page": "https://www.data.gouv.fr/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022",
+      "official_evidence": [
+        "mountain_official_metadata.json"
+      ],
+      "geography": "COG2022",
+      "resource_publication_date": null,
+      "conditions": [
+        "Publisher and resource-vintage attribution",
+        "Maintain partial-classification caveat"
+      ],
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/mountain_official_metadata.json",
+          "requested_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+          "retrieved_at_utc": "2026-10-03T17:59:06.786190+00:00",
+          "retrieved_at_local": "2026-10-04T01:59:06.786190+08:00",
+          "status_code": 200,
+          "final_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+          "content_type": "application/json",
+          "size_bytes": 20466,
+          "sha256": "a81a6572dc466881f4c35fb5c27a2b746562df2cbb2ac08b7b016248d3af0197",
+          "saved": true
+        }
+      ],
+      "resource_created_at": "2022-03-10T10:59:39.283000+00:00",
+      "resource_last_modified_at": "2022-03-23T15:46:38.079000+00:00",
+      "resource_published_key_present": false,
+      "resource_id": "87bc6d48-f1ed-4924-be55-0142660033de",
+      "date_note": "March 23, 2022 is the official resource update date. No resource published field is supplied; publication date remains unknown."
+    },
+    {
+      "category": "Actual downloaded administrative contours",
+      "publisher": "data.gouv.fr",
+      "license": "ODbL 1.0",
+      "metadata_license_id": "odc-odbl",
+      "source_page": "https://www.data.gouv.fr/datasets/contours-administratifs",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "official_evidence": [
+        "contours_official_metadata.json",
+        "odbl_1_0.html"
+      ],
+      "resource_id": "c1986a3e-cfa1-42a6-b8b6-ddfa3893f7e8",
+      "resource_title": "Communes 2024 5m (format GeoJSON compressé GZ)",
+      "resource_url": "https://object.data.gouv.fr/contours-administratifs/2024/geojson/communes-5m.geojson.gz",
+      "geography_year": 2024,
+      "generalisation_m": 5,
+      "resource_metadata_last_modified": "2025-04-17T16:48:30+00:00",
+      "local_path": "data/raw/communes_2024_5m.geojson.gz",
+      "size_bytes": 89858695,
+      "sha256": "2425dbf02c647480125615ca72d1a16e60abd6de154f21c86eb8a28d79f6ae5b",
+      "subordinate_sources": {
+        "metropolitan": "IGN Admin Express",
+        "COM_general": "OpenStreetMap",
+        "COM_exceptions": [
+          "Official geography of French Polynesia",
+          "Official limits of provinces and communes of New Caledonia"
+        ]
+      },
+      "map_notice_required": true,
+      "derivative_database_share_alike": true,
+      "omit_geometry_parquet_possible": "ODbL section 4.6 alternative: publish complete alterations/method and every added content sufficient for reconstruction; source URL alone is insufficient.",
+      "independent_SIRENE_count_database_automatically_ODbL": false,
+      "evidence_records": [
+        {
+          "file": "docs/sources/public_release_rights/contours_official_metadata.json",
+          "requested_url": "https://www.data.gouv.fr/api/1/datasets/contours-administratifs/",
+          "retrieved_at_utc": "2026-10-03T17:47:19.700331+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:19.700331+08:00",
+          "status_code": 200,
+          "final_url": "https://www.data.gouv.fr/api/1/datasets/contours-administratifs/",
+          "content_type": "application/json",
+          "size_bytes": 487002,
+          "sha256": "79fa4b21bb4df313f8bee7920054f69678944747a79a81d50118ee6b48e5f724",
+          "saved": true
+        },
+        {
+          "file": "docs/sources/public_release_rights/odbl_1_0.html",
+          "requested_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "retrieved_at_utc": "2026-10-03T17:47:26.593067+00:00",
+          "retrieved_at_local": "2026-10-04T01:47:26.593067+08:00",
+          "status_code": 200,
+          "final_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "content_type": "text/html; charset=utf-8",
+          "size_bytes": 51176,
+          "sha256": "b8d8aebb21bf405f93f6e21bbf0d8f0a749844f9812ec58692f189add6402b47",
+          "saved": true
+        }
+      ]
+    }
+  ],
+  "candidate_public_scope": [
+    "Original author PDF",
+    "Original source code with declared software license",
+    "Source URLs, SHA256 and data dictionaries",
+    "Commune administrative treatment/assignment tables",
+    "Commune-month counts in monthly_panel.parquet",
+    "Geometry-derived border/adjacency tables if separately documented under ODbL"
+  ],
+  "excluded_from_intended_public_scope": {
+    "mandatory_project_scope_exclusions": [
+      "Raw SIRENE files",
+      "Individual intermediate data and analysis database",
+      "SIREN/SIRET and personal names, fine addresses or contact details"
+    ],
+    "provisional_minimisation_exclusions": [
+      "data/processed/birth_structure.parquet",
+      "data/processed/administrative_retention_cohorts.parquet"
+    ],
+    "geometry_files_not_in_proposed_bundle": [
+      "commune_geography*.parquet"
+    ],
+    "note": "Provisional exclusion of detailed aggregates is a minimisation choice, not an asserted universal legal prohibition."
+  },
+  "schema_only_candidate_checks": [
+    {
+      "path": "data/processed/monthly_panel.parquet",
+      "columns": [
+        "commune_code",
+        "month",
+        "establishment_births",
+        "legal_unit_births",
+        "individual_births",
+        "employer_births",
+        "known_employer_births",
+        "unknown_naf_births",
+        "births_without_recorded_continuity",
+        "recorded_continuity_births",
+        "commerce",
+        "accommodation_food",
+        "construction",
+        "manufacturing",
+        "professional_services",
+        "health",
+        "proximity_services",
+        "establishment_closures",
+        "registration_minus_closure_balance"
+      ],
+      "n_columns": 19,
+      "sha256": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f",
+      "contains_individual_identifier_columns": false,
+      "inspection": "Parquet schema only; no individual records printed"
+    },
+    {
+      "path": "data/processed/commune_treatment.csv",
+      "columns": [
+        "commune_code",
+        "department",
+        "commune_name",
+        "status_2025",
+        "ZRR_SIMP",
+        "zrr_2021_path",
+        "prior_zrr_effects",
+        "frr_2024",
+        "beneficiary_2025",
+        "partial",
+        "treatment_group",
+        "administrative_change_since2017",
+        "metropolitan",
+        "population_2021",
+        "epci_2023",
+        "epci_2024",
+        "epci_change_2023_2024",
+        "analysis_stable",
+        "assignment_source_status"
+      ],
+      "n_columns": 19,
+      "sha256": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+      "contains_individual_identifier_columns": false,
+      "contains_geometry_derived_area_currently": false,
+      "inspection": "CSV header only"
+    }
+  ],
+  "geometry_reuse_policy": {
+    "map_type": "Produced Work",
+    "map_original_composition_license_option": "CC BY 4.0 with third-party source and ODbL notice",
+    "conservative_derived_database_scope": [
+      "border adjacency",
+      "border pair tables",
+      "geometry-derived area variables"
+    ],
+    "derived_database_license": "ODbL 1.0",
+    "independent_contents": "Original statistics and administrative assignment maintain source rights; geography key alone does not change independent count-file license.",
+    "odbl_sections": [
+      "4.3",
+      "4.4",
+      "4.5",
+      "4.6"
+    ],
+    "rebuild_alternative_required_contents": [
+      "Fixed official source URL/version/hash",
+      "All transformation algorithms and parameters",
+      "All nongeometric added contents used in derived database/maps"
+    ],
+    "notice_fr": "Fond de carte : data.gouv.fr, Contours administratifs, communes 2024, généralisation 5 m (source IGN Admin Express), ODbL 1.0. Traitements et visualisation : auteur du projet."
+  },
+  "HAL_public_documentation_today": {
+    "source_page": "https://doc.hal.science/aspects-juridiques/conditions-de-reutilisation/",
+    "evidence": {
+      "file": "docs/sources/public_release_rights/hal_file_reuse_conditions.html",
+      "requested_url": "https://doc.hal.science/aspects-juridiques/conditions-de-reutilisation/",
+      "retrieved_at_utc": "2026-10-03T17:47:26.261560+00:00",
+      "retrieved_at_local": "2026-10-04T01:47:26.261560+08:00",
+      "status_code": 200,
+      "final_url": "https://doc.hal.science/aspects-juridiques/conditions-de-reutilisation/",
+      "content_type": "text/html",
+      "size_bytes": 73588,
+      "sha256": "64e61899b398bdcc42e2061830943758e7e47c5834a41f065822bfff6b3df9f6",
+      "saved": true
+    },
+    "effective_policy": "From February 2026 files require reuse conditions",
+    "current_options": [
+      "Six Creative Commons licenses",
+      "Licence Ouverte / Open Licence Etalab",
+      "Copyright"
+    ],
+    "CC_BY_recommended_by_CCSD": true,
+    "CC_BY_general_mandate_inferred": false,
+    "original_PDF_option": "CC BY 4.0, subject to original rights and preserved third-party notices",
+    "software_license_is_separate": true,
+    "form_opened": false,
+    "account_or_authorisation_steps": false
+  },
+  "privacy_limits": {
+    "no_absolute_anonymity_claim": true,
+    "no_exhaustive_reidentification_test": true,
+    "source": "https://www.cnil.fr/fr/technologies/lanonymisation-de-donnees-personnelles",
+    "official_criteria": [
+      "individualisation",
+      "correlation",
+      "inference"
+    ],
+    "small_aggregate_cells_may_allow_external_inference": true,
+    "minimum_cell_threshold_invented": false,
+    "masked_personal_variables_reconstructed": false,
+    "micro_identifiers_printed": false
+  },
+  "unverified_or_limited": [
+    {
+      "source": "IGN current Admin Express product page",
+      "evidence": {
+        "file": "docs/sources/public_release_rights/ign_admin_express.html",
+        "requested_url": "https://geoservices.ign.fr/adminexpress",
+        "retrieved_at_utc": "2026-10-03T17:47:37.848692+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:37.848692+08:00",
+        "status_code": 200,
+        "final_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS?redirected_from=geoservices.ign.fr",
+        "content_type": "text/html",
+        "size_bytes": 114873,
+        "sha256": "20a43565e176f1f9be3b4553808ee50f68317e0f6ffe6cf0056a0d5d0c82e6a3",
+        "saved": true
+      },
+      "limit": "SPA response did not expose readable license; not used to overwrite actual Contours administratifs ODbL metadata."
+    },
+    {
+      "source": "Legifrance API-specific CGU PDF",
+      "requested_url": "https://www.legifrance.gouv.fr/contenu/Media/files/pied-de-page/cgu-legifrance-api-vf-15-12-2022_0.pdf",
+      "status_code": 403,
+      "limit": "Unread terms are not extrapolated to website text copies. No blanket rights claim for raw legal/bibliographic archives outside proposed package."
+    },
+    {
+      "source": "Final public bundle",
+      "limit": "Root must select final necessary aggregates and verify the actual manifest, notices and complete ODbL reconstruction contents; this review does not create a new approval flow."
+    }
+  ],
+  "source_index_correction": {
+    "date_local": "2026-10-04",
+    "rows": 57,
+    "only_authorized_geometry_license_fields_changed": true,
+    "changed": [
+      {
+        "path": "data/raw/communes_2024_5m.geojson.gz",
+        "field": "license",
+        "before": "Source-specific official terms; attribution required",
+        "after": "ODbL1.0; attribution; derived geographic databases share alike"
+      },
+      {
+        "path": "data/raw/communes_2024_5m.geojson.gz",
+        "field": "license_url",
+        "before": "",
+        "after": "https://opendatacommons.org/licenses/odbl/1-0/"
+      }
+    ],
+    "data_sources_sha256": "a7168d33442f3b746f4a6de3a082b56a1e4a5f1ea4172b7af045aab5d62948b2"
+  },
+  "official_evidence_access_log": {
+    "path": "docs/sources/public_release_rights/official_access_log.json",
+    "sha256": "c0aa98ed1e0eb6b728ddb86d00b337e2077071c8452d6e86579d279be4539b20",
+    "successful_saved_sources": 15,
+    "unsaved_failed_accesses": 1,
+    "all_saved_hashes_verified": true,
+    "records": [
+      {
+        "file": "docs/sources/public_release_rights/insee_legal_notice.html",
+        "requested_url": "https://www.insee.fr/fr/information/2008466",
+        "retrieved_at_utc": "2026-10-03T17:47:02.453761+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:02.453761+08:00",
+        "status_code": 200,
+        "final_url": "https://www.insee.fr/fr/information/2008466",
+        "content_type": "text/html;charset=UTF-8",
+        "size_bytes": 55548,
+        "sha256": "ac12d30a6f744410acb50cb67b7a08a4c25cceb690a41f72cfc957dae71320bc",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/sirene_official_metadata.json",
+        "requested_url": "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+        "retrieved_at_utc": "2026-10-03T17:47:02.453761+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:02.453761+08:00",
+        "status_code": 200,
+        "final_url": "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+        "content_type": "application/json",
+        "size_bytes": 60769,
+        "sha256": "da322932d8b68a898413ad6419257299dce0ae8c2e5a7ca0b652b94847bcd48c",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/sirene_api_notice.md",
+        "requested_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/2cab50f0-0033-4763-ab50-f0003387636a/content",
+        "retrieved_at_utc": "2026-10-03T17:47:02.454819+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:02.454819+08:00",
+        "status_code": 200,
+        "final_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/2cab50f0-0033-4763-ab50-f0003387636a/content",
+        "content_type": "text/plain;charset=utf-8",
+        "size_bytes": 5905,
+        "sha256": "7f8426ef7696fcd52acbd0b015b530d1b54c69e26b9057dfd4cd7855851eb90b",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/sirene_api_establishment_dictionary.md",
+        "requested_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/754efef5-1e50-41d3-8efe-f51e5071d320/content",
+        "retrieved_at_utc": "2026-10-03T17:47:14.218576+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:14.218576+08:00",
+        "status_code": 200,
+        "final_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/2ba0e549-5587-3ef1-9082-99cd865de66f/pages/754efef5-1e50-41d3-8efe-f51e5071d320/content",
+        "content_type": "text/plain;charset=utf-8",
+        "size_bytes": 57864,
+        "sha256": "fedc1d0b515b7675e3019214e9d0a6fdcaa3b8e94daafe772ea8b2a87f9c4062",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/insee_sirene_faq.html",
+        "requested_url": "https://www.insee.fr/fr/information/6790269?question=qu-est-ce-que-le-statut-de-diffusion-d-une-entreprise",
+        "retrieved_at_utc": "2026-10-03T17:47:14.272868+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:14.272868+08:00",
+        "status_code": 200,
+        "final_url": "https://www.insee.fr/fr/information/6790269?question=qu-est-ce-que-le-statut-de-diffusion-d-une-entreprise",
+        "content_type": "text/html;charset=UTF-8",
+        "size_bytes": 48249,
+        "sha256": "2ee4d0a8d87a4743db17a6c1189f176ba9c9915745a20c98ad47faddb8fba57f",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/insee_filosofi2020.html",
+        "requested_url": "https://www.insee.fr/fr/statistiques/6692392?sommaire=6692394",
+        "retrieved_at_utc": "2026-10-03T17:47:19.206653+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:19.206653+08:00",
+        "status_code": 200,
+        "final_url": "https://www.insee.fr/fr/statistiques/6692392?sommaire=6692394",
+        "content_type": "text/html;charset=UTF-8",
+        "size_bytes": 78451,
+        "sha256": "68b0b77836df2f36f57e9de8cd297632263a32939e8a5f433027b17d37bcfc3c",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/contours_official_metadata.json",
+        "requested_url": "https://www.data.gouv.fr/api/1/datasets/contours-administratifs/",
+        "retrieved_at_utc": "2026-10-03T17:47:19.700331+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:19.700331+08:00",
+        "status_code": 200,
+        "final_url": "https://www.data.gouv.fr/api/1/datasets/contours-administratifs/",
+        "content_type": "application/json",
+        "size_bytes": 487002,
+        "sha256": "79fa4b21bb4df313f8bee7920054f69678944747a79a81d50118ee6b48e5f724",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/anct_zrr_official_metadata.json",
+        "requested_url": "https://www.data.gouv.fr/api/1/datasets/zones-de-revitalisation-rurale-zrr/",
+        "retrieved_at_utc": "2026-10-03T17:47:20.832332+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:20.832332+08:00",
+        "status_code": 200,
+        "final_url": "https://www.data.gouv.fr/api/1/datasets/zones-de-revitalisation-rurale-zrr/",
+        "content_type": "application/json",
+        "size_bytes": 10989,
+        "sha256": "247e72afbdd1315b2f34e241979de2d9df132584e039332db4a9ee6a30aff368",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/dgcl_legal_notice.html",
+        "requested_url": "https://www.collectivites-locales.gouv.fr/mentions-legales",
+        "retrieved_at_utc": "2026-10-03T17:47:25.849744+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:25.849744+08:00",
+        "status_code": 200,
+        "final_url": "https://www.collectivites-locales.gouv.fr/mentions-legales",
+        "content_type": "text/html; charset=utf-8",
+        "size_bytes": 38935,
+        "sha256": "06918f2d2df0abf403df5e00daa3c5a2745fc449d65f088c36e2e737d24dc89c",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/hal_file_reuse_conditions.html",
+        "requested_url": "https://doc.hal.science/aspects-juridiques/conditions-de-reutilisation/",
+        "retrieved_at_utc": "2026-10-03T17:47:26.261560+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:26.261560+08:00",
+        "status_code": 200,
+        "final_url": "https://doc.hal.science/aspects-juridiques/conditions-de-reutilisation/",
+        "content_type": "text/html",
+        "size_bytes": 73588,
+        "sha256": "64e61899b398bdcc42e2061830943758e7e47c5834a41f065822bfff6b3df9f6",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/odbl_1_0.html",
+        "requested_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "retrieved_at_utc": "2026-10-03T17:47:26.593067+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:26.593067+08:00",
+        "status_code": 200,
+        "final_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+        "content_type": "text/html; charset=utf-8",
+        "size_bytes": 51176,
+        "sha256": "b8d8aebb21bf405f93f6e21bbf0d8f0a749844f9812ec58692f189add6402b47",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/open_licence_2.html",
+        "requested_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+        "retrieved_at_utc": "2026-10-03T17:47:37.487155+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:37.487155+08:00",
+        "status_code": 200,
+        "final_url": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+        "content_type": "text/html;charset=utf-8",
+        "size_bytes": 87297,
+        "sha256": "b085021f01ec565b37bf8507a32f4e15424ef78e4f7f6e0abc9ed1bc4056aa90",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/ign_admin_express.html",
+        "requested_url": "https://geoservices.ign.fr/adminexpress",
+        "retrieved_at_utc": "2026-10-03T17:47:37.848692+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:37.848692+08:00",
+        "status_code": 200,
+        "final_url": "https://cartes.gouv.fr/rechercher-une-donnee/dataset/IGNF_ADMIN-EXPRESS?redirected_from=geoservices.ign.fr",
+        "content_type": "text/html",
+        "size_bytes": 114873,
+        "sha256": "20a43565e176f1f9be3b4553808ee50f68317e0f6ffe6cf0056a0d5d0c82e6a3",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/cnil_anonymisation.html",
+        "requested_url": "https://www.cnil.fr/fr/lanonymisation-de-donnees-personnelles",
+        "retrieved_at_utc": "2026-10-03T17:47:38.521482+00:00",
+        "retrieved_at_local": "2026-10-04T01:47:38.521482+08:00",
+        "status_code": 200,
+        "final_url": "https://www.cnil.fr/fr/technologies/lanonymisation-de-donnees-personnelles",
+        "content_type": "text/html; charset=UTF-8",
+        "size_bytes": 108429,
+        "sha256": "ec20114c94f74a29bbe5be7a8f828b043e3a2490f2273c02b3abc0d93d9ddb2c",
+        "saved": true
+      },
+      {
+        "file": "docs/sources/public_release_rights/mountain_official_metadata.json",
+        "requested_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+        "retrieved_at_utc": "2026-10-03T17:59:06.786190+00:00",
+        "retrieved_at_local": "2026-10-04T01:59:06.786190+08:00",
+        "status_code": 200,
+        "final_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+        "content_type": "application/json",
+        "size_bytes": 20466,
+        "sha256": "a81a6572dc466881f4c35fb5c27a2b746562df2cbb2ac08b7b016248d3af0197",
+        "saved": true
+      },
+      {
+        "file": null,
+        "requested_url": "https://www.legifrance.gouv.fr/contenu/Media/files/pied-de-page/cgu-legifrance-api-vf-15-12-2022_0.pdf",
+        "attempted_local_date": "2026-10-04",
+        "retrieved_at_utc": null,
+        "status_code": 403,
+        "saved": false,
+        "note": "Exact request time was not persisted; no access time fabricated. API-specific terms were not read and are not applied to website copies."
+      }
+    ]
+  },
+  "outputs": {
+    "markdown": "docs/public_release_rights.md",
+    "markdown_sha256": "2660749a838896fc3699b788d8953ebd45271fa9344bcc5737150a918cfa9830",
+    "json": "reports/review_C_public_release_rights.json"
+  },
+  "unchanged_by_this_review": [
+    "paper/main_fr.tex",
+    "paper/appendix_fr.tex",
+    "Empirical results",
+    "Scientific analysis status",
+    "User identity and contact fields"
+  ],
+  "actions_not_performed": [
+    "Public upload",
+    "Email or messaging of external parties",
+    "Login/account/form authorisation",
+    "Raw individual data redistribution"
+  ],
+  "mountain_resource_date_correction": {
+    "reviewed_local_date": "2026-10-04",
+    "resource_id": "87bc6d48-f1ed-4924-be55-0142660033de",
+    "resource_created_at": "2022-03-10T10:59:39.283000+00:00",
+    "resource_last_modified_at": "2022-03-23T15:46:38.079000+00:00",
+    "resource_published_key_present": false,
+    "resource_published_value": null,
+    "publication_date_correction": "2022-03-23 -> null/blank; 2022-03-23 is resource update date, not verified publication date",
+    "evidence_path": "docs/sources/public_release_rights/mountain_official_metadata.json",
+    "evidence_sha256": "a81a6572dc466881f4c35fb5c27a2b746562df2cbb2ac08b7b016248d3af0197",
+    "raw_workbook_sha256_unchanged": "21b0ae60fc6e0bbf8547fff70d29219b69e1825f1626fd93bd5fdae20bceb44f"
+  }
+}

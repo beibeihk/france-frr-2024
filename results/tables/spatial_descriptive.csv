@@ -1,0 +1,4 @@
+group,pre_mean_monthly_entries_per_pair,post_mean_monthly_entries_per_pair,change,sum_pre_per_month,sum_post_per_month,interpretation
+treated_entries,1.502799310938846,1.7183462532299743,0.21554694229112836,1163.1666666666667,1330.0,within-group descriptive change; no counterfactual for net creation
+neighbour_control_entries,1.8159991386735574,2.002153316106804,0.18615417743324716,1405.5833333333335,1549.6666666666665,within-group descriptive change; no counterfactual for net creation
+pair_total_entries,3.318798449612403,3.7204995693367784,0.40170111972437555,2568.75,2879.6666666666665,within-group descriptive change; no counterfactual for net creation

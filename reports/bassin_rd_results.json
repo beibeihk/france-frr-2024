@@ -1,0 +1,327 @@
+{
+  "execution_freeze": {
+    "frozen_before_new_outcome_read": false,
+    "at_utc": "2026-10-03T18:03:21.238725+00:00",
+    "protocol": "V, sections10–11; unique post-level primary; all specified pre periods and radii",
+    "software": {
+      "rdrobust": "2.1.0",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "scipy": "1.10.1",
+      "statsmodels": "0.14.5",
+      "matplotlib": "3.9.4"
+    },
+    "rdrobust_source": "https://github.com/rdpackages/rdrobust",
+    "rdrobust_source_file_sha256": "3b4411e1df7c97dbcd48bd1c3c838f61bd408fa9fdcd4d4b97257680a874951d",
+    "source_sha256": {
+      "docs/assignment_rd_protocol.md": "388bcf9f6fc8e98682fdbe350f35819acbb458ae9628a477f1ee1d1a999fc038",
+      "src/analysis/bassin_rd.py": "187467852fe9acc6740a2616d3a6059cda3c36768657b2003031f1b69c466a6d",
+      "data/processed/assignment2024_commune_paths.csv": "ecfd53d4eb0f4976fae025480e98c8e1c2f3fc8d67b4e84475fa1bb6743b8bad",
+      "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+      "data/processed/monthly_panel.parquet": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f"
+    },
+    "primary_command": "rdrobust(y,21600-income,c=0,p=1,q=2,h=1000,b=1000,kernel=triangular,masspoints=adjust,vce=hc3)",
+    "joint_cluster_variance": "full two-side q2 WLS CR1/t(G−1), not separate-side software variance; no cross-side covariance omitted",
+    "support_is_not_causal_clearance": true,
+    "rerun_after_prior_execution_attempt": true
+  },
+  "outcomes_now_read": true,
+  "primary": {
+    "period": "primary_2024H2",
+    "bandwidth": 1000,
+    "conventional": 0.25456496821870545,
+    "bias_corrected": 0.4440463806077477,
+    "se_rbc_hc3": 0.23867436852624388,
+    "ci_low_hc3": -0.023746785736530496,
+    "ci_high_hc3": 0.911839546952026,
+    "p_hc3": 0.0628191311907854,
+    "high_income_units": 79,
+    "eligible_low_income_units": 119,
+    "warnings": "Mass points detected in the running variable.",
+    "joint_se": 0.1544165633737725,
+    "joint_ci_low": 0.1295101338891947,
+    "joint_ci_high": 0.7585826273263088,
+    "joint_p": 0.007115824091970303,
+    "full_joint_se": 0.0852460640925428,
+    "full_joint_ci_low": 0.25120638612532836,
+    "full_joint_ci_high": 0.636886375090175,
+    "full_joint_p": 0.0005573202734388426,
+    "full_joint_groups": 10,
+    "joint_groups": 33,
+    "max_leverage": 0.1623157990151068,
+    "eligible_distinct_scores": 67,
+    "high_income_distinct_scores": 56
+  },
+  "pre_months": 53,
+  "pre_joint_diagnostics": {
+    "independent_HC3": {
+      "restrictions": 53,
+      "covariance_rank": 53,
+      "wald": 131.38964658244072,
+      "p_chi2_rank_reference": 1.3401085827068866e-08,
+      "full_restrictions_test_available": true,
+      "warning": "Pseudoinverse statistic tests estimable projection if rank deficient; not a full53 restriction test. Cluster reference approximate and not clearance."
+    },
+    "joint_CR1": {
+      "restrictions": 53,
+      "covariance_rank": 32,
+      "wald": 252269.64270510364,
+      "p_chi2_rank_reference": 0.0,
+      "full_restrictions_test_available": false,
+      "warning": "Pseudoinverse statistic tests estimable projection if rank deficient; not a full53 restriction test. Cluster reference approximate and not clearance."
+    },
+    "full_joint_CR1": {
+      "restrictions": 53,
+      "covariance_rank": 9,
+      "wald": 2420.3619957195597,
+      "p_chi2_rank_reference": 0.0,
+      "full_restrictions_test_available": false,
+      "warning": "Pseudoinverse statistic tests estimable projection if rank deficient; not a full53 restriction test. Cluster reference approximate and not clearance."
+    }
+  },
+  "causal_clearance": false,
+  "gate": "CLOSED_V_CAUSAL_ROUTE: historical discontinuities, selection composition jumps, concentrated dependencies",
+  "q2_RBC_identity_verified": true,
+  "component_limits": [
+    {
+      "bandwidth": 500,
+      "scope": "selected",
+      "kind": "epci",
+      "groups": 74,
+      "max_group_units": 8,
+      "max_group_share": 0.07920792079207921,
+      "size_concentration_equivalent_groups": 51.78172588832487,
+      "cross_cutoff_groups": 10
+    },
+    {
+      "bandwidth": 500,
+      "scope": "selected",
+      "kind": "department",
+      "groups": 36,
+      "max_group_units": 10,
+      "max_group_share": 0.09900990099009901,
+      "size_concentration_equivalent_groups": 23.55889145496536,
+      "cross_cutoff_groups": 15
+    },
+    {
+      "bandwidth": 500,
+      "scope": "selected",
+      "kind": "joint",
+      "groups": 36,
+      "max_group_units": 10,
+      "max_group_share": 0.09900990099009901,
+      "size_concentration_equivalent_groups": 23.55889145496536,
+      "cross_cutoff_groups": 15
+    },
+    {
+      "bandwidth": 500,
+      "scope": "full",
+      "kind": "epci",
+      "groups": 45,
+      "max_group_units": 12,
+      "max_group_share": 0.1188118811881188,
+      "size_concentration_equivalent_groups": 26.223650385604113,
+      "cross_cutoff_groups": 15
+    },
+    {
+      "bandwidth": 500,
+      "scope": "full",
+      "kind": "department",
+      "groups": 15,
+      "max_group_units": 44,
+      "max_group_share": 0.43564356435643564,
+      "size_concentration_equivalent_groups": 4.2275176129299625,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 500,
+      "scope": "full",
+      "kind": "joint",
+      "groups": 15,
+      "max_group_units": 44,
+      "max_group_share": 0.43564356435643564,
+      "size_concentration_equivalent_groups": 4.2275176129299625,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 750,
+      "scope": "selected",
+      "kind": "epci",
+      "groups": 93,
+      "max_group_units": 9,
+      "max_group_share": 0.056962025316455694,
+      "size_concentration_equivalent_groups": 58.60093896713615,
+      "cross_cutoff_groups": 17
+    },
+    {
+      "bandwidth": 750,
+      "scope": "selected",
+      "kind": "department",
+      "groups": 37,
+      "max_group_units": 19,
+      "max_group_share": 0.12025316455696203,
+      "size_concentration_equivalent_groups": 20.803333333333335,
+      "cross_cutoff_groups": 19
+    },
+    {
+      "bandwidth": 750,
+      "scope": "selected",
+      "kind": "joint",
+      "groups": 37,
+      "max_group_units": 19,
+      "max_group_share": 0.12025316455696203,
+      "size_concentration_equivalent_groups": 20.803333333333335,
+      "cross_cutoff_groups": 19
+    },
+    {
+      "bandwidth": 750,
+      "scope": "full",
+      "kind": "epci",
+      "groups": 51,
+      "max_group_units": 20,
+      "max_group_share": 0.12658227848101267,
+      "size_concentration_equivalent_groups": 19.687697160883282,
+      "cross_cutoff_groups": 16
+    },
+    {
+      "bandwidth": 750,
+      "scope": "full",
+      "kind": "department",
+      "groups": 11,
+      "max_group_units": 94,
+      "max_group_share": 0.5949367088607594,
+      "size_concentration_equivalent_groups": 2.5359609914668835,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 750,
+      "scope": "full",
+      "kind": "joint",
+      "groups": 11,
+      "max_group_units": 94,
+      "max_group_share": 0.5949367088607594,
+      "size_concentration_equivalent_groups": 2.5359609914668835,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "selected",
+      "kind": "epci",
+      "groups": 110,
+      "max_group_units": 11,
+      "max_group_share": 0.05555555555555555,
+      "size_concentration_equivalent_groups": 66.90102389078498,
+      "cross_cutoff_groups": 19
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "selected",
+      "kind": "department",
+      "groups": 33,
+      "max_group_units": 35,
+      "max_group_share": 0.17676767676767677,
+      "size_concentration_equivalent_groups": 12.367192429022081,
+      "cross_cutoff_groups": 17
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "selected",
+      "kind": "joint",
+      "groups": 33,
+      "max_group_units": 35,
+      "max_group_share": 0.17676767676767677,
+      "size_concentration_equivalent_groups": 12.367192429022081,
+      "cross_cutoff_groups": 17
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "full",
+      "kind": "epci",
+      "groups": 56,
+      "max_group_units": 24,
+      "max_group_share": 0.12121212121212122,
+      "size_concentration_equivalent_groups": 18.81190019193858,
+      "cross_cutoff_groups": 17
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "full",
+      "kind": "department",
+      "groups": 10,
+      "max_group_units": 157,
+      "max_group_share": 0.7929292929292929,
+      "size_concentration_equivalent_groups": 1.571554557844945,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 1000,
+      "scope": "full",
+      "kind": "joint",
+      "groups": 10,
+      "max_group_units": 157,
+      "max_group_share": 0.7929292929292929,
+      "size_concentration_equivalent_groups": 1.571554557844945,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "selected",
+      "kind": "epci",
+      "groups": 130,
+      "max_group_units": 12,
+      "max_group_share": 0.04460966542750929,
+      "size_concentration_equivalent_groups": 74.5221421215242,
+      "cross_cutoff_groups": 22
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "selected",
+      "kind": "department",
+      "groups": 36,
+      "max_group_units": 80,
+      "max_group_share": 0.29739776951672864,
+      "size_concentration_equivalent_groups": 8.193975767183785,
+      "cross_cutoff_groups": 19
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "selected",
+      "kind": "joint",
+      "groups": 36,
+      "max_group_units": 80,
+      "max_group_share": 0.29739776951672864,
+      "size_concentration_equivalent_groups": 8.193975767183785,
+      "cross_cutoff_groups": 19
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "full",
+      "kind": "epci",
+      "groups": 56,
+      "max_group_units": 33,
+      "max_group_share": 0.12267657992565056,
+      "size_concentration_equivalent_groups": 16.119625751837827,
+      "cross_cutoff_groups": 17
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "full",
+      "kind": "department",
+      "groups": 10,
+      "max_group_units": 200,
+      "max_group_share": 0.7434944237918215,
+      "size_concentration_equivalent_groups": 1.7672731713273904,
+      "cross_cutoff_groups": 6
+    },
+    {
+      "bandwidth": 1500,
+      "scope": "full",
+      "kind": "joint",
+      "groups": 10,
+      "max_group_units": 200,
+      "max_group_share": 0.7434944237918215,
+      "size_concentration_equivalent_groups": 1.7672731713273904,
+      "cross_cutoff_groups": 6
+    }
+  ]
+}

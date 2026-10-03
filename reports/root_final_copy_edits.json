@@ -1,0 +1,9 @@
+{
+  "changes_after_AI_language_review": [
+    "Mountain resource date is update, not publication; independently verified by A final review",
+    "Explicit original-PDF CC BY4.0, MIT-code and third-party ODbL notices/links added from source-rights audit"
+  ],
+  "econometric_parameters_or_values_changed": false,
+  "sha256_before_rights_notice": "94a6846e9902ce8b32aa7c2ccf281fea618a225d104b161d37ea567a88b272cc",
+  "sha256_after": "4f611f97c0f7cf621604adedfa6b823101d56929e7be55129481fcd5b8945260"
+}

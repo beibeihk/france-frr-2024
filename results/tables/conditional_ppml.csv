@@ -1,0 +1,2 @@
+specification,coefficient,se,p_value,ci_low,ci_high,rate_ratio,pairs_informative,pairs_excluded_zero_or_separated,clusters,iterations
+"conditional Poisson: commune FE + pair-by-year-month FE, first 6 months versus same-season baseline",0.05427872585266123,0.021682735139623186,0.013592920764965535,0.011365901980106716,0.09719154972521575,1.0557788340038932,757,17,126,5

@@ -1,0 +1,130 @@
+[
+  {
+    "file": "frr_2024.xlsx",
+    "url": "https://www.collectivites-locales.gouv.fr/files/Coh%C3%A9sion%20territoriale/2.%20dispositifs/France%20ruralit%C3%A9s/Liste%20classement%20FRR.xlsx",
+    "status_code": 404,
+    "size_bytes": 34722,
+    "sha256": "",
+    "downloaded_at_utc": "2026-10-03T13:48:48.480556+00:00"
+  },
+  {
+    "file": "frr_2025.xlsx",
+    "url": "https://www.collectivites-locales.gouv.fr/files/files/3.%20Animer%20les%20territoires/5.%20La%20coh%C3%A9sion%20territoriale%20et%20l'am%C3%A9nagement%20du%20territoire/Liste%20communes%20FRR_juillet2025.xlsx",
+    "status_code": 200,
+    "size_bytes": 1200412,
+    "sha256": "c05b0c96f15e14686d5dc82154a2f8c20355a54b58b96ecc537d1db38a4622a1",
+    "downloaded_at_utc": "2026-10-03T13:48:45.062117+00:00"
+  },
+  {
+    "file": "faq_2024.pdf",
+    "url": "https://www.collectivites-locales.gouv.fr/files/Coh%C3%A9sion%20territoriale/1.%20politiques%20pub/FAQ%20FRR%20derni%C3%A8re%20maj130924%20.pdf",
+    "status_code": 404,
+    "size_bytes": 34722,
+    "sha256": "",
+    "downloaded_at_utc": "2026-10-03T13:48:48.556897+00:00"
+  },
+  {
+    "file": "faq_2025.pdf",
+    "url": "https://www.collectivites-locales.gouv.fr/files/files/3.%20Animer%20les%20territoires/5.%20La%20coh%C3%A9sion%20territoriale%20et%20l'am%C3%A9nagement%20du%20territoire/FAQ%20FRR_MAJ%20juillet2025.pdf",
+    "status_code": 200,
+    "size_bytes": 474659,
+    "sha256": "7bdf15794ac92303e06a04dcd04e8d81b09cf37b19ac84b19d48067ddbd191c9",
+    "downloaded_at_utc": "2026-10-03T13:48:45.062117+00:00"
+  },
+  {
+    "file": "zrr_2021.xls",
+    "url": "https://static.data.gouv.fr/resources/zones-de-revitalisation-rurale-zrr/20210907-124104/diffusion-zonages-zrr-cog2021.xls",
+    "status_code": 200,
+    "size_bytes": 6437376,
+    "sha256": "3e3da78ccc8f9cf6d5befaaf19e83964e76a8d35d15766b424268a4513d166be",
+    "downloaded_at_utc": "2026-10-03T13:48:45.079110+00:00"
+  },
+  {
+    "file": "zrr_2024_legal.html",
+    "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034298773/2024-06-30/",
+    "status_code": 403,
+    "size_bytes": 5597,
+    "sha256": "",
+    "downloaded_at_utc": "2026-10-03T13:48:47.833805+00:00"
+  },
+  {
+    "file": "frr_original_legal.html",
+    "url": "https://www.legifrance.gouv.fr/eli/arrete/2024/6/19/TREB2414964A/jo/texte",
+    "status_code": 403,
+    "size_bytes": 5603,
+    "sha256": "",
+    "downloaded_at_utc": "2026-10-03T13:48:47.944319+00:00"
+  },
+  {
+    "file": "frr_extension_2025.html",
+    "url": "https://www.legifrance.gouv.fr/eli/arrete/2025/4/14/ATDB2508688A/jo/texte",
+    "status_code": 403,
+    "size_bytes": 5603,
+    "sha256": "",
+    "downloaded_at_utc": "2026-10-03T13:48:50.655952+00:00"
+  },
+  {
+    "file": "service_public_frr.html",
+    "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31139",
+    "status_code": 200,
+    "size_bytes": 242468,
+    "sha256": "a08c4f49f740428b350cec00cc820d2f535c76c47a4c7956cbbc1cc469914d67",
+    "downloaded_at_utc": "2026-10-03T13:48:47.946549+00:00"
+  },
+  {
+    "file": "frr_2026_bofip.html",
+    "url": "https://bofip.impots.gouv.fr/bofip/14772-PGP.html/identifiant=BOI-BIC-CHAMP-80-10-75-20-20260729",
+    "status_code": 200,
+    "size_bytes": 88248,
+    "sha256": "f64220038826e4c3767443302c1584cc5d9d1ffc1ed7d4b3f01a704ef5add05f",
+    "downloaded_at_utc": "2026-10-03T13:48:48.101623+00:00"
+  },
+  {
+    "file": "communes_cog2026.csv",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_commune_2026.csv",
+    "status_code": 200,
+    "size_bytes": 3565935,
+    "sha256": "7be1153de3a63df48fa0ca77f8490c8a0c5c9c4eb12f5cec1ca7f70b0237b1d3",
+    "downloaded_at_utc": "2026-10-03T13:48:48.167693+00:00"
+  },
+  {
+    "file": "movements_cog2026.csv",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_mvt_commune_2026.csv",
+    "status_code": 200,
+    "size_bytes": 2076555,
+    "sha256": "8b339fad8232e97233af3fd9468715af845e2cf8b14cb67b24d9a301ef8645f1",
+    "downloaded_at_utc": "2026-10-03T13:48:48.188692+00:00"
+  },
+  {
+    "file": "communes_history_cog2026.csv",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/8740222/v_commune_depuis_1943.csv",
+    "status_code": 200,
+    "size_bytes": 3440210,
+    "sha256": "08c532ed8dade0a048aa4e1d72b8a25852a3aa05ce79c7911276031235d6eeee",
+    "downloaded_at_utc": "2026-10-03T13:48:48.215550+00:00"
+  },
+  {
+    "file": "communes_2024_5m.geojson.gz",
+    "url": "https://object.data.gouv.fr/contours-administratifs/2024/geojson/communes-5m.geojson.gz",
+    "status_code": 200,
+    "size_bytes": 89858695,
+    "sha256": "2425dbf02c647480125615ca72d1a16e60abd6de154f21c86eb8a28d79f6ae5b",
+    "downloaded_at_utc": "2026-10-03T13:48:57.465915+00:00"
+  },
+  {
+    "file": "epci_2024.zip",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/2510634/epci_au_01-01-2024.zip",
+    "status_code": 200,
+    "size_bytes": 1324286,
+    "sha256": "b6c9dee214175983f45dcb89a16d069e5fa7a0fd3897a4a8da56d67aab90dafb",
+    "downloaded_at_utc": "2026-10-03T13:48:56.929500+00:00"
+  },
+  {
+    "file": "epci_2023.zip",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/2510634/Intercommunalite_Metropole_au_01-01-2023.zip",
+    "status_code": 200,
+    "size_bytes": 1140307,
+    "sha256": "65e228464d18b45249f642690848b687a1bbc2b5399e18475b938275b475d868",
+    "downloaded_at_utc": "2026-10-03T13:49:00.606257+00:00"
+  }
+]

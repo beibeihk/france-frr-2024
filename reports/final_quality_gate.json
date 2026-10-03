@@ -1,0 +1,43 @@
+{
+  "status": "PASS_INTERNAL_NONCAUSAL_WORKING_PAPER_CHECKS",
+  "local_date": "2026-10-04",
+  "reviewer_type": "AI internal reviews and root technical checks; not human peer review",
+  "research_scope": "Eligibility reconstruction, administrative measurement and identification diagnostics",
+  "causal_identification": "CLOSED_ALL_CURRENT_CAUSAL_ROUTES",
+  "python_scripts_parsed": 45,
+  "source_rows": 57,
+  "claims_verified": 110,
+  "references_verified_and_cited": 14,
+  "raw_assignment_field_checks": 1044480,
+  "raw_commune_month_cells": 20,
+  "RBC_identity_checks": 110,
+  "pdf_pages": {
+    "main_fr": 23,
+    "appendix_fr": 7
+  },
+  "current_source_and_pdf_sha256": {
+    "paper\\main_fr.tex": "4f611f97c0f7cf621604adedfa6b823101d56929e7be55129481fcd5b8945260",
+    "paper\\appendix_fr.tex": "b10a2263fda8ba506605603fa890879587b61e87efcdec318b07ae95ba223cb5",
+    "paper\\main_fr.pdf": "990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b",
+    "paper\\appendix_fr.pdf": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4"
+  },
+  "independent_review_reports": {
+    "A": "review_A_final_scope.json",
+    "B": "review_B_final_scope.json",
+    "C": [
+      "review_C_observation_checks.json",
+      "review_C_assignment_paths.json",
+      "review_C_public_release_rights.json"
+    ],
+    "D": "review_D_final_scope.json"
+  },
+  "remaining_research_blockers": [],
+  "HAL_status": "NOT_SUBMITTED",
+  "GitHub_public_release": "NOT_DONE",
+  "limits": [
+    "No validated causal policy effect, national net creation, employment effect or economic survival claim.",
+    "Actual tax-benefit uptake, local exemption decisions and individual administrative proposals unobserved.",
+    "No claim of personal author verification, native human edit, external peer review or absolute anonymisation."
+  ],
+  "public_package": "Not certified by this checker; actual whitelist inventory is a subsequent material check."
+}

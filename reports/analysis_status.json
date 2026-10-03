@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INTERNAL_NONCAUSAL_WORKING_PAPER_CHECKS",
+  "research_scope": "National legal eligibility reconstruction, administrative measurement and identification diagnostics; no causal policy effect claim",
+  "short_pretrend_p": 0.48862114896317765,
+  "full_pretrend_p": 8.141439091068149e-05,
+  "causal_clearance": false,
+  "primary_period": "2024-07 through 2024-12",
+  "assignment_reconstruction": "Observed mandatory A/C and possible B/D union exactly matches initial mainland list; individual administrative reasons unobserved",
+  "causal_routes": "A/B/D/E lack adequate support; V fails continuity/selection and dependence diagnostics",
+  "HAL_status": "NOT_SUBMITTED",
+  "reason": "Noncausal scope retains all failed diagnostics; independent final reviews and technical checks are recorded separately."
+}

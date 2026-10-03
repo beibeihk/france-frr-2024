@@ -1,0 +1,2 @@
+coefficient,se,ci_low,ci_high,p_value,clusters,minimum_detectable_80pct,clustering,largest_component_pairs,pair_size_effective_components
+0.14603038789499379,0.048691215748527306,0.04718196476776057,0.244878811022227,0.004960288273669155,36,0.13982798418967368,EPCI_department_bassin_joint_components,191,9.10173199635369

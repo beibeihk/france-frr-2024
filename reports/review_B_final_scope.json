@@ -1,0 +1,144 @@
+{
+  "review": "REVIEW B actual final noncausal manuscript scientific scope",
+  "review_at_utc": "2026-10-03T18:17:36.444867+00:00",
+  "reviewer_type": "Independent AI economics/source/computation review; not human peer review",
+  "scientific_scope_status": "PASS_NONCAUSAL_INSTITUTIONAL_DATA_COMPARATIVE_WORKING_PAPER",
+  "causal_status": "CLOSED_ALL_CURRENT_CAUSAL_ROUTES",
+  "scientific_blockers": [],
+  "local_expression_completion_items": [],
+  "requires_causal_effect_for_noncausal_publication": false,
+  "requires_hiring_human_peer_or_native_reviewer": false,
+  "author_personally_verified_claim_made": false,
+  "human_review_fact_claimed_complete": false,
+  "HAL_operation_performed_by_this_review": false,
+  "scope_limits": [
+    "Does not certify PDF rendering, final release bundle or HAL completion.",
+    "Working-paper scientific scope verdict is not external peer review or journal acceptance.",
+    "Author/platform responsibility and actual publication facts must remain truthful."
+  ],
+  "checks": {
+    "new_method_citations_14_keys_complete": true,
+    "AssignmentFieldChecksN_defined_actual_1044480": true,
+    "BV_percent_label_escaped": true,
+    "B_legal_sentence_has_connector": true,
+    "E_14_34_support_specific_disclosure": true,
+    "log_count_measure_explicit": true,
+    "AI_is_not_claimed_native_human_reviewer": true,
+    "sole_human_responsibility_disclosed": true,
+    "no_external_registration_claim": true,
+    "broad_no_epci_primitives_verified_by_raw_panel": true,
+    "causal_route_closed_not_relabelled_pass": true
+  },
+  "citations_actually_present": [
+    "ref0",
+    "ref1",
+    "ref2",
+    "ref3",
+    "ref4",
+    "ref5",
+    "ref6",
+    "ref7",
+    "ref8",
+    "ref9",
+    "ref10",
+    "ref11",
+    "ref12",
+    "ref13"
+  ],
+  "read_versions_sha256": {
+    "paper/main_fr.tex": "c813194f82ea2c255310b9507222a47c5be4640e0c563aa0a9f668bba307f3ac",
+    "paper/appendix_fr.tex": "b10a2263fda8ba506605603fa890879587b61e87efcdec318b07ae95ba223cb5",
+    "paper/preamble.tex": "90a7b47df6eb682c17019e3b9b8f9698f2138c548c2ac01201a654e69e86a655",
+    "paper/references.bib": "53503656327619bf2188e5c7ca7ccabc15c3208900518eefe4219ea1450d15a9",
+    "paper/generated/assignment_paths.tex": "572b81ad39f2b2c76cfa32aab80372944bd8b3bab82673e4983867c5f66f8244",
+    "paper/generated/assignment_support.tex": "d0bec7095e0c03720b38d02a46b4c184aa8922c813d9f337e63bba6a9976da62",
+    "paper/generated/assignment_thresholds.tex": "2fbcd948922c794bef695f67823081d484877824ac3f0512265657d6047e4438",
+    "paper/generated/balance.tex": "f8d35f44a5afb4b24c9ea141ecdbed9346b27e896beff3ca2f959b2fa4f43418",
+    "paper/generated/bassin_rd_clustering.tex": "ac0e614758853cc1fd858813385db813a97be8c8344815af83046b6dce366a77",
+    "paper/generated/bassin_rd_covariates.tex": "5b4e53d2d10553fc1ff63ae7b759ef7e6494258c6ec1c2f6f4766c8113b3fb6e",
+    "paper/generated/bassin_rd_placebos.tex": "1212064b56dcbfbdd8f3fde40f931f0e2560f25424eaa52fb29c1d553e571361",
+    "paper/generated/bassin_rd_primary.tex": "e41f16082d15ff59634b2f763fc4007c8d8b89d505e2377724c12997f59f2359",
+    "paper/generated/border_outcomes.tex": "a2efbc33c32cde6e685fc489105bdbac313b7d1f2564f8d350c3c6be2e67154a",
+    "paper/generated/clustering.tex": "a5934f69f5339557d566c56a07f158f7a4c76a578b378331b50fab2c90ad280f",
+    "paper/generated/facts.tex": "5500d533741a8eb7d5548ec4f25f10db3f9a6a5b4687444930cf0aa1ab9f9499",
+    "paper/generated/main_comparisons.tex": "db3d64757e3105fddb30a3e983df2a4fad1dcd5e333724cd0f2952b6d902c9f9",
+    "paper/generated/measurement_benchmark.tex": "d4aac82af91cd6c0ba3e1a500a1319d1ed6066034e3d2f885f57b0f8e1a32a6c",
+    "paper/generated/retention.tex": "ce5a172d83e8b42dbc603e54ad02b404261362aab2ad48fcc5da64a4717e714c",
+    "paper/generated/robustness.tex": "29f47227d72c37a802f5304f89447402b8efd6e7e5419b5cf462b271d28bd182",
+    "paper/generated/secondary.tex": "5aed6333ddff99e232433ef448467fe97f477eab83807a869c7722b400683ca5",
+    "paper/generated/sectors.tex": "b3bb9e8d810d6a1d9ad663fb12c53181a07e27d38bb7b748324a9005fe7244ad",
+    "paper/generated/spatial.tex": "c5b6237f6653881a516225077e23c5cd094dcf1dd16e5ae122b6fdce4b7f0537",
+    "paper/generated/summary.tex": "09455148b42562a95dacb9131ad58e347c7c8d95940b4e93a944be48f158f82f",
+    "paper/generated/transitions.tex": "f71d762d957cc62f180af8391aa3d20142490f5717eeb60da506513288fc9c96",
+    "src/analysis/broad_and_matched.py": "8408ef3a0a8912353386e171bd7cfffcb8d9edb5c815dba0bb5b6f10c0acf644",
+    "src/analysis/bassin_rd.py": "1d70eb40b5ffe72ac6ea40c5b9df3f5354c4ad97292ad5643e06a6b6746c762f",
+    "results/tables/broad_did.csv": "f207d0c59e59aa6e75736153db533e4ef6d1bd72bf88b58085233ad33690ee6a",
+    "results/tables/matched_did.csv": "cc13288623a6c5e87484f8018c2a0fba2d8dc7adf44927baa757581778c97ca4",
+    "results/tables/bassin_rd_estimates.csv": "f4e6fc65ce3d503427121aca7bb0346ab81a2aaaab5a33a6e22b2e2f25847925",
+    "results/tables/bassin_rd_monthly_diagnostics.csv": "333ad26fb681973f33b27eb6edbda41c3ca3778674268cf4d625d9ceb43f78b8",
+    "results/tables/bassin_rd_dependency.csv": "7b2fb052a85920da221df4fc948fbafb6209c904c85ec64880aa1824232ab914",
+    "reports/review_B_V_results.json": "7a95c19af997e5f404d1e8ae5fe0de2b5dfa8dbf579815970aa84e8d182b43b1",
+    "reports/review_B_broad_islands_audit.json": "1f94d0b4ab6ebbd72e57083e0fe9ee0698550dd3ce54f0fb4a2bc44d937e607a",
+    "reports/review_B_V_covariate_diagnostics.json": "079682a2be36bcb350ad1ec024fb871850ecd8ea4286e429e4bf3ab6005fbdd0",
+    "reports/review_B_E_assignment_support.csv": "ffbbd7c503625fe3de130055b8d6358474735ad77d1b49fa2c091bf0eec2120e"
+  },
+  "independent_computational_evidence": {
+    "broad_sample_treated": 2117,
+    "broad_sample_control": 14361,
+    "unrelated_island_primitives": [
+      {
+        "commune_code": "22016",
+        "epci_2023": "ZZZZZZZZZ",
+        "primitive": "C:22016",
+        "treatment_group": "NEVER_TREATED"
+      },
+      {
+        "commune_code": "29083",
+        "epci_2023": "ZZZZZZZZZ",
+        "primitive": "C:29083",
+        "treatment_group": "NEVER_TREATED"
+      },
+      {
+        "commune_code": "85113",
+        "epci_2023": "ZZZZZZZZZ",
+        "primitive": "C:85113",
+        "treatment_group": "NEVER_TREATED"
+      }
+    ],
+    "new_broad": {
+      "coefficient": -0.006729253884110387,
+      "se": 0.029704859080137477,
+      "clusters": 724,
+      "ci_low": -0.06504733453013488,
+      "ci_high": 0.051588826761914106,
+      "p_value": 0.8208477062340301
+    },
+    "counterfactual_wrong_ZZ_broad": {
+      "coefficient": -0.006729253884110387,
+      "se": 0.02970480513332638,
+      "clusters": 722,
+      "ci_low": -0.06504749987491544,
+      "ci_high": 0.05158899210669467,
+      "p_value": 0.820847563998053
+    },
+    "coefficient_change": 0.0,
+    "se_change": 5.3946811098132263e-08,
+    "matched_joint": {
+      "coefficient": -0.017140045463629412,
+      "se": 0.04162012163875542,
+      "clusters": 61,
+      "ci_low": -0.1003926840898117,
+      "ci_high": 0.06611259316255286,
+      "p_value": 0.6819380675750585
+    },
+    "matched_islands_included": [],
+    "source_sha256": {
+      "src/analysis/broad_and_matched.py": "8408ef3a0a8912353386e171bd7cfffcb8d9edb5c815dba0bb5b6f10c0acf644",
+      "results/tables/broad_did.csv": "f207d0c59e59aa6e75736153db533e4ef6d1bd72bf88b58085233ad33690ee6a",
+      "results/tables/matched_did.csv": "cc13288623a6c5e87484f8018c2a0fba2d8dc7adf44927baa757581778c97ca4",
+      "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+      "data/processed/matched_pairs.csv": "c0fac2700c3ec8cbe33b33fc11eaed8dd4514cebff849f2ed3f3d2e138614665"
+    },
+    "no_estimation_output_overwritten": true
+  }
+}

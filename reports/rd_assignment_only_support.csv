@@ -1,0 +1,13 @@
+design,bandwidth,eligible_side_epci,ineligible_side_epci,eligible_distinct_scores,ineligible_distinct_scores,cutoff_ties,nearest_eligible_score,nearest_ineligible_score,assignment_conflicting_epci,sample_population,sample_communes,unique_departments,minimum_numerical_support,sharp_assignment_consistent
+A_income_whole_epci_barrier,500,0,2,0,2,0,,70.0,0,29766.0,55,2,False,True
+A_income_whole_epci_barrier,750,0,4,0,4,0,,70.0,0,59340.0,81,4,False,True
+A_income_whole_epci_barrier,1000,0,5,0,5,0,,70.0,0,73673.0,125,5,False,True
+A_income_whole_epci_barrier,1500,0,6,0,6,0,,70.0,0,83433.0,142,6,False,True
+B_income_commune_barrier,500,6,9,6,8,1,0.0,50.0,0,168269.0,256,13,False,True
+B_income_commune_barrier,750,6,13,6,12,1,0.0,50.0,0,214693.0,309,13,False,True
+B_income_commune_barrier,1000,6,17,6,16,1,0.0,50.0,0,273075.0,402,14,False,True
+B_income_commune_barrier,1500,6,24,6,23,1,0.0,50.0,0,362924.0,568,15,False,True
+D_density_commune_barrier,10,0,10,0,10,0,,0.12881682129712857,0,221069.0,212,12,False,True
+D_density_commune_barrier,15,0,18,0,18,0,,0.12881682129712857,0,377022.0,332,19,False,True
+D_density_commune_barrier,20,1,23,1,23,0,-16.904739847238403,0.12881682129712857,0,512610.0,420,24,False,True
+D_density_commune_barrier,30,1,29,1,29,0,-16.904739847238403,0.12881682129712857,0,668423.0,532,29,False,True

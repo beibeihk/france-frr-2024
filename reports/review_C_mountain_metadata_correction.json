@@ -1,0 +1,75 @@
+{
+  "review": "Mountain resource metadata date correction",
+  "reviewer_type": "AI independent source audit",
+  "corrected_at_utc": "2026-10-03T18:26:58.730784+00:00",
+  "corrected_at_local": "2026-10-04T02:26:58.730784+08:00",
+  "reason": "Prior publication label incorrectly used last_modified. Official resource has created_at and last_modified; published field absent.",
+  "official_source_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+  "official_evidence_access": {
+    "file": "docs/sources/public_release_rights/mountain_official_metadata.json",
+    "requested_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+    "retrieved_at_utc": "2026-10-03T17:59:06.786190+00:00",
+    "retrieved_at_local": "2026-10-04T01:59:06.786190+08:00",
+    "status_code": 200,
+    "final_url": "https://www.data.gouv.fr/api/1/datasets/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/",
+    "content_type": "application/json",
+    "size_bytes": 20466,
+    "sha256": "a81a6572dc466881f4c35fb5c27a2b746562df2cbb2ac08b7b016248d3af0197",
+    "saved": true
+  },
+  "resource_evidence": {
+    "id": "87bc6d48-f1ed-4924-be55-0142660033de",
+    "title": "Communes concernées par la loi montagne (1985) au COG 2022",
+    "url": "https://static.data.gouv.fr/resources/communes-de-la-loi-montagne-au-code-officiel-geographique-cog-2020-2022/20220323-152301/dgaln-icapp-sidauh-opendata-loi-montagne-1985-cog-2022.xlsx",
+    "created_at": "2022-03-10T10:59:39.283000+00:00",
+    "last_modified": "2022-03-23T15:46:38.079000+00:00",
+    "published": null
+  },
+  "resource_published_key_present": false,
+  "raw_workbook_sha256_before": "21b0ae60fc6e0bbf8547fff70d29219b69e1825f1626fd93bd5fdae20bceb44f",
+  "raw_workbook_sha256_after": "21b0ae60fc6e0bbf8547fff70d29219b69e1825f1626fd93bd5fdae20bceb44f",
+  "source_report_numeric_checks_and_outputs_unchanged": true,
+  "other_source_records_unchanged": true,
+  "changed_files": [
+    {
+      "path": "src/construct/build_assignment_source_report.py",
+      "sha256_before": "bbdb1e0180a2eb718f3092bebb246b6656df5edb781ac65513fa6ed9d5eba663",
+      "sha256_after": "671064b2e1954ccf5c557f6db065985e23a465d5594822ccc9e06d8bb7992a97"
+    },
+    {
+      "path": "reports/review_C_assignment_sources.json",
+      "sha256_before": "037da424e61eb98e589e4582603410d94ea1c2587951aa8380b3ab00cd4435b1",
+      "sha256_after": "f9ce339563a8cf375fa32ace8fffd0287ddc4a6dad1c4fbf6b01608d96292cfe"
+    },
+    {
+      "path": "reports/review_C_assignment_sources.md",
+      "sha256_before": "24590ee6dde5d4e549e65cd552d86f212f18adab914334d3a211ddfafee87e65",
+      "sha256_after": "36b96b0d5754a1c88614614c67c5b73961786a514fe75c84c6cf45a8fec5dacc"
+    },
+    {
+      "path": "reports/review_C_assignment_source_index.json",
+      "sha256_before": "fee8775fe8421fdd837e748607e1d15491d45d1a9e95869064288304cd09676a",
+      "sha256_after": "464647538e46b894391c803423a30b02b8936393abc97d6d87a55ae1a8987e0f"
+    },
+    {
+      "path": "docs/public_release_rights.md",
+      "sha256_before": "c82bf79f6abcd1a9f301e824e69bd613843a5f441bbe7eab72d5902317847989",
+      "sha256_after": "2660749a838896fc3699b788d8953ebd45271fa9344bcc5737150a918cfa9830"
+    },
+    {
+      "path": "reports/review_C_public_release_rights.json",
+      "sha256_before": "b4a2cac9767a1338516467026e24c074a4a766638d07e31e97dc0a1563033998",
+      "sha256_after": "36eaa1c15bd7631ff6664c848cb4b8d7aa9c7419beadbe0da2ce7fbea2204f8a"
+    }
+  ],
+  "not_written": [
+    "data_sources.csv",
+    "src/tables/package_metadata.py",
+    "docs/assignment_data_dictionary.md",
+    "manuscripts",
+    "raw sources",
+    "processed outcomes",
+    "analysis_status.json"
+  ],
+  "report_generator_executed": "Metadata/source report only; no raw reconstruction or outcome estimation rerun."
+}

@@ -1,0 +1,15 @@
+pandas==2.3.3
+numpy==1.26.4
+scipy==1.10.1
+statsmodels==0.13.5
+geopandas==0.14.0
+pyarrow==11.0.0
+matplotlib==3.7.2
+networkx==2.8.4
+requests==2.34.2
+openpyxl==3.1.5
+xlrd==2.0.2
+shapely==2.0.2
+beautifulsoup4==4.12.2
+PyMuPDF==1.23.6
+duckdb==1.5.6

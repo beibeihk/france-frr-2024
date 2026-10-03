@@ -1,0 +1,145 @@
+{
+  "status": "PASSED",
+  "generated_at_utc": "2026-10-03T15:38:04.846024+00:00",
+  "panel_rows": 3068820,
+  "panel_communes": 34098,
+  "establishment_births": 11285045,
+  "headquarters_categories": [
+    {
+      "headquarters_category": "headquarters",
+      "n": 10175417
+    },
+    {
+      "headquarters_category": "missing_historical_hq_nic",
+      "n": 5242
+    },
+    {
+      "headquarters_category": "no_historical_interval",
+      "n": 3060
+    },
+    {
+      "headquarters_category": "non_headquarters",
+      "n": 1101326
+    }
+  ],
+  "legal_age_categories": [
+    {
+      "legal_age_category": "known",
+      "n": 11255303
+    },
+    {
+      "legal_age_category": "legal_date_after_establishment_birth",
+      "n": 6093
+    },
+    {
+      "legal_age_category": "pre_1800_date_requires_verification",
+      "n": 24
+    },
+    {
+      "legal_age_category": "unknown_date_1900",
+      "n": 23625
+    }
+  ],
+  "known_legal_age_birth_cohort_moments": {
+    "known_count": 11255303,
+    "sum_days": 16093984000,
+    "mean_days": 1429.902331372154,
+    "sum_completed_months": 526916982,
+    "mean_completed_months": 46.81499751717035,
+    "minimum_days": 0,
+    "maximum_days": 48879,
+    "zero_day_count": 7085020,
+    "positive_day_count": 4170283
+  },
+  "pre_1800_flagged_date_years": [
+    {
+      "year": 1,
+      "establishment_births": 1
+    },
+    {
+      "year": 2,
+      "establishment_births": 1
+    },
+    {
+      "year": 4,
+      "establishment_births": 1
+    },
+    {
+      "year": 5,
+      "establishment_births": 5
+    },
+    {
+      "year": 22,
+      "establishment_births": 2
+    },
+    {
+      "year": 23,
+      "establishment_births": 1
+    },
+    {
+      "year": 24,
+      "establishment_births": 9
+    },
+    {
+      "year": 25,
+      "establishment_births": 2
+    },
+    {
+      "year": 203,
+      "establishment_births": 2
+    }
+  ],
+  "duplicate_primary_birth_keys": 0,
+  "duplicate_legal_unit_stock_keys": 0,
+  "aggregate_identity_failures": 0,
+  "primary_monthly_birth_count_mismatches": 0,
+  "independent_age_arithmetic_sample_n": 200,
+  "independent_age_arithmetic_failures": 0,
+  "independent_raw_source_cell_audit": {
+    "sample_cells": 20,
+    "sample_births": 227,
+    "comparisons": 520,
+    "failures": 0,
+    "sample_selection": "Existing REVIEW C 20 treatment/control × zero/positive cells; seed 20241003."
+  },
+  "headquarters_definition": "Compare establishment NIC to unique official legal-unit historical NIC at establishment registration date; inclusive start/end; no current-HQ backfill; unknown/ambiguous intervals or invalid NIC stay unknown.",
+  "age_definition": "Fixed legal-unit declared creation date to establishment creation date; days and completed calendar month anniversaries with end-of-month clamping. Missing legal unit/date, official 1900-01-01 sentinel, analyst quality flag dates before 1800-01-01 and negative ages stay unknown.",
+  "analyst_age_quality_minimum_date": "1800-01-01",
+  "analyst_filter_status": "Conservative analysis quality filter chosen after inspecting source dates; not an official INSEE sentinel or claim that every earlier date is false. Flagged records remain counted and HQ classification is unchanged.",
+  "official_date_documentation": "data/external/sirene_dictionary/api_141_2ed989b6-001c-4b22-9989-b6001c6b224e.md, dateCreationUniteLegale section: 1900-01-01 for missing date; no 0001 sentinel definition found in archived official Markdown.",
+  "interpretation": "Registration-cohort composition; not average age of active firms, employment, output or economic survival. Establishment-location codes retain the main-panel geographic limitations.",
+  "weighting": "Each establishment registration contributes once; legal units with multiple new establishments contribute multiple times. Means use known-age records only.",
+  "output_columns": [
+    "commune_code",
+    "month",
+    "establishment_births",
+    "headquarters_births",
+    "non_headquarters_births",
+    "unknown_headquarters_births",
+    "unknown_hq_no_interval",
+    "unknown_hq_ambiguous_intervals",
+    "unknown_hq_missing_nic",
+    "unknown_hq_invalid_historical_nic",
+    "unknown_hq_invalid_establishment_nic",
+    "known_legal_age_births",
+    "unknown_legal_age_births",
+    "unknown_age_missing_legal_unit",
+    "unknown_age_missing_date",
+    "unknown_age_date_1900",
+    "unknown_age_pre_1800",
+    "unknown_age_negative",
+    "legal_age_zero_day_births",
+    "legal_age_positive_day_births",
+    "sum_legal_age_days",
+    "sum_squared_legal_age_days",
+    "mean_legal_age_days",
+    "sum_legal_age_completed_months",
+    "sum_squared_legal_age_completed_months",
+    "mean_legal_age_completed_months",
+    "min_legal_age_days",
+    "max_legal_age_days"
+  ],
+  "output_bytes": 36744968,
+  "script_sha256": "cc10d2ae8f8e9bd0329d096aacd1760f0e7a3ffd098f9dfba9111fcc0bfc562b",
+  "SIRENE_headquarters_natural_persons": "Official dictionary explains that natural-person headquarters have no juridical reality; SIRENE assigns an administrative headquarters by analogy with legal persons."
+}

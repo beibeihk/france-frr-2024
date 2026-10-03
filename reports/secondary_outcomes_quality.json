@@ -1,0 +1,182 @@
+{
+  "status": "PASSED",
+  "end_of_followup": "2026-06-30",
+  "retention_concept": "Administrative state A at anniversary, not economic or continuous survival.",
+  "unknown_rule": "Unmatched or unknown historical state is unknown, never coded as closure.",
+  "retention_horizons": [
+    {
+      "horizon_months": 12,
+      "registered": 11285045,
+      "eligible": 9623911,
+      "censored": 1661134,
+      "active": 8464129,
+      "closed": 1159540,
+      "unknown": 242,
+      "employer_eligible": 754242,
+      "employer_active": 720666
+    },
+    {
+      "horizon_months": 18,
+      "registered": 11285045,
+      "eligible": 8754775,
+      "censored": 2530270,
+      "active": 7328079,
+      "closed": 1426561,
+      "unknown": 135,
+      "employer_eligible": 699640,
+      "employer_active": 649938
+    }
+  ],
+  "retention_identity_failures": 0,
+  "retention_overlap_matches": 0,
+  "UL_birth_stages": [
+    {
+      "stage": "01_no_UL_interval_at_birth",
+      "n": 0
+    },
+    {
+      "stage": "02_missing_historical_HQ_NIC",
+      "n": 4602
+    },
+    {
+      "stage": "03_no_HQ_SIRET_in_official_stock",
+      "n": 6
+    },
+    {
+      "stage": "04_HQ_creation_date_NULL",
+      "n": 0
+    },
+    {
+      "stage": "05_HQ_created_after_UL_birth",
+      "n": 61810
+    },
+    {
+      "stage": "06_HQ_commune_NULL",
+      "n": 209628
+    },
+    {
+      "stage": "07_outside_stable_analysis_communes",
+      "n": 1495391
+    },
+    {
+      "stage": "08_located_in_main_sample",
+      "n": 6953847
+    }
+  ],
+  "UL_historical_HQ_located": 6953847,
+  "UL_primary_pipeline_located": 6953847,
+  "UL_duplicate_siren_births_excluded": 23,
+  "duplicate_alias_edges": 98969,
+  "duplicate_alias_chain_edges": 229,
+  "duplicate_alias_ambiguous_targets": 40,
+  "duplicate_alias_cycle_nodes": 38,
+  "anomalous_duplicate_UL_births_2019_2026_national": 1,
+  "anomalous_duplicate_establishment_births_2019_2026_analysis_communes": 1,
+  "duplicate_policy": "All listed sirenDoublon excluded; no ambiguous canonical redirection performed.",
+  "UL_historical_HQ_unknown_creation_date_1900": 317,
+  "national_establishment_historical_state_distribution": [
+    {
+      "administrative_state": "A",
+      "employer": "N",
+      "n_periods": 46743460
+    },
+    {
+      "administrative_state": "A",
+      "employer": "O",
+      "n_periods": 11157732
+    },
+    {
+      "administrative_state": "A",
+      "employer": null,
+      "n_periods": 7766382
+    },
+    {
+      "administrative_state": "F",
+      "employer": "N",
+      "n_periods": 24012453
+    },
+    {
+      "administrative_state": "F",
+      "employer": "O",
+      "n_periods": 5199110
+    },
+    {
+      "administrative_state": "F",
+      "employer": null,
+      "n_periods": 1182697
+    },
+    {
+      "administrative_state": null,
+      "employer": "N",
+      "n_periods": 178746
+    },
+    {
+      "administrative_state": null,
+      "employer": "O",
+      "n_periods": 41553
+    },
+    {
+      "administrative_state": null,
+      "employer": null,
+      "n_periods": 375428
+    }
+  ],
+  "analysis_birth_state_distribution": [
+    {
+      "administrative_state": "A",
+      "employer": "N",
+      "n_births": 10172567
+    },
+    {
+      "administrative_state": "A",
+      "employer": "O",
+      "n_births": 822761
+    },
+    {
+      "administrative_state": "A",
+      "employer": null,
+      "n_births": 82403
+    },
+    {
+      "administrative_state": "F",
+      "employer": "N",
+      "n_births": 195785
+    },
+    {
+      "administrative_state": "F",
+      "employer": "O",
+      "n_births": 7918
+    },
+    {
+      "administrative_state": "F",
+      "employer": null,
+      "n_births": 355
+    },
+    {
+      "administrative_state": null,
+      "employer": "N",
+      "n_births": 664
+    },
+    {
+      "administrative_state": null,
+      "employer": "O",
+      "n_births": 45
+    },
+    {
+      "administrative_state": null,
+      "employer": null,
+      "n_births": 2547
+    }
+  ],
+  "administrative_event_totals": {
+    "establishment_closures": 7404550,
+    "establishment_reopens": 360504,
+    "legal_cessations": 4663242,
+    "legal_reactivations": 1388780
+  },
+  "legal_events_with_unlocatable_or_future_HQ_in_analysis_candidate_units": 277998,
+  "generated_at_utc": "2026-10-03T14:45:36.276897+00:00",
+  "duplicate_alias_rows": 99090,
+  "duplicate_wrong_ids": 98928,
+  "duplicate_alias_cycle_components": 19
+}

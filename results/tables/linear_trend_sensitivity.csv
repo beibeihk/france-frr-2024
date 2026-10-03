@@ -1,0 +1,2 @@
+coefficient,se,ci_low,ci_high,p_value,clusters,minimum_detectable_80pct,specification
+0.1606032476478324,0.05049465155777286,0.0606834447484253,0.2605230505472395,0.0018471979981117522,128,0.14241717383229438,pre_announcement_pair_linear_trend_and_calendar_season_extrapolation

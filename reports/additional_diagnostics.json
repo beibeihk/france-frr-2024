@@ -1,0 +1,29 @@
+{
+  "season_adjusted_full_pre": {
+    "restrictions": 53,
+    "rank": 41,
+    "F": 2.346175894770712,
+    "p_value": 0.00015719304747081187,
+    "clusters": 128
+  },
+  "same_season_2019_2022_pre": {
+    "restrictions": 3,
+    "rank": 3,
+    "F": 1.426627849188316,
+    "p_value": 0.2380894529355416,
+    "clusters": 128
+  },
+  "EPCI_department_bassin_dependence": {
+    "coefficient": 0.14603038789499379,
+    "se": 0.048691215748527306,
+    "ci_low": 0.04718196476776057,
+    "ci_high": 0.244878811022227,
+    "p_value": 0.004960288273669155,
+    "clusters": 36,
+    "minimum_detectable_80pct": 0.13982798418967368,
+    "clustering": "EPCI_department_bassin_joint_components",
+    "largest_component_pairs": 191,
+    "pair_size_effective_components": 9.10173199635369
+  },
+  "status": "DIAGNOSTICS_ONLY_NOT_CAUSAL_CLEARANCE"
+}

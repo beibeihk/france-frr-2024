@@ -1,0 +1,11 @@
+{
+  "draws": 9999,
+  "seed": 20241003,
+  "clusters": 128,
+  "method": "Rademacher cluster-score multiplier, centred at estimate; not an exact randomisation test",
+  "ci_low": 0.05182659688098505,
+  "ci_high": 0.24059403572915927,
+  "wild_restricted_cluster_t_p_value": 0.0077,
+  "wild_null": "zero average pair difference-in-differences",
+  "restricted_t_bootstrap_method": "Wild cluster restricted Rademacher residual bootstrap for an intercept-only pair-change regression; CR1 bootstrap studentisation"
+}

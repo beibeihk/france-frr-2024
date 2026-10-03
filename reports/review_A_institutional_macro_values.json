@@ -1,0 +1,46 @@
+{
+  "audit_date": "2026-10-03",
+  "institutional_macro_values": {
+    "FRRInitialN": 17717,
+    "FRRInitialPartialN": 20,
+    "OldZRRFullN": 17694,
+    "OldZRRPartialN": 36,
+    "FRRAdditionsAprN": 117,
+    "FRRCoreJulyN": 17789,
+    "FRRCorePartialJulyN": 20,
+    "FRRBenefJulyN": 2145,
+    "FRRBenefPartialJulyN": 11,
+    "FRRPlusJulyN": 4456,
+    "StableNeverN": 14611,
+    "StableLaterCoreExcludedN": 116,
+    "BorderCommuneN": 1548,
+    "EPCIComponentsN": 128,
+    "EDComponentsN": 46,
+    "EDBComponentsN": 36,
+    "EDBMaxPairsN": 191
+  },
+  "geography": {
+    "FRRInitial": "Original Annex COG2023",
+    "OldZRR": "ANCT COG2021, all retained effects",
+    "FRRJuly": "DGCL July2025 table geography",
+    "StableNever": "Stable analytical domain before population<30000 control restriction"
+  },
+  "source_sha256": {
+    "data\\processed\\frr_2024_codes_verified.csv": "af57dd2bcf24fb4d70aeecbac1f0a8c363288f4843338b8b9c8a00f72dfe87c9",
+    "data\\raw\\zrr_2021.xls": "3e3da78ccc8f9cf6d5befaaf19e83964e76a8d35d15766b424268a4513d166be",
+    "data\\raw\\frr_2025.xlsx": "c05b0c96f15e14686d5dc82154a2f8c20355a54b58b96ecc537d1db38a4622a1",
+    "reports\\review_A_final_coding_border_audit.json": "9f9fdc77c2bd65c3200c1ab2aa0c8c337d8e7f655bd7753682548a6b8714ed75",
+    "reports\\legal_source_audit_manifest.json": "10d2e83305c862cfb500e357063f5494f87363e9540f2900e8f065c2cfc3fc64",
+    "data\\processed\\commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8"
+  },
+  "stable_domain_excluded_check": {
+    "partial_count": 0,
+    "excluded_count": 116,
+    "excluded_status_counts": {
+      "FRR socle": 78,
+      "FRR+": 38
+    },
+    "all_excluded_absent_from_initial_frr": true
+  },
+  "caution": "StableNeverN (14611) is not the broad control macro ControlN (14361 after population filter). No TeX or main artifact script was edited."
+}

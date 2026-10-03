@@ -1,0 +1,12 @@
+{
+  "stock_date": "2026-09-30",
+  "analysis_start": "2019-01",
+  "analysis_end": "2026-06",
+  "birth_records": 11285045,
+  "births_with_historical_interval": 11285045,
+  "births_known_employer": 11199740,
+  "births_with_partial_diffusion": 2734038,
+  "unit_birth_records_located_at_historical_headquarters": 6953847,
+  "panel_rows": 3068820,
+  "panel_communes": 34098
+}

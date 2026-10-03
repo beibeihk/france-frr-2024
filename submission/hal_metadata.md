@@ -1,0 +1,37 @@
+# Métadonnées HAL préparées — état réel : NOT_SUBMITTED
+
+- title_fr : Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations et limites de l’évaluation de 2024
+- title_en : Reconstructing France Ruralités Revitalisation Eligibility: Public Data, Registrations and Limits to Evaluating the 2024 Reform
+- author : {'given_name': 'Kun', 'family_name': 'Huang'}
+- affiliation : Wuhan University [China]
+- hal_structure_docid : 300831
+- manuscript_affiliation : Economics and Management School, Wuhan University, Wuhan, China
+- academic_email : huangkun123huang@163.com
+- language : fr
+- document_type_label : Pré-publication / document de travail
+- domain : Sciences de l’Homme et Société / Économie et finance
+- JEL : ['H25', 'H71', 'R38', 'L26']
+- production_date : 2026-10-04
+- license_pdf : CC BY 4.0; third-party database notices retained
+- ORCID : aucun élément vérifié ; champ vide
+- IdHAL : aucun élément vérifié ; champ vide
+- funding : aucun élément vérifié ; champ vide
+- repository_url : aucun élément vérifié ; champ vide
+
+## Résumé français
+
+Cet article reconstitue l’exposition à la réforme France ruralités revitalisation (FRR) et examine ce que les données publiques permettent d’évaluer. Les données de 2020 de l’Institut national de la statistique et des études économiques (INSEE), dans la géographie de 2023, permettent de reproduire les seuils nationaux utilisés pour le classement initial. Parmi les 17 672 communes métropolitaines initialement classées, 14 316 satisfont au moins une voie de classement obligatoire vérifiée ; les 3 356 autres relèvent de voies possibles à l’échelle des bassins de vie ou des zones de montagne. L’union des voies ainsi reconstruites reproduit exactement la liste, sans révéler les décisions préfectorales individuelles ni la population résidant dans les seules parties classées en zone de montagne. La transition des zones de revitalisation rurale (ZRR) vers FRR est ensuite reliée à un panel mensuel SIRENE de janvier 2019 à juin 2026, fondé sur les localisations et les états administratifs historiques. Pour juillet–décembre 2024, les contrastes larges et appariés sont proches de zéro, tandis que le contraste estimé dans 774 paires frontalières s’élève à 0,146 immatriculation mensuelle par mille habitants (intervalle à 95 % : [0,051 ; 0,241]). Les écarts observés sur l’ensemble de la période préalable ne permettent toutefois pas de justifier une interprétation causale de ces comparaisons. Après exclusion des voies alternatives d’éligibilité, le nombre d’intercommunalités comparables de part et d’autre des seuils est insuffisant pour une estimation en discontinuité. L’analyse au seuil de revenu des bassins porte sur davantage d’unités comparables, mais présente des écarts de couverture et des discontinuités préalables qui empêchent également une interprétation causale. L’étude fournit une reconstruction reproductible de l’exposition, des mesures administratives et des diagnostics sur les limites de l’évaluation initiale. Elle n’établit ni création nette nationale, ni hausse de l’emploi, ni inefficacité du dispositif.
+
+## English abstract
+
+This paper reconstructs territorial eligibility for France Ruralités Revitalisation (FRR) and examines what official public data can establish about its initial evaluation. INSEE data observed in 2020 and geographic compositions for 2023 reproduce the national eligibility thresholds. Of 17,672 initially designated mainland communes, 14,316 satisfy at least one verified mandatory route; the remaining 3,356 satisfy possible living-area or mountain routes. The union exactly matches the initial list, without revealing individual prefectural decisions or population within partially classified mountain areas. The ZRR–FRR transition is linked to a monthly SIRENE panel for January 2019–June 2026, using historical locations and administrative states. For July–December 2024, broad and within-département matched contrasts are close to zero. Across 774 disjoint boundary pairs, the contrast is 0.146 monthly registrations per 1,000 residents (95% confidence interval [0.051, 0.241]). Full-period pre-treatment diagnostics undermine a causal interpretation. Intermunicipal threshold candidates have insufficient eligible-side support after separating alternative routes. A living-area income candidate has greater support, but discontinuous coverage, historical outcome differences and concentrated dependencies. Its bias-corrected post-reform contrast is 0.444 (HC3 interval [-0.024, 0.912]), without causal clearance. The contributions are reproducible eligibility reconstruction, administrative measurement and identification diagnostics. The findings establish neither national net creation, employment growth nor policy ineffectiveness.
+
+## Mots-clés
+
+Fiscalité territoriale ; France ruralités revitalisation ; SIRENE ; Immatriculations ; Éligibilité territoriale ; Identification
+
+## Keywords
+
+Place-based taxation; France Ruralités Revitalisation; SIRENE; Establishment registrations; Territorial eligibility; Identification
+
+Les conclusions sont institutionnelles, administratives et diagnostiques. Les modèles causaux ne sont pas validés. Les examens A–D sont internes et réalisés par des agents d’IA ; ils ne sont pas une expertise humaine extérieure. Cette fiche ne constitue pas un reçu de dépôt.

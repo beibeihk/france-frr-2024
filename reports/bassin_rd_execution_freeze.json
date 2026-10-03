@@ -1,0 +1,79 @@
+{
+  "frozen_before_new_outcome_read": true,
+  "at_utc": "2026-10-03T17:30:24.605179+00:00",
+  "protocol": "V, sections10–11; unique post-level primary; all specified pre periods and radii",
+  "software": {
+    "rdrobust": "2.1.0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.10.1",
+    "statsmodels": "0.14.5",
+    "matplotlib": "3.9.4"
+  },
+  "rdrobust_source": "https://github.com/rdpackages/rdrobust",
+  "rdrobust_source_file_sha256": "3b4411e1df7c97dbcd48bd1c3c838f61bd408fa9fdcd4d4b97257680a874951d",
+  "source_sha256": {
+    "docs/assignment_rd_protocol.md": "388bcf9f6fc8e98682fdbe350f35819acbb458ae9628a477f1ee1d1a999fc038",
+    "src/analysis/bassin_rd.py": "f3bf62e816a626975e942e0319fb2d7bf9255b153d8fe7a83a72e162a76077cf",
+    "data/processed/assignment2024_commune_paths.csv": "ecfd53d4eb0f4976fae025480e98c8e1c2f3fc8d67b4e84475fa1bb6743b8bad",
+    "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+    "data/processed/monthly_panel.parquet": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f"
+  },
+  "primary_command": "rdrobust(y,21600-income,c=0,p=1,q=2,h=1000,b=1000,kernel=triangular,masspoints=adjust,vce=hc3)",
+  "joint_cluster_variance": "full two-side q2 WLS CR1/t(G−1), not separate-side software variance; no cross-side covariance omitted",
+  "support_is_not_causal_clearance": true,
+  "rerun_history": [
+    {
+      "frozen_before_new_outcome_read": false,
+      "at_utc": "2026-10-03T17:31:43.254120+00:00",
+      "protocol": "V, sections10–11; unique post-level primary; all specified pre periods and radii",
+      "software": {
+        "rdrobust": "2.1.0",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "scipy": "1.10.1",
+        "statsmodels": "0.14.5",
+        "matplotlib": "3.9.4"
+      },
+      "rdrobust_source": "https://github.com/rdpackages/rdrobust",
+      "rdrobust_source_file_sha256": "3b4411e1df7c97dbcd48bd1c3c838f61bd408fa9fdcd4d4b97257680a874951d",
+      "source_sha256": {
+        "docs/assignment_rd_protocol.md": "388bcf9f6fc8e98682fdbe350f35819acbb458ae9628a477f1ee1d1a999fc038",
+        "src/analysis/bassin_rd.py": "ae29514f6646fb0ffddfe8cc4777a451fdb2c416a4822837d29f6c7650162d7b",
+        "data/processed/assignment2024_commune_paths.csv": "ecfd53d4eb0f4976fae025480e98c8e1c2f3fc8d67b4e84475fa1bb6743b8bad",
+        "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+        "data/processed/monthly_panel.parquet": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f"
+      },
+      "primary_command": "rdrobust(y,21600-income,c=0,p=1,q=2,h=1000,b=1000,kernel=triangular,masspoints=adjust,vce=hc3)",
+      "joint_cluster_variance": "full two-side q2 WLS CR1/t(G−1), not separate-side software variance; no cross-side covariance omitted",
+      "support_is_not_causal_clearance": true,
+      "rerun_after_prior_execution_attempt": true
+    },
+    {
+      "frozen_before_new_outcome_read": false,
+      "at_utc": "2026-10-03T18:03:21.238725+00:00",
+      "protocol": "V, sections10–11; unique post-level primary; all specified pre periods and radii",
+      "software": {
+        "rdrobust": "2.1.0",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "scipy": "1.10.1",
+        "statsmodels": "0.14.5",
+        "matplotlib": "3.9.4"
+      },
+      "rdrobust_source": "https://github.com/rdpackages/rdrobust",
+      "rdrobust_source_file_sha256": "3b4411e1df7c97dbcd48bd1c3c838f61bd408fa9fdcd4d4b97257680a874951d",
+      "source_sha256": {
+        "docs/assignment_rd_protocol.md": "388bcf9f6fc8e98682fdbe350f35819acbb458ae9628a477f1ee1d1a999fc038",
+        "src/analysis/bassin_rd.py": "187467852fe9acc6740a2616d3a6059cda3c36768657b2003031f1b69c466a6d",
+        "data/processed/assignment2024_commune_paths.csv": "ecfd53d4eb0f4976fae025480e98c8e1c2f3fc8d67b4e84475fa1bb6743b8bad",
+        "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+        "data/processed/monthly_panel.parquet": "8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f"
+      },
+      "primary_command": "rdrobust(y,21600-income,c=0,p=1,q=2,h=1000,b=1000,kernel=triangular,masspoints=adjust,vce=hc3)",
+      "joint_cluster_variance": "full two-side q2 WLS CR1/t(G−1), not separate-side software variance; no cross-side covariance omitted",
+      "support_is_not_causal_clearance": true,
+      "rerun_after_prior_execution_attempt": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-10-04",
+  "research_outcomes_read": false,
+  "manuscript_modified": false,
+  "root_claims_modified": false,
+  "snapshot_sha256": {
+    "paper/main_fr.tex": "661232178efc6413a0df0f76587bd6e788285ca952e694a4081700c357f429cb",
+    "paper/appendix_fr.tex": "c8ada00b4c50488516c9e8c1889b602dae2ec5ce3d6cd33303d261fb95917cd7",
+    "paper/generated/facts.tex": "d75f1fc8461a099950cf6a11d1b6a076af89598b8c29f39e0d2db9b19e760852",
+    "paper/generated/assignment_thresholds.tex": "2fbcd948922c794bef695f67823081d484877824ac3f0512265657d6047e4438",
+    "paper/generated/assignment_paths.tex": "572b81ad39f2b2c76cfa32aab80372944bd8b3bab82673e4983867c5f66f8244",
+    "paper/generated/assignment_support.tex": "d0bec7095e0c03720b38d02a46b4c184aa8922c813d9f337e63bba6a9976da62",
+    "src/figures/build_assignment_artifacts.py": "6cbb694bf9f2ede0c1193d41972098c5d8ae8d6b7bc79045e66a24ef343af5ff",
+    "src/construct/assignment2024.py": "a4ab2fbe0ee74f2fbe19a3cabd0c72ae3238c61a6f127ac4c9c0218d80bfec04",
+    "reports/review_A_assignment_2024.json": "3f58727fa055331a21ab53cf07b629ab39da4efe19d9475cd7bff8da1d767398",
+    "docs/assignment_rd_protocol.md": "388bcf9f6fc8e98682fdbe350f35819acbb458ae9628a477f1ee1d1a999fc038",
+    "reports/review_B_V_assignment_interface.json": "f30cabf02521e057d47688f3abbc7447e6beb14ec368fc598475f3cfdd2e6db8"
+  },
+  "assignment_macro_values": {
+    "AssignmentMetroN": 34816,
+    "AssignmentListedN": 17672,
+    "AssignmentMandatoryN": 14316,
+    "AssignmentResidualN": 3356,
+    "AssignmentUnlistedN": 17144,
+    "AssignmentBOnlyN": 3013,
+    "AssignmentDOnlyN": 304,
+    "AssignmentBothN": 39,
+    "AssignmentBOnlyBVN": 314,
+    "IncomeRDEligibleN": 6,
+    "DensityRDEligibleN": 1
+  },
+  "all_assignment_macros_verified": true,
+  "V_selected_four_exempt_islands": [],
+  "later_institutional_only_recheck": {
+    "read_ranges": "main§3.2 lines38-54; main§5.3 and§5.4 methods lines131-144; conclusion paragraph only; no V result table reviewed",
+    "sha256": {
+      "paper/main_fr.tex": "62701b0611341b7e9e824dde7adc41761e95aab9fe40bdbdf99642062950e4c8",
+      "paper/generated/facts.tex": "cea7cbb6cb1f20974fd1884e684a999f0193461b98d202b822b647cd489b4eba",
+      "src/figures/build_assignment_artifacts.py": "c51324178c345f7071139b80e0c65978eb86762e43382312defcb046fff69c7f"
+    },
+    "confirmed": "BOnly314; V method discloses2020 denominator and postpolicy stability selection; existing R02/R03/R05 remain pending",
+    "V_estimate_or_causal_status_reviewed": false
+  }
+}

@@ -1,0 +1,16 @@
+epci_2023,level,population_2020,area_km2,density_2020,median_income2020,n_communes,metadataGeography,mountain_any_member,mountain_membership_unknown,mountain_population_upper_share,bassin_any_potential_member,department_any_qualifying_member,department_count,department_members,sample_population2020,sample_communes,initial_eligible_communes,selected_population_share,legal_assignment_fraction,score,instrument_eligible,design
+200005932,EPCI,15489,414.98,37.32469034652272,24970.0,7,2023-01-01,False,False,0.0,False,False,1,45,15489.0,7,0,1.0,0.0,3400.0,False,A_income_whole_epci_barrier
+200023919,EPCI,18546,338.04,54.86332978345757,22110.0,20,2023-01-01,False,False,0.0,False,False,1,77,16821.0,15,0,0.9069880297638305,0.0,540.0,False,A_income_whole_epci_barrier
+200035764,EPCI,16905,398.7,42.40030097817908,23520.0,23,2023-01-01,False,False,0.0,False,False,1,45,16905.0,23,0,1.0,0.0,1950.0,False,A_income_whole_epci_barrier
+200039055,EPCI,10995,319.64,34.39807283193593,24870.0,32,2023-01-01,False,False,0.0,False,False,1,21,7109.0,13,0,0.6465666211914507,0.0,3300.0,False,A_income_whole_epci_barrier
+200055481,EPCI,19587,515.12,38.02414971268831,22150.0,30,2023-01-01,False,False,0.0,False,False,1,41,12753.0,11,0,0.651095114106295,0.0,580.0,False,A_income_whole_epci_barrier
+200070589,EPCI,18813,345.13,54.509894822240895,24930.0,42,2023-01-01,False,False,0.0,False,False,1,54,18209.0,41,0,0.9678945410088768,0.0,3360.0,False,A_income_whole_epci_barrier
+200071991,EPCI,28935,534.39,54.14584853758491,21900.0,54,2023-01-01,False,False,0.0,False,False,1,02,28935.0,54,0,1.0,0.0,330.0,False,A_income_whole_epci_barrier
+242100154,EPCI,13702,374.64,36.57377749306001,23970.0,23,2023-01-01,False,False,0.0,False,False,1,21,13702.0,23,0,1.0,0.0,2400.0,False,A_income_whole_epci_barrier
+242504447,EPCI,16035,348.91,45.95741022040068,22400.0,58,2023-01-01,False,False,0.0,False,False,1,25,14333.0,44,0,0.8938571874025569,0.0,830.0,False,A_income_whole_epci_barrier
+243301405,EPCI,21206,546.13,38.82958270008972,23850.0,5,2023-01-01,False,False,0.0,False,False,1,33,21206.0,5,0,1.0,0.0,2280.0,False,A_income_whole_epci_barrier
+244000543,EPCI,12636,360.49,35.05228993869456,21640.0,6,2023-01-01,False,False,0.0,False,False,1,40,831.0,1,0,0.0657644824311491,0.0,70.0,False,A_income_whole_epci_barrier
+244100798,EPCI,20659,433.0,47.71131639722864,23940.0,16,2023-01-01,False,False,0.0,False,False,1,41,19185.0,14,0,0.9286509511593011,0.0,2370.0,False,A_income_whole_epci_barrier
+247000706,EPCI,13090,292.08,44.81648863325117,23230.0,33,2023-01-01,False,False,0.0,False,False,1,70,11469.0,28,0,0.8761650114591291,0.0,1660.0,False,A_income_whole_epci_barrier
+247103765,EPCI,11062,258.38,42.8129112160384,22740.0,23,2023-01-01,False,False,0.0,False,False,1,71,9760.0,17,0,0.8822997649611282,0.0,1170.0,False,A_income_whole_epci_barrier
+247104094,EPCI,11514,316.36,36.395245922366925,23370.0,36,2023-01-01,False,False,0.0,False,False,1,71,9617.0,30,0,0.8352440507208616,0.0,1800.0,False,A_income_whole_epci_barrier

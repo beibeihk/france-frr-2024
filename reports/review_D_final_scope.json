@@ -1,0 +1,371 @@
+{
+  "review": "D",
+  "phase": "final_scope",
+  "date_utc": "2026-10-03T18:19:32.211809+00:00",
+  "reviewer_role": "Independent AI agent performing French academic language editing",
+  "status": "PASS_AI_FRENCH_ACADEMIC_LANGUAGE_WITHIN_RECORDED_SOURCE_SCOPE",
+  "is_human_native_editor": false,
+  "is_external_human_peer_review": false,
+  "scientific_quality_clearance": null,
+  "causal_identification_clearance": null,
+  "author_personal_review_certified": false,
+  "hal_submission_certified": false,
+  "scope": {
+    "main_fr_tex": "Full source: title, abstract, introduction, literature, institution, data definitions, comparison methods, EPCI support, bassin RD methods/results, diagnostics, discussion, conclusion, captions/notes, AI declaration.",
+    "appendix_fr_tex": "Full source including new assignment, E support and basin sections, variance, dependence, retention, internal reviews and availability.",
+    "new_generated_tables": [
+      "paper/generated/assignment_paths.tex",
+      "paper/generated/assignment_support.tex",
+      "paper/generated/assignment_thresholds.tex",
+      "paper/generated/bassin_rd_clustering.tex",
+      "paper/generated/bassin_rd_covariates.tex",
+      "paper/generated/bassin_rd_placebos.tex",
+      "paper/generated/bassin_rd_primary.tex"
+    ],
+    "pdf_rendering": "Not performed by this agent; responsible agent will compile and inspect the final PDFs."
+  },
+  "sources": {
+    "paper/main_fr.tex": {
+      "before_sha256": "d641bace0fccf1ad53e8a2ef1fc10e5a29c3510005de87c0fb609a5944320837",
+      "final_sha256": "a91f093537f3862a070a24f746b0ed2f6dec680aee05f99734680208f0828f12",
+      "final_bytes": 66041
+    },
+    "paper/appendix_fr.tex": {
+      "before_sha256": "6340768c39779a7946b7904ef3a75b981cba908c08d5fec6851170b65282d59c",
+      "final_sha256": "b10a2263fda8ba506605603fa890879587b61e87efcdec318b07ae95ba223cb5",
+      "final_bytes": 20203
+    }
+  },
+  "generated_tables": {
+    "paper/generated/assignment_paths.tex": {
+      "sha256": "572b81ad39f2b2c76cfa32aab80372944bd8b3bab82673e4983867c5f66f8244",
+      "bytes": 425,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/assignment_support.tex": {
+      "sha256": "d0bec7095e0c03720b38d02a46b4c184aa8922c813d9f337e63bba6a9976da62",
+      "bytes": 368,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/assignment_thresholds.tex": {
+      "sha256": "2fbcd948922c794bef695f67823081d484877824ac3f0512265657d6047e4438",
+      "bytes": 333,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/bassin_rd_clustering.tex": {
+      "sha256": "ac0e614758853cc1fd858813385db813a97be8c8344815af83046b6dce366a77",
+      "bytes": 346,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/bassin_rd_covariates.tex": {
+      "sha256": "5b4e53d2d10553fc1ff63ae7b759ef7e6494258c6ec1c2f6f4766c8113b3fb6e",
+      "bytes": 445,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/bassin_rd_placebos.tex": {
+      "sha256": "1212064b56dcbfbdd8f3fde40f931f0e2560f25424eaa52fb29c1d553e571361",
+      "bytes": 319,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    },
+    "paper/generated/bassin_rd_primary.tex": {
+      "sha256": "e41f16082d15ff59634b2f763fc4007c8d8b89d505e2377724c12997f59f2359",
+      "bytes": 385,
+      "read_in_full": true,
+      "edited_by_this_agent": false,
+      "unescaped_percent_count": 0,
+      "language_status": "ACCEPTABLE_WITH_EXPLANATORY_CAPTIONS_AND_NOTES"
+    }
+  },
+  "language_edit_count": 31,
+  "language_edits": [
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Les données de l’INSEE de 2020",
+      "replacement": "Les données de l’Institut national de la statistique et des études économiques (INSEE) de 2020",
+      "reason": "Développer INSEE à sa première apparition dans le résumé autonome.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le seuil de revenu des bassins offre davantage de support",
+      "replacement": "Le seuil de revenu des bassins offre davantage de bassins comparables à proximité du seuil",
+      "reason": "Éviter une formulation elliptique du support statistique dans le résumé.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "le petit nombre d’EPCI comparables au voisinage des seuils",
+      "replacement": "le petit nombre d’établissements publics de coopération intercommunale (EPCI) comparables au voisinage des seuils",
+      "reason": "Développer EPCI à la première occurrence du corps du texte.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "des critères de densité et de revenu de l’établissement public de coopération intercommunale (EPCI)",
+      "replacement": "des critères de densité et de revenu de l’EPCI",
+      "reason": "Éviter une seconde définition après l’expansion dans l’introduction.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "p. 63 imprimée",
+      "replacement": "p. 63 dans la pagination imprimée",
+      "reason": "Préciser naturellement la pagination de la source parlementaire.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La voie montagne D",
+      "replacement": "La voie de montagne D",
+      "reason": "Syntaxe de la voie de classement.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La voie bassin B requiert les deux seuils de bassin une proposition",
+      "replacement": "La voie de bassin B requiert le respect des deux seuils de bassin, une proposition",
+      "reason": "Réparer la juxtaposition sans séparateur ; conserver les trois conditions légales.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "grâce au NIC du siège dans l’historique de l’unité",
+      "replacement": "grâce au numéro interne de classement (NIC) du siège dans l’historique de l’unité",
+      "reason": "Développer NIC lors de la définition du siège historique.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Les trois catégories de siège somment au nombre d’immatriculations.",
+      "replacement": "La somme des trois catégories de siège est égale au nombre d’immatriculations.",
+      "reason": "Remplacer un calque de sum to par une identité formulée en français.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Les bornes de rayon ont un poids triangulaire nul.",
+      "replacement": "Les observations situées exactement à la limite d’un rayon reçoivent un poids triangulaire nul.",
+      "reason": "Le poids porte sur des observations et non sur une borne.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le résultat est la moyenne mensuelle des immatriculations de juillet–décembre 2024",
+      "replacement": "L’indicateur étudié est la moyenne mensuelle des immatriculations de juillet–décembre 2024",
+      "reason": "Distinguer la variable mesurée du résultat de l’estimation.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le résultat principal est un niveau après réforme, sans soustraction d’un niveau préalable.",
+      "replacement": "L’estimation principale porte sur le niveau après réforme, sans soustraction d’un niveau préalable.",
+      "reason": "Formulation naturelle de la variable expliquée en niveau.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "et de sa variance robuste \\citep{ref11}.",
+      "replacement": "et de sa variance robuste, selon la procédure RBC (robust bias correction) \\citep{ref11}.",
+      "reason": "Développer l’étiquette RBC lors de la méthode déjà décrite, avant les intervalles RBC des résultats.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "pour placer l’égalité du bon côté légal",
+      "replacement": "pour placer les observations égales au seuil du côté correspondant à l’éligibilité légale",
+      "reason": "Éviter la formulation familière bon côté légal ; l’orientation de la variable reste inchangée.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La correction des points répétés ne supprime pas",
+      "replacement": "Le traitement des valeurs répétées de la variable de classement ne supprime pas",
+      "reason": "Préciser ce qui est répété sans prétendre supprimer le caractère discret du revenu.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La variance HC3 est un repère supposant les bassins indépendants.",
+      "replacement": "La variance HC3, robuste à l’hétéroscédasticité, est un repère supposant les bassins indépendants.",
+      "reason": "Situer le label HC3 sans lui attribuer une robustesse spatiale.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le classement saute dans la population cible",
+      "replacement": "Le classement présente une discontinuité dans la population cible",
+      "reason": "Remplacer le verbe elliptique saute.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "les \\BVRDPreN{} restrictions préalables ont une covariance de rang complet",
+      "replacement": "la matrice de covariance des \\BVRDPreN{} restrictions préalables est de rang plein",
+      "reason": "Préciser la matrice à laquelle appartient le rang.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La fermeture de ce candidat causal repose sur la continuité non établie et l’inférence fragile, et non sur le franchissement ou non d’un seuil de significativité du résultat après réforme.",
+      "replacement": "Cette stratégie d’identification n’est pas retenue en raison de la continuité non établie et de la fragilité de l’inférence, indépendamment de la significativité du résultat après réforme.",
+      "reason": "Supprimer la métaphore de pipeline fermeture du candidat ; conserver les mêmes raisons de rejet de la stratégie.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "La reconstruction retrouve les critères de 2020 et leurs périmètres",
+      "replacement": "La reconstruction retrouve les indicateurs de 2020 et leurs périmètres",
+      "reason": "Les millésimes qualifient les indicateurs utilisés dans le classement, pas la date des règles de droit.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le seuil de bassin offre davantage de support",
+      "replacement": "Le seuil de bassin offre davantage d’unités comparables",
+      "reason": "Même précision de support dans la conclusion.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/appendix_fr.tex",
+      "original": "exclues seulement des moments d’âge",
+      "replacement": "exclues seulement des moments de la distribution des âges",
+      "reason": "Terminologie statistique des moments agrégés.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/appendix_fr.tex",
+      "original": "a confirmé les catégories et les moments ;",
+      "replacement": "a confirmé les catégories et les moments calculés ;",
+      "reason": "Clarifier le contrôle des moments sans changer son champ.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/appendix_fr.tex",
+      "original": "restent rapportés dans les supports de réplication",
+      "replacement": "restent rapportés dans les fichiers de réplication",
+      "reason": "Remplacer une expression matérielle vague par le livrable effectivement fourni.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/appendix_fr.tex",
+      "original": "La famille complète de \\BVRDCovariateN{} interfaces",
+      "replacement": "La famille complète de \\BVRDCovariateN{} caractéristiques",
+      "reason": "Corriger interfaces, qui désigne ici des variables de composition et de couverture.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Les données de l’Institut national de la statistique et des études économiques (INSEE) de 2020",
+      "replacement": "Les données de 2020 de l’Institut national de la statistique et des études économiques (INSEE)",
+      "reason": "Rattacher clairement le millésime aux données et non au nom de l’institution.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le seuil de revenu des bassins offre davantage de bassins comparables à proximité du seuil",
+      "replacement": "L’analyse au seuil de revenu des bassins porte sur davantage d’unités comparables",
+      "reason": "Éviter la répétition bassin/seuil et préciser le champ de l’analyse.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "est de rang plein et sont rejetées",
+      "replacement": "est de rang plein et le test conjoint rejette ces restrictions",
+      "reason": "Accord et sujet explicite après la précision du rang de la matrice.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Le seuil de bassin offre davantage d’unités comparables",
+      "replacement": "L’analyse au seuil des bassins porte sur davantage d’unités comparables",
+      "reason": "Aligner le vocabulaire de la conclusion sur celui du résumé.",
+      "type": "language_only"
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "la transformation $\\log(1+y)$ des immatriculations",
+      "replacement": "la transformation $\\log(1+n)$, où $n$ est le dénombrement mensuel brut d’immatriculations,",
+      "reason": "Correction de mesure explicitement autorisée par le responsable après audit B : estimate.py applique log1p aux dénombrements bruts, sans division par la population.",
+      "type": "authorized_measurement_label_correction",
+      "source": "src/analysis/estimate.py",
+      "source_sha256": "b98d69ea238638d2da3bdc5eb126bc22fe3ce2065913b6798f804f5d8c9d6099",
+      "checked_lines": [
+        61,
+        64
+      ]
+    },
+    {
+      "file": "paper/main_fr.tex",
+      "original": "Chaque rayon sert aussi à la correction de biais.",
+      "replacement": "Chaque rayon sert aussi à la correction de biais. BV : bassin de vie ; IC : intervalle de confiance.",
+      "reason": "Définir les abréviations des en-têtes de la nouvelle table de discontinuité.",
+      "type": "language_only"
+    }
+  ],
+  "source_verified_authorized_addition": {
+    "file": "paper/appendix_fr.tex",
+    "type": "authorized_source_verified_addition",
+    "text": "Une variante au seuil de revenu EPCI conservant les voies alternatives ne compte que 14 EPCI du côté éligible et 34 de l’autre dans un rayon de 1\\,000 euros, avec 13 valeurs de revenu distinctes du côté éligible. Dans un rayon de 1\\,500 euros, les nombres d’EPCI sont respectivement de 16 et 50. Le minimum opérationnel retenu de vingt unités et quinze valeurs distinctes de chaque côté n’est atteint dans aucune des quatre fenêtres. Aucune nouvelle variable d’immatriculations n’a été examinée et aucune estimation de résultat n’a été réalisée pour ce candidat ; les diagnostics de support sont conservés dans \\path{reports/review_B_E_assignment_support.csv}.",
+    "source": "reports/review_B_E_assignment_support.csv",
+    "source_sha256": "ffbbd7c503625fe3de130055b8d6358474735ad77d1b49fa2c091bf0eec2120e",
+    "checked_values": {
+      "h1000": {
+        "eligible": 14,
+        "ineligible": 34,
+        "eligible_distinct_scores": 13
+      },
+      "h1500": {
+        "eligible": 16,
+        "ineligible": 50,
+        "eligible_distinct_scores": 15
+      }
+    },
+    "all_four_support_gates_fail": true,
+    "research_outcome_read": false,
+    "new_research_estimation_performed": false,
+    "authorization": "Explicit parent instruction of this final review turn."
+  },
+  "preservation_checks": {
+    "paper/main_fr.tex": {
+      "all_existing_digit_sequences_preserved_in_order": true,
+      "all_existing_fact_macros_preserved_in_order": true,
+      "all_existing_latex_commands_preserved_in_order": true,
+      "unescaped_percent_count": 0
+    },
+    "paper/appendix_fr.tex": {
+      "all_existing_digit_sequences_preserved_in_order": true,
+      "all_existing_fact_macros_preserved_in_order": true,
+      "all_existing_latex_commands_preserved_in_order": true,
+      "unescaped_percent_count": 0
+    }
+  },
+  "abstract_space_separated_word_count": 290,
+  "final_language_findings": {
+    "institution_B_connectors": "Corrected: numeric conditions, prefectural proposal and interministerial decree remain conjunctive.",
+    "departmental_income_denominator": "Preserved: median of departmental median living standards, not a national household median.",
+    "mountain_uncertainty": "Preserved: 2022 archive coverage and within-commune population limitations; majorant remains conditional.",
+    "noncausal_scope": "Preserved consistently in abstract, results, discussion and conclusion.",
+    "log_measurement_label": "Corrected with explicit authorization after independent B audit: log(1+n), n raw monthly registrations; no new estimator or estimate.",
+    "human_AI_status": "No native human editor or human external peer review is asserted."
+  },
+  "nonblocking_typographic_note": "Income numbers in assignment_thresholds.tex lack thousands separators; compressed support-row label « exclusion EPCI entière » can be made smoother as « exclusion de l’EPCI entier » in its generator. Values and meaning are clear in the notes; these are not a source-language obstacle.",
+  "audit_log": "paper/.paper-write-sci/run_20261004_review_D_final/analysis/edits_and_preservation.json"
+}

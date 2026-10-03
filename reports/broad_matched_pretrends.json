@@ -1,0 +1,17 @@
+{
+  "broad": {
+    "months": 52,
+    "rank": 52,
+    "F": 2.6728988923279227,
+    "p_value": 8.177530063226589e-09,
+    "clusters": 724
+  },
+  "matched_joint_components": {
+    "months": 52,
+    "rank": 52,
+    "F": 20.965982221186646,
+    "p_value": 2.807675953886121e-24,
+    "clusters": 61
+  },
+  "interpretation": "No causal null conclusion is licensed by insignificant average contrasts when pretrends fail."
+}

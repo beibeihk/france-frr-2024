@@ -1,0 +1,208 @@
+{
+  "review": "REVIEW A final narrow institutional scope",
+  "reviewed_at_utc": "2026-10-03T18:24:43.998214+00:00",
+  "reviewer_type": "Independent AI institutional audit; not human author/editor/peer review",
+  "institutional_scope_status": "PASS_NONCAUSAL_INSTITUTIONAL_RECONSTRUCTION",
+  "remaining_blockers": [],
+  "manuscript_sha256": "94a6846e9902ce8b32aa7c2ccf281fea618a225d104b161d37ea567a88b272cc",
+  "manuscript_path": "paper/main_fr.tex",
+  "reviewed_sections": [
+    "main§3.2",
+    "main§5.4 V eligibility and D joint conditions",
+    "abstract institutional scope",
+    "conclusion contribution and factual limits",
+    "AI/author responsibility declaration"
+  ],
+  "checks": {
+    "C_income_distribution": {
+      "passed": true,
+      "line_numbers": [
+        43
+      ],
+      "criterion": "médiane des niveaux de vie médians par département"
+    },
+    "contemporaneous_numeric_threshold_source": {
+      "passed": true,
+      "line_numbers": [
+        43
+      ],
+      "criterion": "l17b0486-tviii_rapport-avis.pdf"
+    },
+    "historic_2024_code_source": {
+      "passed": true,
+      "line_numbers": [
+        43
+      ],
+      "criterion": "LEGIARTI000049130324/2024-07-01/"
+    },
+    "mountain_COG2022": {
+      "passed": true,
+      "line_numbers": [
+        49
+      ],
+      "criterion": "en COG 2022"
+    },
+    "same_code_geography_checked": {
+      "passed": true,
+      "line_numbers": [
+        49
+      ],
+      "criterion": "y compris lorsque le code reste identique"
+    },
+    "mountain_archive_coverage_limit": {
+      "passed": true,
+      "line_numbers": [
+        49
+      ],
+      "criterion": "conditionnel à la couverture de cette archive"
+    },
+    "mountain_population_unobserved": {
+      "passed": true,
+      "line_numbers": [
+        49
+      ],
+      "criterion": "Ce fichier ne fournit pas la population résidant dans les seules parties classées"
+    },
+    "verified_mandatory_table_note": {
+      "passed": true,
+      "line_numbers": [
+        51
+      ],
+      "criterion": "Les voies obligatoires vérifiées regroupent A"
+    },
+    "V_D_joint_conditions": {
+      "passed": true,
+      "line_numbers": [
+        138
+      ],
+      "criterion": "ni les conditions de la voie D évaluées à partir du majorant de population de montagne"
+    },
+    "B_administrative_procedure": {
+      "passed": true,
+      "line_numbers": [
+        43
+      ],
+      "criterion": "une proposition du préfet de région motivée par l’intérêt général et un classement par arrêté interministériel"
+    },
+    "candidate_union_not_exogeneity": {
+      "passed": true,
+      "line_numbers": [
+        53
+      ],
+      "criterion": "pas une observation des raisons individuelles ni une preuve d’exogénéité de la décision"
+    },
+    "V_not_random_prefect_decision": {
+      "passed": true,
+      "line_numbers": [
+        138
+      ],
+      "criterion": "ne transforme pas la proposition préfectorale en décision aléatoire"
+    },
+    "V_postpolicy_geography_disclosed": {
+      "passed": true,
+      "line_numbers": [
+        140
+      ],
+      "criterion": "inclut des changements postérieurs à la réforme"
+    },
+    "own_island_indicators": {
+      "passed": true,
+      "line_numbers": [
+        47
+      ],
+      "criterion": "Les quatre communes sans EPCI emploient leurs propres indicateurs dans la voie A"
+    },
+    "municipal_population2020_ceiling": {
+      "passed": true,
+      "line_numbers": [
+        41
+      ],
+      "criterion": "Le plafond communal est appliqué à la population municipale de 2020"
+    },
+    "human_author_responsibility": {
+      "passed": true,
+      "line_numbers": [
+        216
+      ],
+      "criterion": "la responsabilité du contenu, des interprétations et de la décision de diffusion lui appartient"
+    },
+    "removed_incorrect_mountain_publication_label": {
+      "passed": true,
+      "criterion": "Absent: publié le 23 mars 2022 en COG 2022"
+    },
+    "removed_causal_clearance_as_noncausal_publication_requirement": {
+      "passed": true,
+      "criterion": "Absent: suspendue à la révision humaine et à la résolution de ces limites d’identification"
+    },
+    "mountain_version_date_not_initial_publication": {
+      "passed": true,
+      "criterion": "23 March2022 identifies resource version/update; official metadata created10March and last_modified23March, publicationfieldnull."
+    },
+    "assignment_macro_values": {
+      "passed": true,
+      "expected": {
+        "AssignmentMetroN": 34816,
+        "AssignmentListedN": 17672,
+        "AssignmentMandatoryN": 14316,
+        "AssignmentResidualN": 3356,
+        "AssignmentUnlistedN": 17144,
+        "AssignmentBOnlyN": 3013,
+        "AssignmentDOnlyN": 304,
+        "AssignmentBothN": 39,
+        "AssignmentBOnlyBVN": 314
+      },
+      "observed": {
+        "AssignmentMetroN": 34816,
+        "AssignmentListedN": 17672,
+        "AssignmentMandatoryN": 14316,
+        "AssignmentResidualN": 3356,
+        "AssignmentUnlistedN": 17144,
+        "AssignmentBOnlyN": 3013,
+        "AssignmentDOnlyN": 304,
+        "AssignmentBothN": 39,
+        "AssignmentBOnlyBVN": 314
+      }
+    }
+  },
+  "verified_counts": {
+    "AssignmentMetroN": 34816,
+    "AssignmentListedN": 17672,
+    "AssignmentMandatoryN": 14316,
+    "AssignmentResidualN": 3356,
+    "AssignmentUnlistedN": 17144,
+    "AssignmentBOnlyN": 3013,
+    "AssignmentDOnlyN": 304,
+    "AssignmentBothN": 39,
+    "AssignmentBOnlyBVN": 314
+  },
+  "scope_limits": {
+    "new_V_estimates_reestimated": false,
+    "V_result_tables_audited": false,
+    "entire_scientific_review_replaced": false,
+    "layout_or_compilation_audited": false,
+    "manuscript_modified": false,
+    "root_claims_modified": false,
+    "HAL_action_taken": false,
+    "human_reading_completion_asserted": false,
+    "causal_effect_required_for_noncausal_working_paper": false
+  },
+  "retained_limitations": [
+    "Actual national prefect proposal/approval register is not observed.",
+    "Mountain population share is not observed; D is only possible under a conservative population upper bound and archive coverage.",
+    "Public rounded income and reconstructed medians are not uncensored microdata or administrative software recovery.",
+    "Observed designation consistency does not demonstrate exogeneity or continuity."
+  ],
+  "scope_judgement": "Institutional facts, designation-versus-takeup distinction, official sources and explicit uncertainty are appropriate for a noncausal reconstruction/measurement/diagnostic working paper. Causal identification, native human editing or personal author reading are not automatic failure criteria in this narrow institutional gate. This gate does not itself decide HAL submission or the scientific interpretation of new V estimates.",
+  "source_sha256": {
+    "reports/review_A_assignment_2024.json": "3f58727fa055331a21ab53cf07b629ab39da4efe19d9475cd7bff8da1d767398",
+    "reports/review_A_manuscript_v2.md": "c47a1fed4b7169f53498acd5bee6241f6bd0498ae391e1e818b35e9399ce108c",
+    "reports/assignment_claims_audit.csv": "7f6945f677257846c74f82e8cf0effa048ec6ab29ca5e57f174a097d0bb4ae3b",
+    "docs/sources/assignment2024/independent_assignment_checks.json": "7b2a0fc35dbc3d8a8b9502ed599bc6ba818c4707edd819bde36e9088477d5b26",
+    "data/raw/assignment2024/mountain_official_metadata.json": "2823269ebcfb103509931029fad5fc6d503a1be39095b57bb4243e0d1f813703",
+    "src/construct/assignment2024.py": "a4ab2fbe0ee74f2fbe19a3cabd0c72ae3238c61a6f127ac4c9c0218d80bfec04",
+    "data/processed/assignment2024_commune_paths.csv": "ecfd53d4eb0f4976fae025480e98c8e1c2f3fc8d67b4e84475fa1bb6743b8bad",
+    "paper/generated/facts.tex": "5500d533741a8eb7d5548ec4f25f10db3f9a6a5b4687444930cf0aa1ab9f9499",
+    "paper/generated/assignment_thresholds.tex": "2fbcd948922c794bef695f67823081d484877824ac3f0512265657d6047e4438",
+    "paper/generated/assignment_paths.tex": "572b81ad39f2b2c76cfa32aab80372944bd8b3bab82673e4983867c5f66f8244"
+  }
+}

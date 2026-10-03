@@ -1,0 +1,59 @@
+{
+  "broad_sample_treated": 2117,
+  "broad_sample_control": 14361,
+  "unrelated_island_primitives": [
+    {
+      "commune_code": "22016",
+      "epci_2023": "ZZZZZZZZZ",
+      "primitive": "C:22016",
+      "treatment_group": "NEVER_TREATED"
+    },
+    {
+      "commune_code": "29083",
+      "epci_2023": "ZZZZZZZZZ",
+      "primitive": "C:29083",
+      "treatment_group": "NEVER_TREATED"
+    },
+    {
+      "commune_code": "85113",
+      "epci_2023": "ZZZZZZZZZ",
+      "primitive": "C:85113",
+      "treatment_group": "NEVER_TREATED"
+    }
+  ],
+  "new_broad": {
+    "coefficient": -0.006729253884110387,
+    "se": 0.029704859080137477,
+    "clusters": 724,
+    "ci_low": -0.06504733453013488,
+    "ci_high": 0.051588826761914106,
+    "p_value": 0.8208477062340301
+  },
+  "counterfactual_wrong_ZZ_broad": {
+    "coefficient": -0.006729253884110387,
+    "se": 0.02970480513332638,
+    "clusters": 722,
+    "ci_low": -0.06504749987491544,
+    "ci_high": 0.05158899210669467,
+    "p_value": 0.820847563998053
+  },
+  "coefficient_change": 0.0,
+  "se_change": 5.3946811098132263e-08,
+  "matched_joint": {
+    "coefficient": -0.017140045463629412,
+    "se": 0.04162012163875542,
+    "clusters": 61,
+    "ci_low": -0.1003926840898117,
+    "ci_high": 0.06611259316255286,
+    "p_value": 0.6819380675750585
+  },
+  "matched_islands_included": [],
+  "source_sha256": {
+    "src/analysis/broad_and_matched.py": "8408ef3a0a8912353386e171bd7cfffcb8d9edb5c815dba0bb5b6f10c0acf644",
+    "results/tables/broad_did.csv": "f207d0c59e59aa6e75736153db533e4ef6d1bd72bf88b58085233ad33690ee6a",
+    "results/tables/matched_did.csv": "cc13288623a6c5e87484f8018c2a0fba2d8dc7adf44927baa757581778c97ca4",
+    "data/processed/commune_treatment.csv": "b5f7cedaed23d0dedbe93ec427bacbb29d11e625085044ea08febc84522ca8c8",
+    "data/processed/matched_pairs.csv": "c0fac2700c3ec8cbe33b33fc11eaed8dd4514cebff849f2ed3f3d2e138614665"
+  },
+  "no_estimation_output_overwritten": true
+}

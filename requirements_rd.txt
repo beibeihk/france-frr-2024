@@ -1,0 +1,5 @@
+rdrobust==2.1.0
+plotnine==0.13.6
+mizani==0.11.4
+matplotlib==3.9.4
+statsmodels==0.14.5

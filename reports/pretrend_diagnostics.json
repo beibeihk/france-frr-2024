@@ -1,0 +1,16 @@
+{
+  "monthly_pretrend_months": 23,
+  "covariance_rank": 23,
+  "F": 0.98534745091977,
+  "p_value": 0.48862114896317765,
+  "reference_month": "2023-05",
+  "clustering": "EPCI connected components",
+  "cluster_count": 128,
+  "interpretation": "Failure to reject is not proof of parallel trends; shared-boundary controls may have spillovers.",
+  "full_2019_2023_pretrend": {
+    "months": 52,
+    "rank": 52,
+    "F": 2.3014798718025586,
+    "p_value": 8.141439091068149e-05
+  }
+}
