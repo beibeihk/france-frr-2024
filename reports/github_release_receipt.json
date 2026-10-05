@@ -1,0 +1,39 @@
+{
+  "status": "VERIFIED_PUBLIC_GITHUB_RELEASE",
+  "checked_utc": "2026-10-03T19:00:25.829488+00:00",
+  "release_url": "https://github.com/beibeihk/france-frr-2024/releases/tag/v1.0.0",
+  "published_at": "2026-10-03T18:57:17Z",
+  "tag": "v1.0.0",
+  "commit": "347bd4e20ccab10ecbcd696ce23a35a1190b8efe",
+  "remote_branch_and_tag_match_local": true,
+  "assets": [
+    {
+      "name": "appendix_fr.pdf",
+      "size_bytes": 74005,
+      "sha256": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4",
+      "download_url": "https://github.com/beibeihk/france-frr-2024/releases/download/v1.0.0/appendix_fr.pdf",
+      "server_digest_matches_local": true
+    },
+    {
+      "name": "france-frr-2024-replication.zip",
+      "size_bytes": 47920000,
+      "sha256": "3ae4b5438c378efb205cf2bfec7eb2b0d15bb56afe6ee82e974644041baca7b3",
+      "download_url": "https://github.com/beibeihk/france-frr-2024/releases/download/v1.0.0/france-frr-2024-replication.zip",
+      "server_digest_matches_local": true
+    },
+    {
+      "name": "main_fr.pdf",
+      "size_bytes": 11855248,
+      "sha256": "990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b",
+      "download_url": "https://github.com/beibeihk/france-frr-2024/releases/download/v1.0.0/main_fr.pdf",
+      "server_digest_matches_local": true
+    },
+    {
+      "name": "public_package_inventory.json",
+      "size_bytes": 18043,
+      "sha256": "7d1b3e28af1808b525b63f3d37e8151f050ebc2aa093e8cefea152f16a36cf6f",
+      "download_url": "https://github.com/beibeihk/france-frr-2024/releases/download/v1.0.0/public_package_inventory.json",
+      "server_digest_matches_local": true
+    }
+  ]
+}

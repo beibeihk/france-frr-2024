@@ -55,3 +55,9 @@ Voir `LICENSES.md` et `docs/public_release_rights.md`. Les contributions origina
 Fond : [Contours administratifs, data.gouv.fr](https://www.data.gouv.fr/datasets/contours-administratifs), communes2024, généralisation5m, source IGN Admin Express, [ODbL1.0](https://opendatacommons.org/licenses/odbl/1-0/). Les scripts de transformation et contenus supplémentaires nécessaires sont fournis pour l’alternative de reconstruction du §4.6. Les comptages indépendants SIRENE ne deviennent pas automatiquement ODbL. Source SIRENE : Insee, livraison du1octobre2026, stock au30septembre2026 ; sources revenu/population : Insee2020, géographie2023 ; liste ZRR : ANCT ; FRR : DGCL/Légifrance ; montagne : DGALN-SIDAUH, COG2022.
 
 L’absence d’identifiants individuels dans le paquet ne constitue pas une certification d’anonymat absolu. Aucun champ masqué n’est reconstitué. L’assistance substantielle de Codex est déclarée dans le manuscrit ; Kun Huang est le seul auteur humain responsable.
+
+## Dépôt HAL observé
+
+Le 5 octobre 2026, le document et son annexe ont été soumis à HAL sous **hal-05777464v1**. État vérifié : **En modération**, sans disponibilité publique annoncée. Lien attribué : https://hal.science/hal-05777464v1. Voir `submission/submission_record.md` pour le reçu, les licences et les empreintes. HAL ajoute une page de couverture ; les 23 pages du manuscrit restent identiques en texte, dimensions et pixels rendus. La livraison GitHub v1.0.0 est conservée sans modification.
+
+Sur la branche main, public_manifest.csv décrit les fichiers actuels. Les ajouts de suivi sont détaillés dans reports/publication_update_inventory_20261005.json. Le manifeste et l’inventaire de la livraison v1.0.0 restent ceux de son instantané antérieur ; reports/github_release_receipt.json conserve leurs empreintes vérifiées. Les captures du compte et la copie PDF avec couverture HAL restent locales.

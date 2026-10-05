@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-10-05T04:22:29.247Z",
+  "stage": "PRE_SUBMISSION_UI_AND_DOWNLOADED_FILE_VERIFICATION",
+  "checks": {
+    "title_fr": true,
+    "title_en": true,
+    "abstract_fr": true,
+    "abstract_en": true
+  },
+  "files": [
+    {
+      "name": "appendix_fr.pdf",
+      "bytes": 74005,
+      "http": 200,
+      "magic": "%PDF-",
+      "sha256": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4",
+      "settings": [
+        {
+          "id": "origin-0",
+          "value": "author"
+        },
+        {
+          "id": "type-0",
+          "value": "annex"
+        },
+        {
+          "id": "visible-0",
+          "value": "2026-10-05"
+        },
+        {
+          "id": "licence-0",
+          "value": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "name": "main_fr.pdf",
+      "bytes": 11855248,
+      "http": 200,
+      "magic": "%PDF-",
+      "sha256": "990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b",
+      "settings": [
+        {
+          "id": "origin-1",
+          "value": "author"
+        },
+        {
+          "id": "type-1",
+          "value": "file"
+        },
+        {
+          "id": "visible-1",
+          "value": "2026-10-05"
+        },
+        {
+          "id": "licence-1",
+          "value": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    }
+  ],
+  "authorHeadings": [
+    "Kun Huang"
+  ],
+  "affiliation": " Wuhan University [China]",
+  "keywords": [
+    "Fiscalité territoriale",
+    "France ruralités revitalisation",
+    "SIRENE",
+    "Immatriculations",
+    "Éligibilité territoriale",
+    "Identification"
+  ],
+  "jel": [
+    "H.H2.H25",
+    "H.H7.H71",
+    "L.L2.L26",
+    "R.R3.R38"
+  ],
+  "date": "2026-10-04",
+  "language": "fr",
+  "domain": "shs.eco",
+  "subtype": "WORKINGPAPER",
+  "comment": "Document de travail non évalué par les pairs. Reconstruction de l’éligibilité territoriale, mesures administratives et diagnostics d’identification ; aucune interprétation causale des contrastes. Code et données agrégées de réplication : https://github.com/beibeihk/france-frr-2024/releases/tag/v1.0.0. L’usage de l’IA et les contrôles internes sont déclarés dans le manuscrit. Les notices relatives aux données tierces sont conservées.",
+  "seeAlso": [
+    "https://github.com/beibeihk/france-frr-2024/releases/tag/v1.0.0"
+  ],
+  "relatedFormHidden": null,
+  "recap": "Pour pouvoir transférer sur arXiv, votre dépôt doit satisfaire les conditions suivantes :\n\n Le document doit avoir un résumé en anglais.\n Un des domaines choisi doit être un sous-domaine d'arXiv.\n Chaque fichier doit être < 3Mb et les tout < 10Mb.\n Si le pdf a été généré par laTex, les sources doivent être présentes.\n Si vous utilisez bibtex, vous devez fournir le .bbl pour arXiv.\n\nHAL utilise la licence arXiv suivante lors du transfert de ce papier : arXiv.org perpetual, non-exclusive license to distribute this article\n\n Je transfère vers arXiv",
+  "termsChecked": false,
+  "arxivChecked": false,
+  "related_resource_note": "HAL Other source relation requires a DOI; GitHub URL is instead recorded in the supported Voir aussi URL field and Commentaire. No DOI invented.",
+  "rights_checks": "Existing final quality, privacy, citations, original CC BY 4.0 and retained third-party notices verified; final PDF bytes unchanged.",
+  "submission_authorization": "Original user request authorizes formal deposit after checks and user completed login."
+}

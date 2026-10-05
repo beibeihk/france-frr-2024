@@ -1,0 +1,129 @@
+{
+  "status": "VERIFIED_HAL_PUBLICATION_RECORD_UPDATE",
+  "recorded_utc": "2026-10-05T04:54:48.988476+00:00",
+  "HAL_identifier": "hal-05777464v1",
+  "HAL_status": "SUBMITTED_PENDING_MODERATION",
+  "HAL_publicly_available": false,
+  "updated_files": [
+    {
+      "path": "README.md",
+      "size_bytes": 8866,
+      "sha256": "287fc07e396b173f83540b737757f6d18cbfddbbc70772940d22306bde4339d3",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "submission/publication_state.json",
+      "size_bytes": 5117,
+      "sha256": "93b334251f2921945339d880380f62434c7b220e5d23158e0c33b565b4561b26",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "submission/submission_record.md",
+      "size_bytes": 3592,
+      "sha256": "3657686ac136e65ab26233ec2f37e5837638d3727602e95e5085f8adc9cf8ece",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "submission/hal_metadata.json",
+      "size_bytes": 5982,
+      "sha256": "40fd8ae9854a535b8b6243913583bdfc69f448f2ac1a274b2ff1cdda5cde39c3",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "submission/hal_metadata.md",
+      "size_bytes": 5950,
+      "sha256": "405bb0e88e732cf2109d1f799fb58f921e96c37bbc226cc00f46cb2c16d7799a",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "submission/hal_checklist.md",
+      "size_bytes": 3272,
+      "sha256": "dccd6cc44fd9a1d8d76cf62ce8d80ddfc8033fc5d3f0dfa56a5e267245ca2f02",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/analysis_status.json",
+      "size_bytes": 1026,
+      "sha256": "3e811ea2ca2a637f90af15013d74a0609cbe4d9e40c147ff71c17e3a2750c3f3",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/final_quality_gate.json",
+      "size_bytes": 2229,
+      "sha256": "6d29d55a02efb84690aaa20d80ab8f139edf768d31d67a49723f29fa58221d60",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/final_quality_gate.md",
+      "size_bytes": 2621,
+      "sha256": "016e152b339db229faa9d5ff7ba97e1c3cc57074bb02eb138e2406a52f90c309",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "src/tables/finalize_delivery.py",
+      "size_bytes": 10513,
+      "sha256": "79859a0fe30d69cef98eeb033a9903d75663018dea78d9d68a47cfa9e15e71f4",
+      "reuse_terms": "MIT (original code); dependencies not included"
+    },
+    {
+      "path": "src/tables/build_public_package.py",
+      "size_bytes": 8926,
+      "sha256": "5b9bd3122e123a46389975aff0ff6a077a769044faa6e5dd7e8da18d74628c83",
+      "reuse_terms": "MIT (original code); dependencies not included"
+    },
+    {
+      "path": "reports/github_release_receipt.json",
+      "size_bytes": 1659,
+      "sha256": "c6e34e93e6ddc42f458cf9566f61243b0e61b7f662fa507a49d409d65af79b12",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/hal_final_ui_preflight_20261005.json",
+      "size_bytes": 3519,
+      "sha256": "2bfb0868634fe21a99f79f364f2ca54d373a08751aff4a9cfe6a41a0184597bd",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/hal_submission_receipt_20261005.json",
+      "size_bytes": 1162,
+      "sha256": "c38f64588f33594b9130836d112236bf2c0845b65055110e138d3d47a7c6d08a",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/hal_email_receipt_20261005.json",
+      "size_bytes": 430,
+      "sha256": "b5ed86f6dd33cd998758fc495ca646aaff7372ec331d51b1f0d42ddd097ddd35",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/hal_post_submission_verification_20261005.json",
+      "size_bytes": 1777,
+      "sha256": "4a9ce71f6a2273827e14e4c6bab63bb4554ec358c5cdfb9d14bf0a2e2a184ddf",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    },
+    {
+      "path": "reports/hal_pdf_transformation_20261005.json",
+      "size_bytes": 10743,
+      "sha256": "b6ec756d053bfbd68663247bf73d4d2266bf36ded398244e3e21282b6813eba1",
+      "reuse_terms": "CC BY4.0 original contributions; third-party citations/source rights retained"
+    }
+  ],
+  "prior_main_manifest_sha256": "605d72caf80678b7d8dd952e67fe9de59eb10666b2ae5f9c7e67bd8b341752a1",
+  "release_snapshot": {
+    "tag": "v1.0.0",
+    "commit": "347bd4e20ccab10ecbcd696ce23a35a1190b8efe",
+    "url": "https://github.com/beibeihk/france-frr-2024/releases/tag/v1.0.0",
+    "original_assets_unchanged": {
+      "paper/main_fr.pdf": "990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b",
+      "paper/appendix_fr.pdf": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4",
+      "release/france-frr-2024-replication.zip": "3ae4b5438c378efb205cf2bfec7eb2b0d15bb56afe6ee82e974644041baca7b3"
+    }
+  },
+  "privacy_checks": {
+    "private_agent_email_phone_birthdate_and_credential_patterns_absent": true,
+    "browser_snapshot_and_screenshot_excluded": true,
+    "raw_email_and_helpers_excluded": true,
+    "HAL_cover_PDF_retained_locally_only": true
+  },
+  "inventory_scope": "This record lists the status-update files, excluding itself and the manifest to avoid circular hashes. The current main manifest includes this record. It does not replace the frozen v1.0.0 release inventory."
+}

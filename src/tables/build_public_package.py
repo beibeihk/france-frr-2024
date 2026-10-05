@@ -27,6 +27,10 @@ REPORTS=['analysis_status.json','final_quality_gate.json','final_quality_gate.md
  'rd_assignment_only_support.csv','assignment2024_reconstruction.json','assignment_extended_support_manifest.json',
  'wild_cluster_score.json','environment_versions.json','secondary_outcomes_quality.json','birth_structure_quality.json',
  'root_final_copy_edits.json','review_C_mountain_metadata_correction.json']
+HAL_PUBLIC_REPORTS=['github_release_receipt.json','hal_final_ui_preflight_20261005.json',
+ 'hal_submission_receipt_20261005.json','hal_email_receipt_20261005.json',
+ 'hal_post_submission_verification_20261005.json','hal_pdf_transformation_20261005.json',
+ 'publication_update_inventory_20261005.json']
 FORBIDDEN={'siren','siret','nic','nomUniteLegale','prenom1UniteLegale','nomUsageUniteLegale','numeroVoieEtablissement','libelleVoieEtablissement'}
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def license_for(rel):
@@ -58,6 +62,7 @@ def main():
   'literature_audit.md','public_release_rights.md']:take('docs/'+name)
  for name in PROCESSED:take('data/processed/'+name)
  for name in REPORTS:take('reports/'+name,required=name not in ['review_A_final_scope.json','review_A_final_scope.md'])
+ for name in HAL_PUBLIC_REPORTS:take('reports/'+name,required=False)
  for name in ['hal_metadata.md','hal_metadata.json','ai_disclosure.md','hal_checklist.md','hal_policy_verified.md','submission_record.md','publication_state.json']:
   take('submission/'+name)
  for name in ['sirene_download_manifest.json','zoning_manifest.json','population_manifest.json']:take('data/external/'+name)
@@ -75,8 +80,15 @@ def main():
    s=p.read_text(encoding='utf8',errors='replace')
    if p.suffix!='.py' and '@agent.qq.com' in s:raise RuntimeError('Agent account address in public prose '+rel)
    if re.search(r'\b(?:ghp_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9_]{40,}|sk-proj-[A-Za-z0-9_-]{40,})\b',s):raise RuntimeError('Credential marker '+rel)
-  dest=DEST/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(p,dest)
-  manifest.append({'path':rel,'size_bytes':p.stat().st_size,'sha256':sha(p),'reuse_terms':license_for(rel)})
+  dest=DEST/rel;dest.parent.mkdir(parents=True,exist_ok=True)
+  if rel=='reports/hal_submission_receipt_20261005.json':
+   # The public receipt needs the observed deposit, not the browser account inventory.
+   receipt=json.loads(p.read_text(encoding='utf8'))
+   receipt.pop('receipt_snapshot',None);receipt.pop('screenshot',None)
+   receipt['evidence_scope']='Observed matching deposit row; browser snapshot and screenshot retained locally only.'
+   dest.write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+  else:shutil.copyfile(p,dest)
+  manifest.append({'path':rel,'size_bytes':dest.stat().st_size,'sha256':sha(dest),'reuse_terms':license_for(rel)})
  DEST.mkdir(parents=True,exist_ok=True)
  with (DEST/'public_manifest.csv').open('w',newline='',encoding='utf8') as f:
   w=csv.DictWriter(f,fieldnames=['path','size_bytes','sha256','reuse_terms']);w.writeheader();w.writerows(manifest)

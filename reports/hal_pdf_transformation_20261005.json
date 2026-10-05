@@ -1,0 +1,244 @@
+{
+  "status": "PASS_HAL_COVER_ONLY_TRANSFORMATION",
+  "uploaded_main_sha256": "990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b",
+  "HAL_main_sha256": "4c7de19abca91836400c8c469f5cf57b677a564262d81c203cd60b53125602c0",
+  "uploaded_pages": 23,
+  "HAL_pages": 24,
+  "cover_added_pages": 1,
+  "body_page_checks": [
+    {
+      "uploaded_page": 1,
+      "HAL_page": 2,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "6706ac49c2ed123b00fb268685e7f7cfd3ed40c3b176680bcf478831bfcf70b8",
+      "HAL_render_sha256": "6706ac49c2ed123b00fb268685e7f7cfd3ed40c3b176680bcf478831bfcf70b8"
+    },
+    {
+      "uploaded_page": 2,
+      "HAL_page": 3,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "4fdbd632bc93adccdcb979770bace89a4fdde17ddf705388522a345b1e75c3f7",
+      "HAL_render_sha256": "4fdbd632bc93adccdcb979770bace89a4fdde17ddf705388522a345b1e75c3f7"
+    },
+    {
+      "uploaded_page": 3,
+      "HAL_page": 4,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "42bbfee2c7fd4f96a1a66da9a05973e006e8bbd485d89af5e23aa6e28e8d3891",
+      "HAL_render_sha256": "42bbfee2c7fd4f96a1a66da9a05973e006e8bbd485d89af5e23aa6e28e8d3891"
+    },
+    {
+      "uploaded_page": 4,
+      "HAL_page": 5,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "7501a0bd1e80f3ed4027eed3edd20b02c63df2a6586cf387835b7c2fb04fc040",
+      "HAL_render_sha256": "7501a0bd1e80f3ed4027eed3edd20b02c63df2a6586cf387835b7c2fb04fc040"
+    },
+    {
+      "uploaded_page": 5,
+      "HAL_page": 6,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "602d9a24d544e5346006b6ab04559864185a1309a39c81aa9721e94d71485c62",
+      "HAL_render_sha256": "602d9a24d544e5346006b6ab04559864185a1309a39c81aa9721e94d71485c62"
+    },
+    {
+      "uploaded_page": 6,
+      "HAL_page": 7,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "686cbb877b2d04cad8d20c0c814f1e328e2450044f872863dda3eb870f9666b5",
+      "HAL_render_sha256": "686cbb877b2d04cad8d20c0c814f1e328e2450044f872863dda3eb870f9666b5"
+    },
+    {
+      "uploaded_page": 7,
+      "HAL_page": 8,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "c20ea0b0d0d30ff64f5c9e44bd3842e0d6fbc5f01080cb9e74238eaababb85be",
+      "HAL_render_sha256": "c20ea0b0d0d30ff64f5c9e44bd3842e0d6fbc5f01080cb9e74238eaababb85be"
+    },
+    {
+      "uploaded_page": 8,
+      "HAL_page": 9,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "bf0ff6a26958cf19284198f12acb7be3ef3d44fc51f08160b0531088c88b938a",
+      "HAL_render_sha256": "bf0ff6a26958cf19284198f12acb7be3ef3d44fc51f08160b0531088c88b938a"
+    },
+    {
+      "uploaded_page": 9,
+      "HAL_page": 10,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "9550f3e786f8f8afcd431d998a102a24a719dbe92548acf2836fe4f0ab9aa39f",
+      "HAL_render_sha256": "9550f3e786f8f8afcd431d998a102a24a719dbe92548acf2836fe4f0ab9aa39f"
+    },
+    {
+      "uploaded_page": 10,
+      "HAL_page": 11,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "93a569de67c89ee4f647daa74276673ac1b09af7a547aeeadc98ea4f0b181dd7",
+      "HAL_render_sha256": "93a569de67c89ee4f647daa74276673ac1b09af7a547aeeadc98ea4f0b181dd7"
+    },
+    {
+      "uploaded_page": 11,
+      "HAL_page": 12,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "366b97144a27216202956634c7f1e596bfa31d93d9e97d2e5726f953bde4b998",
+      "HAL_render_sha256": "366b97144a27216202956634c7f1e596bfa31d93d9e97d2e5726f953bde4b998"
+    },
+    {
+      "uploaded_page": 12,
+      "HAL_page": 13,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "d9d973ef247de00e1e89f24addff82a295dafef03917127c670120933f122777",
+      "HAL_render_sha256": "d9d973ef247de00e1e89f24addff82a295dafef03917127c670120933f122777"
+    },
+    {
+      "uploaded_page": 13,
+      "HAL_page": 14,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "d92c7afd88f338c9dd94294e3590aeb687a3fea9b835778ee4ca34e7100be0b7",
+      "HAL_render_sha256": "d92c7afd88f338c9dd94294e3590aeb687a3fea9b835778ee4ca34e7100be0b7"
+    },
+    {
+      "uploaded_page": 14,
+      "HAL_page": 15,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "bcc450416797a8ca49092df5002699c34682a571eb99946762821d4a7a9da553",
+      "HAL_render_sha256": "bcc450416797a8ca49092df5002699c34682a571eb99946762821d4a7a9da553"
+    },
+    {
+      "uploaded_page": 15,
+      "HAL_page": 16,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "cc9169b4062acdd72994a148adc12e306e6ae73d75028009545a2f96523dd3c5",
+      "HAL_render_sha256": "cc9169b4062acdd72994a148adc12e306e6ae73d75028009545a2f96523dd3c5"
+    },
+    {
+      "uploaded_page": 16,
+      "HAL_page": 17,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "a54241879b4d9a2ee8362369f6c5addb8e69d65b21eec866f11a02107c50dd52",
+      "HAL_render_sha256": "a54241879b4d9a2ee8362369f6c5addb8e69d65b21eec866f11a02107c50dd52"
+    },
+    {
+      "uploaded_page": 17,
+      "HAL_page": 18,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "7d97275bd9999e5ce2bcdba9111a008518c9e85921556d89f08a0a5daa7fe79c",
+      "HAL_render_sha256": "7d97275bd9999e5ce2bcdba9111a008518c9e85921556d89f08a0a5daa7fe79c"
+    },
+    {
+      "uploaded_page": 18,
+      "HAL_page": 19,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "3f26a206d3cb8965b68dfe2156243f7ef8d5ebb1639a5a3548a0372702345e70",
+      "HAL_render_sha256": "3f26a206d3cb8965b68dfe2156243f7ef8d5ebb1639a5a3548a0372702345e70"
+    },
+    {
+      "uploaded_page": 19,
+      "HAL_page": 20,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "2cd9af6d9b44ce1b06f806688f5d13ee322d2a6ead1f3f7b61b9f4b85e1896be",
+      "HAL_render_sha256": "2cd9af6d9b44ce1b06f806688f5d13ee322d2a6ead1f3f7b61b9f4b85e1896be"
+    },
+    {
+      "uploaded_page": 20,
+      "HAL_page": 21,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "22e4336ea8e0d40bb4049c1c3475c5bbac78465606f4c7f06defb5b85c85c49d",
+      "HAL_render_sha256": "22e4336ea8e0d40bb4049c1c3475c5bbac78465606f4c7f06defb5b85c85c49d"
+    },
+    {
+      "uploaded_page": 21,
+      "HAL_page": 22,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "d59de883f8179ae190dc42d8d77518c61f34c27e83b70305a5028c06d7f532f8",
+      "HAL_render_sha256": "d59de883f8179ae190dc42d8d77518c61f34c27e83b70305a5028c06d7f532f8"
+    },
+    {
+      "uploaded_page": 22,
+      "HAL_page": 23,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "cbfe665a369bcfce084c13bf38b3a1e182161c90505ec722738f393fb5e6d212",
+      "HAL_render_sha256": "cbfe665a369bcfce084c13bf38b3a1e182161c90505ec722738f393fb5e6d212"
+    },
+    {
+      "uploaded_page": 23,
+      "HAL_page": 24,
+      "text_exact": true,
+      "page_size_exact": true,
+      "render_dimensions_exact": true,
+      "render_pixel_sha256_exact": true,
+      "uploaded_render_sha256": "9b5e1e4c78358d3cac469b7c0333104f56655d455ea0490b170780882fbf17ed",
+      "HAL_render_sha256": "9b5e1e4c78358d3cac469b7c0333104f56655d455ea0490b170780882fbf17ed"
+    }
+  ],
+  "cover_text": "HAL Id: hal-05777464\nhttps://hal.science/view/index/docid/5777464\nPreprint submitted on 5 Oct 2026\nHAL is a multi-disciplinary open access archive\nfor the deposit and dissemination of scientific re-\nsearch documents, whether they are published or not.\nThe documents may come from teaching and research\ninstitutions in France or abroad, or from public or pri-\nvate research centers.\nL’archive ouverte pluridisciplinaire HAL, est des-\ntinée au dépôt et à la diffusion de documents scien-\ntifiques de niveau recherche, publiés ou non, émanant\ndes établissements d’enseignement et de recherche\nfrançais ou étrangers, des laboratoires publics ou\nprivés.\nDistributed under a Creative Commons CC BY 4.0 - Attribution - International License\nReconstruire l’éligibilité à France ruralités revitalisation :\ndonnées publiques, immatriculations et limites de\nl’évaluation de 2024\nKun Huang\nTo cite this version:\nKun Huang. Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations\net limites de l’évaluation de 2024. 2026. ⟨hal-05777464⟩\n",
+  "cover_render_path": "tmp/pdfs/hal_cover.png",
+  "cover_visual_review": "PASSED_INTERNAL_AI_VISUAL_INSPECTION",
+  "interpretation": "HAL added one citation cover; all 23 manuscript pages retain identical text, size and rendered pixels."
+}

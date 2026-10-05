@@ -1,44 +1,35 @@
 # HAL submission record
 
-Status: NOT_SUBMITTED.
+Status: **SUBMITTED_PENDING_MODERATION**. HAL labels: **En modération / En attente de modération**. The authenticated preview states that the document is not indexed and is not accessible to other users. Public availability is not asserted.
 
-No upload, agreement acceptance, HAL identifier, pending moderation or public availability is asserted. Deposit metadata and final files are prepared separately. Actual transactions must update publication_state.json and this record from observed receipts.
+- HAL identifier: **hal-05777464**, version **1** (`hal-05777464v1`).
+- Assigned version URL: https://hal.science/hal-05777464v1 (pending moderation).
+- Authenticated preview: https://hal.science/view/index/docid/5777464.
+- Deposit date shown by HAL: **2026-10-05**. Submission timestamp displayed: **06:25:50**, with no explicit timezone label in the interface. CCSD confirmation-mail creation time: **2026-10-05T04:26:06Z**.
+- Account username: `kunhuang_whu`. No password, activation token, private account email or document-management credential retained here.
+- Sole author: **Kun Huang**. Affiliation: **Wuhan University [China]**, verified HAL structure **300831**.
+- Final French title: **Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations et limites de l’évaluation de 2024**.
+- Document type: **Pré-publication, Document de travail**, subtype **Working paper** (`UNDEFINED` / `WORKINGPAPER`). Language **fr**; domain **shs.eco**. JEL **H25, H71, R38, L26**.
+- Production date: **2026-10-04**. Both original PDFs use **CC BY 4.0**, retaining third-party notices. No embargo, journal acceptance, external peer review, DOI or causal clearance is claimed.
+- Code and replication: https://github.com/beibeihk/france-frr-2024/releases/tag/v1.0.0.
 
-Prepared local date: 2026-10-04 (Asia/Hong_Kong). Selected original-PDF license: CC BY 4.0, retaining third-party database notices.
+## Verified file bytes
 
-- main_fr.pdf: SHA256 `990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b`
-- appendix_fr.pdf: SHA256 `9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4`
+| File | Uploaded SHA-256 | HAL downloaded SHA-256 |
+| --- | --- | --- |
+| main_fr.pdf | `990cd7356839483743448059ababff9764d671086903c4c421b2418ac13f6b5b` | `4c7de19abca91836400c8c469f5cf57b677a564262d81c203cd60b53125602c0` |
+| appendix_fr.pdf | `9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4` | `9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4` |
 
-## Observed GitHub publication
+HAL adds one citation cover to the main manuscript: 23 uploaded pages become 24 archived pages. All 23 manuscript pages have exactly matching extracted text, page size and rendered pixel hashes after the one-page offset. The added cover was visually reviewed. The original release PDFs and ZIP are unchanged.
 
-Public repository: https://github.com/beibeihk/france-frr-2024.
+## Evidence and checks
 
-Initial published commit: `e08cd4f40d720cea8633d152f98122407b0a74fa`. The remote default branch is main and GitHub reported isPrivate=false. This is a repository publication receipt, not a HAL deposit receipt.
+The final upload bytes were downloaded from the actual HAL file links before submission and matched the released PDFs. The bilingual metadata were checked before submission and again from the saved document. The real platform terms permitting dissemination and permanent archiving were accepted under the original user's authorization. The authenticated submission list contains exactly **one** matching record.
 
-## Actual HAL blocker
+- `reports/hal_final_ui_preflight_20261005.json`: uploaded bytes, metadata and licenses.
+- `reports/hal_submission_receipt_20261005.json`: authenticated submission-list receipt; local screenshot recorded separately.
+- `reports/hal_email_receipt_20261005.json`: expected CCSD confirmation, with private mail and management data excluded.
+- `reports/hal_post_submission_verification_20261005.json`: saved metadata and file checks.
+- `reports/hal_pdf_transformation_20261005.json`: all 23 body-page comparisons and cover review.
 
-The in-app HAL page was created, but browser tab reads repeatedly timed out. Chrome browser control returned `nodeRepl.fetch request failed`. No account login or registration, email activation, file upload, acceptance of platform terms, formal submission or moderation receipt was observed. No CAPTCHA or HAL security challenge is asserted.
-
-Next action: restore the Codex browser-control connection, then resume the prepared HAL account/deposit workflow. The user has already authorised this workflow; no new research or publication approval is required.
-
-## Public duplicate search
-
-{
-  "checked_utc": "2026-10-03T18:54:34.048317+00:00",
-  "endpoint": "https://api.archives-ouvertes.fr/search/",
-  "query_parameters": {
-    "q": "title_t:\"Reconstruire l鈥櫭﹍igibilit茅 脿 France ruralit茅s revitalisation\" AND authFullName_t:\"Kun Huang\"",
-    "rows": 10,
-    "fl": "halId_s,title_s,uri_s",
-    "wt": "json"
-  },
-  "limitation": "Anonymous published-index search only; authenticated drafts and pending deposits not inspected.",
-  "request_url": "https://api.archives-ouvertes.fr/search/?q=title_t%3A%22Reconstruire+l%E2%80%99%C3%A9ligibilit%C3%A9+%C3%A0+France+ruralit%C3%A9s+revitalisation%22+AND+authFullName_t%3A%22Kun+Huang%22&rows=10&fl=halId_s%2Ctitle_s%2Curi_s&wt=json",
-  "http_status": 200,
-  "response_sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
-  "status": "PUBLIC_INDEX_QUERY_COMPLETED",
-  "num_found": 0,
-  "returned_documents": []
-}
-
-An anonymous public-index search cannot inspect authenticated drafts or pending deposits.
+No new submission or duplicate is required. Await moderation and read any actual HAL correction notice before acting. HAL moderation is separate from academic peer review. Earlier connection/account-stage observations remain in the local audit reports; they do not describe the current state.

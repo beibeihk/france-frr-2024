@@ -38,7 +38,7 @@ Independent A/B/C/D reviews and technical rendering checks are documented; these
     "D": "review_D_final_scope.json"
   },
   "remaining_research_blockers": [],
-  "HAL_status": "NOT_SUBMITTED",
+  "HAL_status": "SUBMITTED_PENDING_MODERATION",
   "GitHub_public_release": "PUBLIC_REPOSITORY_PUBLISHED",
   "repository_url": "https://github.com/beibeihk/france-frr-2024",
   "publication_transaction_evidence": "submission/publication_state.json",

@@ -11,7 +11,7 @@
   "academic_email": "huangkun123huang@163.com",
   "language": "fr",
   "document_type_label": "Pré-publication / document de travail",
-  "document_type_code": "verify actual HAL interface",
+  "document_type_code": "UNDEFINED",
   "domain": "Sciences de l’Homme et Société / Économie et finance",
   "JEL": [
     "H25",
@@ -43,7 +43,7 @@
   "IdHAL": null,
   "funding": null,
   "repository_url": "https://github.com/beibeihk/france-frr-2024",
-  "HAL_status": "NOT_SUBMITTED",
+  "HAL_status": "SUBMITTED_PENDING_MODERATION",
   "no_peer_review_claim": true,
   "files": {
     "main_fr.pdf": {
@@ -54,5 +54,11 @@
       "path": "paper/appendix_fr.pdf",
       "sha256": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4"
     }
-  }
+  },
+  "HAL_identifier": "hal-05777464",
+  "HAL_version": 1,
+  "HAL_versioned_permalink": "https://hal.science/hal-05777464v1",
+  "document_subtype_code": "WORKINGPAPER",
+  "domain_code": "shs.eco",
+  "HAL_submission_date": "2026-10-05"
 }

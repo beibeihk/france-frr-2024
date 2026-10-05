@@ -1,5 +1,7 @@
 path,size_bytes,sha256,reuse_terms
 .gitignore,440,98774c56e8e8f2c9036c4ec7acd7dfa5f6e29e807c2c0adeab325ed894f2c23e,CC BY4.0 original contributions; third-party citations/source rights retained
+LICENSES.md,4254,9bf10d3fc43253a85d06627675c99f1caaf0f3500ffcf52c1fc586d4c7728e59,CC BY4.0 original contributions; third-party citations/source rights retained
+README.md,8866,287fc07e396b173f83540b737757f6d18cbfddbbc70772940d22306bde4339d3,CC BY4.0 original contributions; third-party citations/source rights retained
 claims_audit.csv,53308,c13eb7d99da84add46d423be6c6d231be694c2eeb745dd59d6b5d3e55eb211af,CC BY4.0 original contributions; third-party citations/source rights retained
 data/external/population_manifest.json,190,2d20a0451fb4be13b216db2c778afecee7f90d07e26eeaa3e0f19d7f9f3973e1,CC BY4.0 original contributions; third-party citations/source rights retained
 data/external/sirene_download_manifest.json,15366,34123520cbb7b7d0a962f653dfc05e2b404154827d3c741e8d6655e06135eb0a,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -17,15 +19,15 @@ data/processed/commune_treatment.csv,7170187,b5f7cedaed23d0dedbe93ec427bacbb29d1
 data/processed/frr_2024_codes_verified.csv,1541473,af57dd2bcf24fb4d70aeecbac1f0a8c363288f4843338b8b9c8a00f72dfe87c9,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/matched_pairs.csv,140638,c0fac2700c3ec8cbe33b33fc11eaed8dd4514cebff849f2ed3f3d2e138614665,ODbL1.0 for spatial database derivatives; third-party source notices retained
 data/processed/monthly_panel.parquet,18230628,8f6baf1fe015c25343015f946efc90c91b9069d714b6095d623cd0781a57f27f,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
-data/processed/rd_candidate_communes.csv,215473,5abb40db9f71e3fc891585d403ca6eb78feeccfc9d3d397edc393ed738ca1f10,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
-data/processed/rd_candidates_A_income_whole_epci_barrier.csv,3019,512be8b21c46ce4161158029f4c7fd67486f31afd29a5e469e67800a3b253ee1,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
-data/processed/rd_candidates_B_income_commune_barrier.csv,8720,ba7d48ff012a59712241f3b28efc0a8a788b7d3e6ef36ad69ec0f3fb97987bf0,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
-data/processed/rd_candidates_D_density_commune_barrier.csv,21562,3cce03daf7ef1cfb80f781a17796b36420b47f7ce9f6b187481569333d36e8f7,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/rd_E_epci_candidates_assignment_only.csv,6954,3d8de83c712fc0fecbb0b5f2fea8df79f5182d36d3c61bccf65b6fa0025b0bb3,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/rd_E_epci_selected_communes_assignment_only.csv,696013,ef972b4e83f3f160dda9ff25c99728551db8fd2048b3ade8aea2bffda13e0739,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/rd_V_bv_candidates_assignment_only.csv,195696,31dbda39f238f6a2b90cf5136d6022f9603c3f055be114bbe526b1b3c0377fc5,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/rd_V_bv_membership_assignment_only.csv,77772,c90bf40708faa2856222d26685c9e15379a73c3afcb8e7cdd7939fac35659f11,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data/processed/rd_V_bv_selected_communes_assignment_only.csv,1219868,80b16d42f640a00acda6520417076a0fbf25418df8238304265e231af7218dba,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
+data/processed/rd_candidate_communes.csv,215473,5abb40db9f71e3fc891585d403ca6eb78feeccfc9d3d397edc393ed738ca1f10,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
+data/processed/rd_candidates_A_income_whole_epci_barrier.csv,3019,512be8b21c46ce4161158029f4c7fd67486f31afd29a5e469e67800a3b253ee1,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
+data/processed/rd_candidates_B_income_commune_barrier.csv,8720,ba7d48ff012a59712241f3b28efc0a8a788b7d3e6ef36ad69ec0f3fb97987bf0,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
+data/processed/rd_candidates_D_density_commune_barrier.csv,21562,3cce03daf7ef1cfb80f781a17796b36420b47f7ce9f6b187481569333d36e8f7,Source-specific Open Licence; Insee/ANCT/DGCL/DGALN attribution; see LICENSES.md
 data_dictionary.md,38885,1d8985b825d94a5914055f53765b1c3ed39e09ba557faf1ed4566b3127b92b06,CC BY4.0 original contributions; third-party citations/source rights retained
 data_sources.csv,24498,71168d8ebf6ed7a6fb0763d7510b29067c75601716c43192cdceb4de3f2b45f0,CC BY4.0 original contributions; third-party citations/source rights retained
 docs/analysis_variable_dictionary.md,5255,845207c180bc15841f6a0537ed374634ee3ce3207879093e6c8587857b060156,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -44,11 +46,11 @@ docs/sources/assignment2024/build_review_A_assignment_report.py,16543,5a84ca7eaf
 docs/sources/assignment2024/candidate_rules.py,5732,eea6ef768c54e6a2a837dc9aa4b3f617c4cd6b0252cd70576ffda2da13a3d2fd,MIT (original code); dependencies not included
 docs/sources/assignment2024/fetch_official_evidence.py,3266,41cf890a2cbaf7428405de9f522d9a77edfb461b58f18e73c32f157297de9c6d,MIT (original code); dependencies not included
 docs/sources/assignment2024/independent_assignment_checks.py,6361,5ce54c2fb8c8ff9aa85a87845905dffda79d33c03a26dd8d04a21936b6f9801a,MIT (original code); dependencies not included
-docs/sources/assignment2024/review_B_broad_islands_audit.py,4694,5ce92679ad5736999f4529229021d607ff3127db51d6561c8e5762d93c74fb46,MIT (original code); dependencies not included
-docs/sources/assignment2024/review_B_final_scope_manifest.py,4583,9ad1e25d4b19f728e5b3de0238cc364f08e090137bde489ddce588ab8702b6e6,MIT (original code); dependencies not included
 docs/sources/assignment2024/review_B_V_assignment_interface.py,12407,8275540ef77970861770c7eab657de8f0f91423b27a6b535f34ac8ddc215c6bb,MIT (original code); dependencies not included
 docs/sources/assignment2024/review_B_V_covariate_diagnostics.py,7101,14602d15ea936e95ef1f287bc0b18033407967c407ff12ca3cab5d1899b6a3e4,MIT (original code); dependencies not included
 docs/sources/assignment2024/review_B_V_result_audit.py,8366,fb4bf78cdc3c545d39cc4ba227045f1f00c83a2112b3cb33102676bdf63ba992,MIT (original code); dependencies not included
+docs/sources/assignment2024/review_B_broad_islands_audit.py,4694,5ce92679ad5736999f4529229021d607ff3127db51d6561c8e5762d93c74fb46,MIT (original code); dependencies not included
+docs/sources/assignment2024/review_B_final_scope_manifest.py,4583,9ad1e25d4b19f728e5b3de0238cc364f08e090137bde489ddce588ab8702b6e6,MIT (original code); dependencies not included
 docs/sources/frr_2024/frr_2024_legifrance_web_148.txt,17705,1b81fb6a6ee28519b16af2dd4f9acc1ec3c8eff56838fa785810c6de2b5d98c8,CC BY4.0 original contributions; third-party citations/source rights retained
 docs/sources/frr_2024/frr_2024_legifrance_web_155.txt,14939,9ed1e39e46226cff1127551e4ceb8894b0bb8229b8046e90dacd97f488f0f27d,CC BY4.0 original contributions; third-party citations/source rights retained
 docs/sources/frr_2024/frr_2024_legifrance_web_160.txt,18054,09a39c0878923997d5f3178305190b0f2a4ceb0f1e853f52643dcd0b853be43f,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -85,7 +87,6 @@ docs/sources/frr_2024/frr_2024_legifrance_web_331.txt,21235,8649aff1c00ff1f8a6d1
 docs/sources/frr_2024/frr_2024_legifrance_web_394.txt,17705,ce1512a97a9bea44a2f56efbf564a7e46c947c5f54862ec129545f02f1047d16,CC BY4.0 original contributions; third-party citations/source rights retained
 docs/sources/public_release_rights/official_access_log.json,9787,c0aa98ed1e0eb6b728ddb86d00b337e2077071c8452d6e86579d279be4539b20,CC BY4.0 original contributions; third-party citations/source rights retained
 empirical_claims_audit.csv,9553,9a72ef50dbf521a40dad0e5cf5d960ad1d61166d5594814f0d6e0b7314378c8c,CC BY4.0 original contributions; third-party citations/source rights retained
-LICENSES.md,4254,9bf10d3fc43253a85d06627675c99f1caaf0f3500ffcf52c1fc586d4c7728e59,CC BY4.0 original contributions; third-party citations/source rights retained
 paper/appendix_fr.pdf,74005,9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4,CC BY4.0 original contributions; third-party citations/source rights retained
 paper/appendix_fr.tex,20203,b10a2263fda8ba506605603fa890879587b61e87efcdec318b07ae95ba223cb5,CC BY4.0 original contributions; third-party citations/source rights retained
 paper/generated/assignment_paths.tex,425,572b81ad39f2b2c76cfa32aab80372944bd8b3bab82673e4983867c5f66f8244,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -112,10 +113,9 @@ paper/main_fr.pdf,11855248,990cd7356839483743448059ababff9764d671086903c4c421b24
 paper/main_fr.tex,66635,4f611f97c0f7cf621604adedfa6b823101d56929e7be55129481fcd5b8945260,CC BY4.0 original contributions; third-party citations/source rights retained
 paper/preamble.tex,874,90a7b47df6eb682c17019e3b9b8f9698f2138c548c2ac01201a654e69e86a655,CC BY4.0 original contributions; third-party citations/source rights retained
 paper/references.bib,5101,53503656327619bf2188e5c7ca7ccabc15c3208900518eefe4219ea1450d15a9,CC BY4.0 original contributions; third-party citations/source rights retained
-README.md,7932,fca0647187ce98237879e7a78077d46f3f3e0ecfbd75e7d004206956976cb7a2,CC BY4.0 original contributions; third-party citations/source rights retained
 references_verified.csv,3843,bb28449871d84af690b11b034fd8e22f86e4d1aa0ce8cda19257e4d2013ee18e,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/additional_diagnostics.json,855,471292ad8e540a6139d89525ce0669480e4436f592035c839092442bead286ad,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/analysis_status.json,1015,0b50cfa06fe53b72866835d2d2358b298ed9485d2cba4042a924daabf3f2594b,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/analysis_status.json,1026,3e811ea2ca2a637f90af15013d74a0609cbe4d9e40c147ff71c17e3a2750c3f3,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/assignment2024_reconstruction.json,8613,34db074055fe463a0ebafee4c1e6085ec2f2b6a5cc0319e22561110878f3d7e8,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/assignment_extended_support_manifest.json,4514,c78f1e2fd78ddb15ed47c38d172b42b095b9bc214f03022c820b4b5346a80308,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/bassin_rd_execution_freeze.json,4620,9c3de1b433591384639af5688d4b4de5cdd2c8446f1e2457a0c44546220a2c44,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -126,13 +126,20 @@ reports/broad_matched_pretrends.json,431,38606f1fa2bf1c1c5d6cb664f763c1417645bd2
 reports/compilation.json,262,d7212eee103b39c7d829b21ad5bda92e7cb2f00b76fcfe4c9527017642b429e0,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/data_quality.json,380,34801affbb69f8b55945bdd49a4e88c76b2fb1061413e0a0ed29d8ff2e435385,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/environment_versions.json,389,6b19373c52c63f3d14fd9b8ee2f246f92ff20afd22818136b28edaa94d192159,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/final_quality_gate.json,2214,8550f2496091b288532f69e8b18296a9353cf95ddc768dfa3980d106c167780c,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/final_quality_gate.md,2606,417a159d952fe38cceb3cb4eefe7de777fc817c074eadecc4661c743f5c6733f,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/final_quality_gate.json,2229,6d29d55a02efb84690aaa20d80ab8f139edf768d31d67a49723f29fa58221d60,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/final_quality_gate.md,2621,016e152b339db229faa9d5ff7ba97e1c3cc57074bb02eb138e2406a52f90c309,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/github_release_receipt.json,1659,c6e34e93e6ddc42f458cf9566f61243b0e61b7f662fa507a49d409d65af79b12,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/hal_email_receipt_20261005.json,430,b5ed86f6dd33cd998758fc495ca646aaff7372ec331d51b1f0d42ddd097ddd35,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/hal_final_ui_preflight_20261005.json,3519,2bfb0868634fe21a99f79f364f2ca54d373a08751aff4a9cfe6a41a0184597bd,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/hal_pdf_transformation_20261005.json,10743,b6ec756d053bfbd68663247bf73d4d2266bf36ded398244e3e21282b6813eba1,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/hal_post_submission_verification_20261005.json,1777,4a9ce71f6a2273827e14e4c6bab63bb4554ec358c5cdfb9d14bf0a2e2a184ddf,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/hal_submission_receipt_20261005.json,1162,c38f64588f33594b9130836d112236bf2c0845b65055110e138d3d47a7c6d08a,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/legal_source_audit_manifest.json,48694,10d2e83305c862cfb500e357063f5494f87363e9540f2900e8f065c2cfc3fc64,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/numerical_facts.json,2357,b0e4834aebab060d2caeb483ed53e31f80325ca5c29783364b1578c263e510f5,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/pdf_quality.json,2970,8106b66269ddaa1f1927df40bda85adfaebbae221956018fc2d07fac7af77bb1,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/pdf_visual_review.md,621,b1149de80c7d3d6b93e3970cd5ac812a092d86a149989240a00d391c52c6a2eb,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/pretrend_diagnostics.json,491,98cd4c25b664ccd22c06b8dd11c390bb22599f6d540747caa2be48ba0e09cad4,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/publication_update_inventory_20261005.json,5999,5eafa5acb39c76c9d49380480edcc9853fc5f34f2ad0eeb93ee5599a5186f678,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/rd_assignment_only_support.csv,1335,41377e93af83d48f809e89bc3c527d6c7b31fc0ed9228259a0244c733bc2baff,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_A_assignment_2024.json,45302,3f58727fa055331a21ab53cf07b629ab39da4efe19d9475cd7bff8da1d767398,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_A_final_scope.json,8202,7756329dda0dc304018221e4c4440902246174bdb6ac42e5a4a134604751de5e,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -141,18 +148,18 @@ reports/review_A_institutional_macro_values.json,1919,fbdf49dc20e88f82fa12b50524
 reports/review_A_manuscript_v2.md,15958,c47a1fed4b7169f53498acd5bee6241f6bd0498ae391e1e818b35e9399ce108c,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_A_manuscript_v2_scope.json,2566,2b30935ef7cd130e4ee95346214063b0409b12ca71ba430b16b7a46e33bf32b6,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_A_resolutions.json,550,1e54cdf350d644527eb6983b57ee797acf7d2b90f5d6fc38381e644e5b6dad0a,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/review_B_broad_islands_audit.json,2004,1f94d0b4ab6ebbd72e57083e0fe9ee0698550dd3ce54f0fb4a2bc44d937e607a,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_E_assignment_support.csv,1065,ffbbd7c503625fe3de130055b8d6358474735ad77d1b49fa2c091bf0eec2120e,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/review_B_final_scope.json,7849,5a9414cb5be9168e39f893a74a402d9407745f38eb2fae8a718907e511a90031,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/review_B_final_scope.md,7743,1aea116306708c71134850a8d05924b03ab504a8d71095c47abed22ab3827803,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/review_B_results.json,19619,0b05b2b7beeda20eb4e64f40b1056a949e5717db5c3fcdd5c5f6f69a374a48fc,CC BY4.0 original contributions; third-party citations/source rights retained
-reports/review_B_results.md,21779,a3231eeb4b1caf7c8329fe316646d473ce8f42236e6b98d95027a2985f3a1732,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_assignment_interface.json,14278,f30cabf02521e057d47688f3abbc7447e6beb14ec368fc598475f3cfdd2e6db8,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_covariate_diagnostics.json,4783,079682a2be36bcb350ad1ec024fb871850ecd8ea4286e429e4bf3ab6005fbdd0,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_covariate_discontinuities_assignment_only.csv,86661,b2e65d0262089fe04d41b262c018d532e982f4135416aa178dca8b50ac2484c9,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_dependency_graphs.csv,2547,79c6594bd30862871cc3472dfb6b93be86118edfd580eb6f41a84e7c6323d924,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_results.json,6687,7a95c19af997e5f404d1e8ae5fe0de2b5dfa8dbf579815970aa84e8d182b43b1,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_B_V_results.md,7612,ed3dd4c7a888c404eb638d7bca435b9de9023c9bea64e0a5c06c39f57a554e73,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/review_B_broad_islands_audit.json,2004,1f94d0b4ab6ebbd72e57083e0fe9ee0698550dd3ce54f0fb4a2bc44d937e607a,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/review_B_final_scope.json,7849,5a9414cb5be9168e39f893a74a402d9407745f38eb2fae8a718907e511a90031,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/review_B_final_scope.md,7743,1aea116306708c71134850a8d05924b03ab504a8d71095c47abed22ab3827803,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/review_B_results.json,19619,0b05b2b7beeda20eb4e64f40b1056a949e5717db5c3fcdd5c5f6f69a374a48fc,CC BY4.0 original contributions; third-party citations/source rights retained
+reports/review_B_results.md,21779,a3231eeb4b1caf7c8329fe316646d473ce8f42236e6b98d95027a2985f3a1732,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_C_assignment_paths.json,5552,9e7570e2f4f571200fe0487364ff8a564a8701fa9745fc1b8391d109820798ab,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_C_assignment_paths.md,2676,1917fc6485e7695b87152da5eba38f41b71bcd1b03628c8c9b7689036256162c,CC BY4.0 original contributions; third-party citations/source rights retained
 reports/review_C_assignment_sources.json,22603,f9ce339563a8cf375fa32ace8fffd0287ddc4a6dad1c4fbf6b01608d96292cfe,CC BY4.0 original contributions; third-party citations/source rights retained
@@ -247,18 +254,18 @@ src/legal/map_institutional_claims_to_manuscript.py,12410,63f9a81ad1262d862c36b5
 src/legal/verify_applied_institutional_corrections.py,6629,25209c8c9962273b643c40bd31adeb730fbb7476f27d5f9e54baa0435758e649,MIT (original code); dependencies not included
 src/tables/apply_editorial_corrections.py,6113,e70bf19a56c7e5364ece71f300ff47a5b4e27d51c15d9522c144d9b8fee75673,MIT (original code); dependencies not included
 src/tables/build_bibliography.py,804,a5b190a54876f42b25e657542b472536b75f21cc11f14159819abab9fbded36d,MIT (original code); dependencies not included
-src/tables/build_public_package.py,8068,9e80b660313a10604f40c0e04fa1452dc4239fa9347e7c87f9b6d86289695a23,MIT (original code); dependencies not included
+src/tables/build_public_package.py,8926,5b9bd3122e123a46389975aff0ff6a077a769044faa6e5dd7e8da18d74628c83,MIT (original code); dependencies not included
 src/tables/check_delivery.py,7010,cfb100ed6775f3a15e18622ca927af4b1857b9c32e9070512734bd23cb28d400,MIT (original code); dependencies not included
 src/tables/check_review_package.py,122,4568dfeeb469d5d2e6d685a0ee1b61d845283fdc3b828544163d5e0efcb85cf6,MIT (original code); dependencies not included
 src/tables/compile_paper.py,1505,c301c52e6c5f7c8d21e47133d13105eb42b9a0bc756bb80d9731586aaaeeff04,MIT (original code); dependencies not included
-src/tables/finalize_delivery.py,10354,1c209a019486138c650360aa8061462f45386b57f708a1437ba9117a6861233d,MIT (original code); dependencies not included
+src/tables/finalize_delivery.py,10513,79859a0fe30d69cef98eeb033a9903d75663018dea78d9d68a47cfa9e15e71f4,MIT (original code); dependencies not included
 src/tables/finalize_review_package.py,127,90fc86ecbd52990cb0ba5ccc780fcc1316365a4b41ceb84e35f294ff0341d210,MIT (original code); dependencies not included
 src/tables/package_metadata.py,9896,20c5f62fb737bd9bc43b66dbf2d29732a3253f7bf4864c73cbbe9916774ae1a7,MIT (original code); dependencies not included
 src/tables/pdf_quality.py,2808,b4bd91ad8e0a0fe0c13fc9bc460aad568959c87b651a1e187f972ec3c2ab21aa,MIT (original code); dependencies not included
 submission/ai_disclosure.md,998,272e3766eac2cc1e950abba3c16331a50ad7bb250b8f97980983e3e353e80207,CC BY4.0 original contributions; third-party citations/source rights retained
-submission/hal_checklist.md,3167,b5d1a08bb6e3aa2cc46dc6ece936ad550c1553120aefd08d849828e211fe7363,CC BY4.0 original contributions; third-party citations/source rights retained
-submission/hal_metadata.json,5744,0a7380572d4f54d314142cbf08b881ed7f392cfaf92a90ddcc2b928d98814f80,CC BY4.0 original contributions; third-party citations/source rights retained
-submission/hal_metadata.md,5574,7ae30bb5992a0ac45f4a84ff1ad00b48848538db7cbc5c04c0c9a15e678fd054,CC BY4.0 original contributions; third-party citations/source rights retained
+submission/hal_checklist.md,3272,dccd6cc44fd9a1d8d76cf62ce8d80ddfc8033fc5d3f0dfa56a5e267245ca2f02,CC BY4.0 original contributions; third-party citations/source rights retained
+submission/hal_metadata.json,5982,40fd8ae9854a535b8b6243913583bdfc69f448f2ac1a274b2ff1cdda5cde39c3,CC BY4.0 original contributions; third-party citations/source rights retained
+submission/hal_metadata.md,5950,405bb0e88e732cf2109d1f799fb58f921e96c37bbc226cc00f46cb2c16d7799a,CC BY4.0 original contributions; third-party citations/source rights retained
 submission/hal_policy_verified.md,3847,1aaa356afe144bdaee35fe688ecb04223dcedcf373103fc5cfba9bebd598911b,CC BY4.0 original contributions; third-party citations/source rights retained
-submission/publication_state.json,2146,68aad2f5c67f457380ae166777c12cad4396d1f41f1bd76a6fd54fbfacd20d8e,CC BY4.0 original contributions; third-party citations/source rights retained
-submission/submission_record.md,2581,640184afc64de899f9d9a0c5b5db39cfbe0955e3fdf5f1474fc3ac120eab0dff,CC BY4.0 original contributions; third-party citations/source rights retained
+submission/publication_state.json,5117,93b334251f2921945339d880380f62434c7b220e5d23158e0c33b565b4561b26,CC BY4.0 original contributions; third-party citations/source rights retained
+submission/submission_record.md,3592,3657686ac136e65ab26233ec2f37e5837638d3727602e95e5085f8adc9cf8ece,CC BY4.0 original contributions; third-party citations/source rights retained

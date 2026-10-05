@@ -25,7 +25,8 @@ def main():
  m={'title_fr':title,'title_en':'Reconstructing France Ruralités Revitalisation Eligibility: Public Data, Registrations and Limits to Evaluating the 2024 Reform',
  'author':{'given_name':'Kun','family_name':'Huang'},'affiliation':'Wuhan University [China]','hal_structure_docid':300831,
  'manuscript_affiliation':'Economics and Management School, Wuhan University, Wuhan, China','academic_email':'huangkun123huang@163.com',
- 'language':'fr','document_type_label':'Pré-publication / document de travail','document_type_code':'verify actual HAL interface',
+ 'language':'fr','document_type_label':'Pré-publication / document de travail','document_type_code':state.get('HAL_document_type_code','verify actual HAL interface'),
+ 'document_subtype_code':state.get('HAL_document_subtype_code'),
  'domain':'Sciences de l’Homme et Société / Économie et finance','JEL':['H25','H71','R38','L26'],
  'production_date':'2026-10-04','license_pdf':'CC BY 4.0; third-party database notices retained',
  'abstract_fr':abstract,'abstract_en':en,'keywords_fr':['Fiscalité territoriale','France ruralités revitalisation','SIRENE','Immatriculations','Éligibilité territoriale','Identification'],
@@ -41,7 +42,7 @@ def main():
  (ROOT/'submission/hal_metadata.md').write_text(head,encoding='utf8')
  ai=re.search(r'\\section\*\{Déclaration relative.*?\}\n(.*?)\n\\bibliographystyle',tex,re.S).group(1)
  (ROOT/'submission/ai_disclosure.md').write_text('# Déclaration relative à l’utilisation d’outils d’intelligence artificielle\n\n'+plain(ai,vals)+'\n',encoding='utf8')
- if m['HAL_status']=='NOT_SUBMITTED':
+ if m['HAL_status']=='NOT_SUBMITTED' and not (ROOT/'submission/submission_record.md').exists():
   record='# HAL submission record\n\nStatus: NOT_SUBMITTED.\n\nNo upload, agreement acceptance, HAL identifier, pending moderation or public availability is asserted. Deposit metadata and final files are prepared separately. Actual transactions must update publication_state.json and this record from observed receipts.\n\nPrepared local date: 2026-10-04 (Asia/Hong_Kong). Selected original-PDF license: CC BY 4.0, retaining third-party database notices.\n\n'
   record+='\n'.join('- '+n+': SHA256 `'+v['sha256']+'`' for n,v in m['files'].items())+'\n'
   if state.get('github_url'):

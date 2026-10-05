@@ -1,4 +1,4 @@
-# Métadonnées HAL préparées — état réel : NOT_SUBMITTED
+# Métadonnées HAL vérifiées — état réel : SUBMITTED_PENDING_MODERATION
 
 - title_fr : Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations et limites de l’évaluation de 2024
 - title_en : Reconstructing France Ruralités Revitalisation Eligibility: Public Data, Registrations and Limits to Evaluating the 2024 Reform
@@ -34,4 +34,13 @@ Fiscalité territoriale ; France ruralités revitalisation ; SIRENE ; Immatricul
 
 Place-based taxation; France Ruralités Revitalisation; SIRENE; Establishment registrations; Territorial eligibility; Identification
 
-Les conclusions sont institutionnelles, administratives et diagnostiques. Les modèles causaux ne sont pas validés. Les examens A–D sont internes et réalisés par des agents d’IA ; ils ne sont pas une expertise humaine extérieure. Cette fiche ne constitue pas un reçu de dépôt.
+Les conclusions sont institutionnelles, administratives et diagnostiques. Les modèles causaux ne sont pas validés. Les examens A–D sont internes et réalisés par des agents d’IA ; ils ne sont pas une expertise humaine extérieure. Le reçu observé est consigné dans submission_record.md ; le dépôt reste en attente de modération.
+
+## Transaction HAL observée
+
+- Identifiant : hal-05777464v1
+- Date de dépôt : 2026-10-05
+- Type : UNDEFINED ; sous-type : WORKINGPAPER
+- Domaine : shs.eco
+- État : En modération ; pas encore indexé ni accessible aux autres utilisateurs.
+- Lien attribué : https://hal.science/hal-05777464v1

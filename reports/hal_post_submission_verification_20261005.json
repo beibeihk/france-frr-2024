@@ -1,0 +1,50 @@
+{
+  "recorded_at_utc": "2026-10-05T04:46:24.259Z",
+  "url": "https://hal.science/view/index/docid/5777464",
+  "status": "En attente de modération",
+  "publicly_available": false,
+  "versioned_permalink": "https://hal.science/hal-05777464v1",
+  "metadata_checks": {
+    "french_title": true,
+    "english_title": true,
+    "french_abstract": true,
+    "english_abstract": true,
+    "author": true,
+    "affiliation": true,
+    "repository": true,
+    "all_keywords": true
+  },
+  "saved_metadata_additional": {
+    "production_date": "2026-10-04",
+    "document_language": "fr",
+    "structure_docid": 300831,
+    "JEL": [
+      "H25",
+      "H71",
+      "L26",
+      "R38"
+    ],
+    "domain": "Sciences de l'Homme et Société/Economies et finances",
+    "commentary_declares_no_peer_review_and_no_causal_interpretation": true
+  },
+  "files": [
+    {
+      "url": "https://hal.science/file/index/docid/5777464/filename/main_fr.pdf",
+      "bytes": 11995970,
+      "sha256": "4c7de19abca91836400c8c469f5cf57b677a564262d81c203cd60b53125602c0",
+      "http": 200
+    },
+    {
+      "url": "https://hal.science/file/index/docid/5777464/filename/appendix_fr.pdf",
+      "bytes": 74005,
+      "sha256": "9e703fd422f45079b03f96af4301252d938636c639955a3eae6bd1dd0011cfa4",
+      "http": 200
+    }
+  ],
+  "history_platform": "Soumis le : lundi 5 octobre 2026-06:25:50",
+  "license": "CC BY 4.0",
+  "mail_receipt": "reports/hal_email_receipt_20261005.json",
+  "file_difference_status": "VERIFIED_HAL_COVER_ONLY_TRANSFORMATION",
+  "transformation_report": "reports/hal_pdf_transformation_20261005.json",
+  "evidence_note": "Checks observed from the authenticated HAL metadata modal and downloadable file links after submission; no management password or private mail fields included."
+}

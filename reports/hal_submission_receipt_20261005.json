@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-05T04:33:24.012Z",
+  "status": "SUBMITTED_PENDING_MODERATION",
+  "identifier": "hal-05777464v1",
+  "docid": 5777464,
+  "version": 1,
+  "platform_label": "En modération",
+  "deposit_date_platform": "2026-10-05",
+  "logged_in_duplicate_check": "Exactly one matching deposit row in authenticated Mes dépôts",
+  "url": "https://hal.science/user/submissions/",
+  "title": "Mes dépôts - Archive ouverte HAL",
+  "depositRows": [
+    {
+      "title": "Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations et limites de l’évaluation de 2024",
+      "href": "https://hal.science/view/index/docid/5777464",
+      "row": "Reconstruire l’éligibilité à France ruralités revitalisation : données publiques, immatriculations et limites de l’évaluation de 2024\nPré-publication, Document de travail hal-05777464v1\nDocument\nEn modération\n2026-10-05\n2026\n\t\nActions"
+    }
+  ],
+  "references": [],
+  "preflight": "reports/hal_final_ui_preflight_20261005.json",
+  "evidence_scope": "Observed matching deposit row; browser snapshot and screenshot retained locally only."
+}
